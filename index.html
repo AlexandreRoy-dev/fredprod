@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Fred Roy - Courtier Immobilier Résidentiel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        fred: {
+                            blue: '#282e64',  // The Official Brand Blue (Used for Text)
+                            gold: '#be9018',  // The Official Brand Gold (Used for thin borders/accents)
+                            gray: '#F5F7FA',  // Very light gray for section separation
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    },
+                    letterSpacing: {
+                        luxury: '0.2em', // Wide spacing for "High End" feel
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        /* Selection color: Gold background, White text */
+        ::selection { background-color: #be9018; color: white; }
+        
+        /* Subtle parallax effect class */
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="antialiased bg-white text-fred-blue font-sans selection:bg-fred-gold selection:text-white">
+    
+<nav class="absolute top-0 left-0 right-0 z-50 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+        
+        <a href="#" class="flex flex-col uppercase leading-none group drop-shadow-md">
+            <span class="text-2xl font-extrabold tracking-widest text-white">Fred</span>
+            <span class="text-2xl font-extrabold tracking-widest text-white">Roy</span>
+            <span class="h-[2px] w-8 bg-fred-gold mt-1 group-hover:w-full transition-all duration-500 ease-out"></span>
+        </a>
+
+        <ul class="hidden md:flex items-center gap-12 text-white text-xs tracking-luxury font-semibold uppercase drop-shadow-md">
+            <li><a href="#apropos" class="hover:text-fred-gold transition-colors">À Propos</a></li>
+            <li><a href="#services" class="hover:text-fred-gold transition-colors">Services</a></li>
+            <li><a href="#temoignages" class="hover:text-fred-gold transition-colors">Témoignages</a></li>
+            <li>
+                <a href="#contact" class="px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300">
+                    Me Contacter
+                </a>
+            </li>
+        </ul>
+
+        <button class="md:hidden text-white">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    </div>
+</nav>
+            
+<section class="relative h-screen w-full overflow-hidden flex items-center">
+    <div class="absolute inset-0 z-0">
+        <video autoplay muted loop playsinline class="w-full h-full object-cover">
+            <source src="public/bannervid.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-black/20"></div>
+    </div>
+    
+    <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full pt-20">
+        <div class="max-w-4xl">
+            
+            <div class="flex items-center gap-4 mb-8 animate-fade-in-up">
+                <div class="w-16 h-[2px] bg-fred-gold shadow-sm"></div> 
+                <span class="text-white uppercase tracking-[0.3em] text-xs font-bold drop-shadow-md">Courtier Immobilier Résidentiel</span>
+            </div>
+            
+            <h1 class="text-6xl md:text-8xl lg:text-9xl font-extrabold text-white leading-[0.9] mb-10 tracking-tight drop-shadow-lg">
+                L'Excellence <br>
+                <span class="italic font-light text-white/90">Immobilière.</span>
+            </h1>
+            
+            <p class="text-gray-100 text-xl md:text-2xl leading-relaxed mb-12 max-w-2xl font-light border-l-4 border-fred-gold pl-8 drop-shadow-md">
+                Partenaire <strong>Proprio Direct</strong>. Une approche distinguée pour valoriser votre propriété ou acquérir votre prochaine demeure d'exception.
+            </p>
+            
+            <div>
+                <a href="#contact" class="inline-block bg-fred-gold text-white px-12 py-5 text-sm font-bold uppercase tracking-luxury hover:bg-white hover:text-fred-blue transition-colors duration-300 shadow-2xl hover:shadow-lg transform hover:-translate-y-1">
+                    Évaluation Gratuite
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="apropos" class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid lg:grid-cols-2 gap-20 items-center">
+                <div class="relative order-2 lg:order-1">
+                    <div class="absolute top-8 left-8 w-full h-full border border-fred-gold z-0"></div>
+                    <img src="public/fred.webp" alt="Fred Roy" class="relative z-10 w-full h-auto object-cover shadow-lg transition-all duration-700">
+                </div>
+                
+                <div class="order-1 lg:order-2">
+                    <h2 class="text-4xl md:text-5xl font-bold text-fred-blue mb-8">
+                        Fred Roy.
+                    </h2>
+                    <h3 class="text-xl text-fred-gold font-medium mb-6 italic">
+                        "L'immobilier, c'est avant tout une histoire humaine."
+                    </h3>
+                    <div class="space-y-6 text-gray-600 font-light leading-relaxed text-lg">
+                        <p>
+                            Avec une expertise reconnue et une passion indéniable pour l'architecture et le design, j'accompagne mes clients dans les transactions les plus importantes de leur vie.
+                        </p>
+                        <p>
+                            Mon partenariat avec <strong>Proprio Direct</strong> me permet de vous offrir une visibilité maximale tout en conservant une flexibilité unique sur le marché.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-12 grid grid-cols-2 gap-8 mb-10">
+                        <div>
+                            <span class="block text-4xl font-bold text-fred-blue">7/24</span>
+                            <span class="text-xs uppercase tracking-luxury text-gray-400 mt-2 block">Disponibilité</span>
+                        </div>
+                        <div>
+                            <span class="block text-4xl font-bold text-fred-blue">A à Z</span>
+                            <span class="text-xs uppercase tracking-luxury text-gray-400 mt-2 block">Accompagnement</span>
+                        </div>
+                    </div>
+
+                    <a href="https://www.centris.ca/fr/courtier-immobilier~frederic-roy~proprio-direct/j2971" target="_blank" class="inline-block bg-fred-blue text-white px-10 py-4 text-xs font-bold uppercase tracking-luxury hover:bg-fred-gold transition-colors duration-300 shadow-xl">
+                        Voir mes propriétés
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+                
+<section id="services" class="py-24 md:py-32 bg-fred-gray relative overflow-hidden">
+    
+    <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+        <div class="text-center max-w-3xl mx-auto mb-20">
+            <span class="text-fred-gold uppercase tracking-luxury text-xs font-bold block mb-6">Expertise & Stratégie</span>
+            <h2 class="text-4xl md:text-5xl font-bold text-fred-blue leading-tight mb-6">
+                Votre ambition. Notre mission.
+            </h2>
+            <p class="text-gray-500 font-light text-lg">
+                Une approche sans compromis, alliant la puissance du réseau Proprio Direct à un service de conciergerie personnalisé.
+            </p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            
+          <div class="group bg-white p-10 shadow-sm hover:shadow-2xl transition-all duration-500 relative flex flex-col h-full border-t-4 border-transparent hover:border-fred-gold">
+    
+    <div class="mb-8 text-fred-blue group-hover:text-fred-gold transition-colors duration-300">
+        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+        </svg>
+    </div>
+    
+    <h3 class="text-2xl font-bold text-fred-blue mb-4 uppercase tracking-wide">Achat</h3>
+    <p class="text-gray-500 font-light leading-relaxed mb-10 flex-grow">
+        Nous identifions les opportunités rares. De la recherche ciblée à la négociation serrée, nous sécurisons votre futur investissement aux meilleures conditions.
+    </p>
+    
+    <div class="mt-auto">
+        <a href="#contact" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-luxury text-fred-blue border-b border-transparent group-hover:border-fred-gold transition-all">
+            Démarrer une recherche 
+            <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+        </a>
+    </div>
+</div>
+            
+            <div class="group bg-fred-blue p-10 shadow-xl hover:shadow-2xl transition-all duration-500 relative flex flex-col h-full transform scale-105 z-10">
+                <div class="mb-8 text-white group-hover:text-fred-gold transition-colors duration-300">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                    </svg>
+                </div>
+                
+                <h3 class="text-2xl font-bold text-white mb-4 uppercase tracking-wide">Vente & Mise en Marché</h3>
+                <p class="text-gray-300 font-light leading-relaxed mb-10 flex-grow">
+                    Votre propriété mérite une vitrine exceptionnelle. Photos HDR, marketing digital ciblé et la force du réseau Proprio Direct pour une vente rapide et lucrative.
+                </p>
+                
+                <div class="mt-auto">
+                    <a href="#contact" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-luxury text-white border-b border-fred-gold hover:text-fred-gold transition-all">
+                        Estimer ma propriété
+                        <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="group bg-white p-10 shadow-sm hover:shadow-2xl transition-all duration-500 relative flex flex-col h-full border-t-4 border-transparent hover:border-fred-gold">
+                
+                <div class="mb-8 text-fred-blue group-hover:text-fred-gold transition-colors duration-300">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                </div>
+                
+                <h3 class="text-2xl font-bold text-fred-blue mb-4 uppercase tracking-wide">Analyse de Valeur</h3>
+                <p class="text-gray-500 font-light leading-relaxed mb-10 flex-grow">
+                    Bien plus qu'un prix. Une étude approfondie des comparables et des tendances du marché pour positionner votre actif stratégiquement.
+                </p>
+                
+                <div class="mt-auto">
+                    <a href="#contact" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-luxury text-fred-blue border-b border-transparent group-hover:border-fred-gold transition-all">
+                        Obtenir un rapport
+                        <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+                
+    <section class="h-[60vh] parallax relative flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=2853&q=80');">
+        <div class="absolute inset-0 bg-fred-blue/20"></div>
+        <div class="relative z-10 bg-white p-10 md:p-16 text-center shadow-2xl max-w-3xl mx-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-fred-blue mb-6">"L'excellence n'est pas un acte, c'est une habitude."</h2>
+            <p class="text-gray-500 font-light mb-8">Confiez votre propriété à une équipe qui comprend la valeur du détail.</p>
+            <a href="#contact" class="inline-block border-b-2 border-fred-gold text-fred-blue pb-1 uppercase tracking-luxury text-xs font-bold hover:text-fred-gold transition-colors">
+                Prendre Rendez-vous
+            </a>
+        </div>
+    </section>
+
+<section id="temoignages" class="py-24 md:py-32 bg-white relative">
+    <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-fred-gold/40 to-transparent"></div>
+    
+    <div class="max-w-7xl mx-auto px-6 md:px-12">
+        <div class="text-center mb-20">
+            <span class="text-fred-gold uppercase tracking-luxury text-xs font-bold block mb-4">Témoignages</span>
+            <h2 class="text-3xl md:text-5xl font-bold text-fred-blue mb-6">La parole à nos clients.</h2>
+            <p class="text-gray-500 font-light max-w-2xl mx-auto">
+                La satisfaction de mes clients est ma plus grande réussite. Voici ce qu'ils disent de leur expérience.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            
+            <div class="bg-fred-gray p-10 relative group hover:shadow-xl transition-all duration-500 border-t-2 border-transparent hover:border-fred-gold">
+                <div class="absolute top-6 right-8 text-8xl text-white font-serif leading-none select-none z-0">"</div>
+                
+                <div class="relative z-10">
+                    <div class="flex gap-1 mb-6 text-fred-gold">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    
+                    <p class="text-gray-600 font-light leading-relaxed mb-8 text-sm italic">
+                        "Fred est un courtier humain. Il désire offrir le meilleur à ses clients. On se sent en confiance avec lui. Il a toujours été disponible, patient, à l'écoute de nos besoins durant chaque démarches."
+                    </p>
+                    
+                    <div class="flex items-center gap-4 pt-4 border-t border-gray-200">
+                        <div class="w-10 h-10 bg-fred-blue text-white flex items-center justify-center font-bold text-xs tracking-wider">MR</div>
+                        <div>
+                            <span class="block text-fred-blue font-bold uppercase text-xs tracking-wider">Marc-Olivier R.</span>
+                            <span class="text-gray-400 text-[10px] uppercase tracking-wide">Il y a 3 mois</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-fred-gray p-10 relative group hover:shadow-xl transition-all duration-500 border-t-2 border-transparent hover:border-fred-gold">
+                <div class="absolute top-6 right-8 text-8xl text-white font-serif leading-none select-none z-0">"</div>
+                
+                <div class="relative z-10">
+                    <div class="flex gap-1 mb-6 text-fred-gold">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    
+                    <p class="text-gray-600 font-light leading-relaxed mb-8 text-sm italic">
+                        "Un accompagnement du début à la fin, toujours centré sur le client. Frédéric a été à l'écoute, flexible... En prime, de belles attentions et des cadeaux qui font plaisir."
+                    </p>
+                    
+                    <div class="flex items-center gap-4 pt-4 border-t border-gray-200">
+                        <div class="w-10 h-10 bg-fred-blue text-white flex items-center justify-center font-bold text-xs tracking-wider">JO</div>
+                        <div>
+                            <span class="block text-fred-blue font-bold uppercase text-xs tracking-wider">Josée Ouellet</span>
+                            <span class="text-gray-400 text-[10px] uppercase tracking-wide">Il y a 4 mois</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-fred-gray p-10 relative group hover:shadow-xl transition-all duration-500 border-t-2 border-transparent hover:border-fred-gold">
+                <div class="absolute top-6 right-8 text-8xl text-white font-serif leading-none select-none z-0">"</div>
+                
+                <div class="relative z-10">
+                    <div class="flex gap-1 mb-6 text-fred-gold">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    
+                    <p class="text-gray-600 font-light leading-relaxed mb-8 text-sm italic">
+                        "Merci à Frédéric pour la vente de la propriété de ma mère! Elle était bien inquiète... Il a su bien l'accompagner tout au long du processus et la maison c'est vendue très rapidement."
+                    </p>
+                    
+                    <div class="flex items-center gap-4 pt-4 border-t border-gray-200">
+                        <div class="w-10 h-10 bg-fred-blue text-white flex items-center justify-center font-bold text-xs tracking-wider">JD</div>
+                        <div>
+                            <span class="block text-fred-blue font-bold uppercase text-xs tracking-wider">Joani D. Tessuer</span>
+                            <span class="text-gray-400 text-[10px] uppercase tracking-wide">Il y a 5 mois</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-16 text-center animate-fade-in-up">
+            <p class="text-gray-400 font-light text-sm mb-6 tracking-wide">Votre expérience compte pour nous.</p>
+            
+            <a href="https://www.google.com/search?sca_esv=21256c7cb193ba88&sxsrf=ANbL-n7ablnWCzTO0RePQ8VLXQfhhwYfPA:1771262913932&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOan3_DlJqGZW5q6-Z8r6ZMbfnD3aQrSYqkat5AsqBpbv3AY6Gq3Wgs5rldZhLboDvbTW5B39uU0gl9P1w3LQNP6ERV4E74xf-DEVLWvOBIkrqkdmGSAXsdjTGuP5EfJEhKBAjjoYRRPjpfu_GnQaoSg2Abiu&q=Fr%C3%A9d%C3%A9ric+Roy+-+Courtier+Immobilier+r%C3%A9sidentiel+Reviews&sa=X&ved=2ahUKEwjJqafGxN6SAxVqKFkFHWTTGOoQ0bkNegQIJhAF&biw=1920&bih=911&dpr=1" target="_blank" class="inline-flex items-center gap-3 px-8 py-4 bg-white border border-gray-200 shadow-sm hover:shadow-xl hover:border-fred-gold transition-all duration-300 group rounded-sm">
+                <svg class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                    <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                    <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                    <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                </svg>
+                
+                <span class="text-fred-blue font-bold text-xs uppercase tracking-luxury group-hover:text-fred-gold transition-colors">
+                    Laisser un avis sur Google
+                </span>
+            </a>
+        </div>
+    </div>
+</section>
+                
+    <section id="contact" class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <div>
+                    <span class="text-fred-gold uppercase tracking-luxury text-xs font-bold block mb-4">Contact</span>
+                    <h2 class="text-4xl md:text-5xl font-bold text-fred-blue mb-8">Réalisons votre projet.</h2>
+                    <p class="text-gray-600 font-light text-lg mb-12">
+                        Je suis disponible pour discuter de vos ambitions immobilières. Remplissez le formulaire ou contactez-moi directement.
+                    </p>
+                    
+                    <div class="space-y-8">
+                        <div class="flex items-start gap-4">
+                            <span class="text-fred-gold text-xl mt-1">●</span>
+                            <div>
+                                <h4 class="text-fred-blue font-bold uppercase tracking-wider text-sm mb-1">Téléphone</h4>
+                                <p class="text-gray-500 font-light">514 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <span class="text-fred-gold text-xl mt-1">●</span>
+                            <div>
+                                <h4 class="text-fred-blue font-bold uppercase tracking-wider text-sm mb-1">Courriel</h4>
+                                <p class="text-gray-500 font-light">info@fredroy.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <span class="text-fred-gold text-xl mt-1">●</span>
+                            <div>
+                                <h4 class="text-fred-blue font-bold uppercase tracking-wider text-sm mb-1">Bureau</h4>
+                                <p class="text-gray-500 font-light">Proprio Direct<br>Montréal, Québec</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="bg-fred-gray p-8 md:p-12 shadow-inner">
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-xs uppercase font-bold text-gray-400 mb-2">Prénom</label>
+                            <input type="text" class="w-full bg-white border-0 p-4 text-fred-blue focus:ring-1 focus:ring-fred-gold transition-all" placeholder="Votre prénom">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase font-bold text-gray-400 mb-2">Nom</label>
+                            <input type="text" class="w-full bg-white border-0 p-4 text-fred-blue focus:ring-1 focus:ring-fred-gold transition-all" placeholder="Votre nom">
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-xs uppercase font-bold text-gray-400 mb-2">Email</label>
+                        <input type="email" class="w-full bg-white border-0 p-4 text-fred-blue focus:ring-1 focus:ring-fred-gold transition-all" placeholder="votre@email.com">
+                    </div>
+                    <div class="mb-8">
+                        <label class="block text-xs uppercase font-bold text-gray-400 mb-2">Message</label>
+                        <textarea rows="4" class="w-full bg-white border-0 p-4 text-fred-blue focus:ring-1 focus:ring-fred-gold transition-all resize-none" placeholder="Comment puis-je vous aider ?"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-fred-blue text-white py-4 px-8 font-bold uppercase tracking-luxury hover:bg-fred-gold transition-colors duration-300">
+                        Envoyer le message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+                
+    <footer class="bg-fred-blue text-white py-20">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-start gap-12">
+            <div>
+                <a href="#" class="flex flex-col uppercase leading-none mb-6">
+                    <span class="text-2xl font-extrabold tracking-widest text-white">Fred</span>
+                    <span class="text-2xl font-extrabold tracking-widest text-white">Roy</span>
+                </a>
+                <p class="text-gray-400 text-sm font-light max-w-xs">
+                    Courtier Immobilier Résidentiel. <br>
+                    L'expertise au service de votre patrimoine.
+                </p>
+            </div>
+            
+            <div class="flex gap-8 text-xs uppercase tracking-widest text-gray-400">
+                <a href="#" class="hover:text-fred-gold transition-colors">Accueil</a>
+                <a href="#" class="hover:text-fred-gold transition-colors">Propriétés</a>
+                <a href="#" class="hover:text-fred-gold transition-colors">Contact</a>
+            </div>
+            
+            <div class="text-xs text-gray-500 font-light">
+                &copy; 2026 Fred Roy. Tous droits réservés.<br>
+                <a href="#" class="hover:text-white transition-colors">Mentions Légales</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</body>
+</html>
