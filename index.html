@@ -72,11 +72,27 @@
             </li>
         </ul>
 
-        <button class="md:hidden text-white">
-            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <button id="mobile-menu-btn" class="md:hidden text-white p-2 -m-2" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg id="menu-icon-open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
+            <svg id="menu-icon-close" class="w-8 h-8 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
         </button>
+    </div>
+
+    <div id="mobile-menu" class="md:hidden fixed inset-0 top-0 z-40 bg-fred-blue/98 backdrop-blur-sm pt-24 px-6 pb-8 hidden" aria-hidden="true">
+        <ul class="flex flex-col gap-8 text-white text-sm tracking-luxury font-semibold uppercase">
+            <li><a href="#apropos" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">À Propos</a></li>
+            <li><a href="#services" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Services</a></li>
+            <li><a href="#temoignages" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Témoignages</a></li>
+            <li>
+                <a href="#contact" class="inline-block px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300 mobile-menu-link">
+                    Me Contacter
+                </a>
+            </li>
+        </ul>
     </div>
 </nav>
             
@@ -503,6 +519,47 @@ ciblé et la force du réseau Proprio Direct pour une vente rapide et lucrative.
         acceptBtn.addEventListener('click', () => handleConsent('accepted'));
         declineBtn.addEventListener('click', () => handleConsent('declined'));
     });
+
+    // Mobile menu toggle
+    (function() {
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const iconOpen = document.getElementById('menu-icon-open');
+        const iconClose = document.getElementById('menu-icon-close');
+        const links = document.querySelectorAll('.mobile-menu-link');
+
+        function openMenu() {
+            menu.classList.remove('hidden');
+            menu.setAttribute('aria-hidden', 'false');
+            btn.setAttribute('aria-expanded', 'true');
+            btn.setAttribute('aria-label', 'Fermer le menu');
+            iconOpen.classList.add('hidden');
+            iconClose.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            menu.classList.add('hidden');
+            menu.setAttribute('aria-hidden', 'true');
+            btn.setAttribute('aria-expanded', 'false');
+            btn.setAttribute('aria-label', 'Ouvrir le menu');
+            iconOpen.classList.remove('hidden');
+            iconClose.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
+        function toggleMenu() {
+            const isOpen = !menu.classList.contains('hidden');
+            if (isOpen) closeMenu(); else openMenu();
+        }
+
+        if (btn && menu) {
+            btn.addEventListener('click', toggleMenu);
+            links.forEach(function(link) {
+                link.addEventListener('click', closeMenu);
+            });
+        }
+    })();
 </script>
 </body>
 </html>
