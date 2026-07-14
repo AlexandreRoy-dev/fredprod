@@ -1113,13 +1113,6 @@ def main() -> int:
 
         generate_all()
 
-        try:
-            from update_map_pins import run as update_map_pins
-
-            update_map_pins()
-        except Exception as exc:  # noqa: BLE001
-            print(f"WARN: map pins update failed: {exc}", file=sys.stderr)
-
     return 0
 
 
