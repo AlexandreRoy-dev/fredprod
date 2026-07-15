@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-07-14T16:20:09.483994+00:00",
+  "generatedAt": "2026-07-15T13:28:21.408540+00:00",
   "listings": [
     {
       "uls": "16236651",
@@ -218,106 +218,6 @@
         "Évaluation totale": "217,000 $"
       },
       "additionalInfo": "Découvrez ce magnifique condo soigneusement entretenu offrant une aire de vie à concept ouvert où le salon, la salle à manger et la cuisine se marient harmonieusement. Baigné de lumière naturelle grâce à sa fenestration. L'unité comprend deux chambres à coucher de bonnes dimensions, dont une spacieuse chambre principale munie d'un walk-in et d'une salle de bain attenante procurant confort et intimité. Vous bénéficierez également d'un espace de rangement extérieur pratique ainsi que d'un espace de stationnement. Située dans une copropriété bien administrée et bien entretenue, dont la documentation témoigne d'une gestion rigoureuse, cette propriété offre une tranquillité d'esprit appréciable. À proximité des services, du transport en commun, du train de banlieue, du Cégep et de l'autoroute 15, elle combine parfaitement confort, accessibilité et qualité de vie. Une opportunité idéale pour ceux qui recherchent un condo clé en main dans un secteur stratégique."
-    },
-    {
-      "uls": "22530726",
-      "country": "ca",
-      "province": "qc",
-      "city": "saint-sauveur",
-      "sector": "centre",
-      "street": "880-ch-du-havre-des-monts",
-      "title": "880, Ch. du Havre-des-Monts - Saint-Sauveur",
-      "shareTitle": "Maison mobile - 880, Ch. du Havre-des-Monts, Saint-Sauveur",
-      "price": "184 900 $",
-      "address": "880, Ch. du Havre-des-Monts",
-      "cityLabel": "Saint-Sauveur",
-      "propertyType": "Maison mobile",
-      "size": "",
-      "beds": "2",
-      "baths": "1",
-      "sold": false,
-      "isNew": false,
-      "description": "À Saint-Sauveur, cette coquette maison mobile vous séduira par sa luminosité exceptionnelle et son cadre paisible. Située dans un domaine tranquille, elle profite d'un grand salon réchauffé par un magnifique foyer au bois à combustion lente, de deux chambres confortables et d'un bureau pratique. Emplacement de rêve pour les amateurs de ski et de plein air: village, restos, vélo de montagne et parc aquatique à quelques minutes, autoroute et épiceries tout près, Montréal à une heure. Rénovée avec soin au fil des ans, elle n'attend que vous!",
-      "proprioUrl": "https://propriodirect.com/laurentides/saint-sauveur/maison-mobile-a-vendre/880-ch-du-havre-des-monts-22530726/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/22530726",
-      "fallbackImage": "22530726.jpg",
-      "publicPath": "/ca/qc/saint-sauveur/centre/880-ch-du-havre-des-monts/",
-      "postalCode": "J0R1R3",
-      "datePosted": "2026/06/09",
-      "yearBuilt": "1976",
-      "livingArea": "",
-      "floorLevel": "",
-      "condoFees": "",
-      "parking": "Extérieur",
-      "highlights": {
-        "Année de construction": "1976"
-      },
-      "details": {
-        "Équipement disponible": "Thermopompe murale",
-        "Toiture": "Bardeaux d'asphalte",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Plinthes électriques",
-        "Armoires": "Bois",
-        "Système d'égouts": "Municipal",
-        "Stationnement (total)": "Extérieur",
-        "Énergie pour le chauffage": "Électricité",
-        "Particularités": "Terrain loué",
-        "Approvisionnement en eau": "Municipalité"
-      },
-      "inclusions": "Hotte de cuisinière, miroir de la salle de bain, fixtures/luminaires, luminaires encastrées, thermopompe murale, stores, supports à télévision (2), serrure électronique, poêle au bois, +/- 3 cordes de bois, cabane à bois, remise, pôles de rideaux et rideaux. Exclu Possibilité de rajouter les électroménagers, la tondeuse, sofas dans le salon et bases de lit (2) dans les inclusions.",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Rez-de-jardin",
-          "dimensions": "4.10x5.7 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salon",
-          "level": "Rez-de-jardin",
-          "dimensions": "14.0x12.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Cuisine",
-          "level": "Rez-de-jardin",
-          "dimensions": "13.0x12.8 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.4x9.9 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Rangement",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.5x9.9 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "Rez-de-jardin",
-          "dimensions": "9.9x9.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Rez-de-jardin",
-          "dimensions": "9.2x9.6 P",
-          "flooring": "Plancher flottant"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "1,572 $",
-        "Taxes municipales": "1,503 $",
-        "Taxes scolaires": "69 $",
-        "Bâtiment": "158,000 $",
-        "Évaluation totale": "158,000 $"
-      },
-      "additionalInfo": "Nichée au coeur des Laurentides, cette charmante maison mobile vous accueille au pied des pentes du mont Habitant, dans l'un des secteurs les plus prisés de Saint-Sauveur. Baignée de lumière, la propriété profite d'un ensoleillement remarquable qui réchauffe chaque pièce et met en valeur son cadre enchanteur. Voici l'adresse parfaite pour un pied-à-terre, un chalet quatre saisons ou une douce retraite. Située dans un domaine paisible, la maison offre la tranquillité d'un milieu naturel tout en demeurant à quelques minutes du village de Saint-Sauveur et de toutes ses activités: restaurants, boutiques, vélo de montagne, parc aquatique et bien plus. Un véritable emplacement de rêve pour les amateurs de ski et de plein air! La proximité de l'autoroute et des épiceries facilite par ailleurs le quotidien, et Montréal se trouve à moins d'une heure. À l'intérieur, le grand salon lumineux invite à la détente, réchauffé par un magnifique foyer au bois à combustion lente qui crée une ambiance chaleureuse les soirs d'hiver. La propriété compte deux chambres confortables ainsi qu'un bureau, idéal pour le télétravail ou pour accueillir des invités. Au fil des années, la maison a bénéficié de rénovations soignées qui témoignent de l'entretien attentif dont elle a fait l'objet. Elle ne fait pas de compromis sur le confort ni le style de vie. Le calme du domaine, l'effervescence du village, la chaleur d'un foyer: il ne manque que vous!"
     },
     {
       "uls": "10265744",
@@ -578,6 +478,106 @@
         "Évaluation totale": "409,600 $"
       },
       "additionalInfo": "Découvrez le 360-360A, rue Woodbine à Brownsburg-Chatham, un superbe duplex construit en 2022 offrant une excellente opportunité autant pour un propriétaire occupant que pour un investisseur. Le logement principal (360) est actuellement occupé par le propriétaire, tandis que le logement 360A est loué à 1 100 $ par mois, procurant un revenu intéressant dès l'acquisition. Les deux logements proposent un concept à aire ouverte recherché, où la luminosité naturelle est présente grâce à la fenestration. Vous apprécierez les espaces de rangement bien pensés, incluant des walk-in pratiques, ainsi que l'ambiance chaleureuse et moderne qu'offre cette construction récente. Située dans un environnement boisé et paisible, cette propriété bénéficie des services municipaux d'aqueduc et d'égout, vous permettant de profiter du confort urbain tout en étant entouré de nature. À proximité : Autoroute 327 à moins d'une minute Autoroute 50 à environ 5 minutes Hôpital de Lachute à moins de 5 minutes Centre-ville de Lachute à quelques minutes École primaire Bouchard à moins de 5 minutes École secondaire à environ 15 minutes Épiceries, pharmacies, restaurants et services essentiels à moins de 15 minutes Que vous souhaitiez réduire votre coût d'habitation grâce à un revenu locatif ou agrandir votre portefeuille immobilier avec une propriété récente et bien située, ce duplex représente une occasion à ne pas manquer. Son emplacement stratégique, ses logements lumineux et sa construction moderne en font un investissement de choix dans le secteur de Brownsburg-Chatham."
+    },
+    {
+      "uls": "22530726",
+      "country": "ca",
+      "province": "qc",
+      "city": "saint-sauveur",
+      "sector": "centre",
+      "street": "880-ch-du-havre-des-monts",
+      "title": "880, Ch. du Havre-des-Monts - Saint-Sauveur",
+      "shareTitle": "Maison mobile - 880, Ch. du Havre-des-Monts, Saint-Sauveur",
+      "price": "184 900 $",
+      "address": "880, Ch. du Havre-des-Monts",
+      "cityLabel": "Saint-Sauveur",
+      "propertyType": "Maison mobile",
+      "size": "",
+      "beds": "2",
+      "baths": "1",
+      "sold": false,
+      "isNew": false,
+      "description": "À Saint-Sauveur, cette coquette maison mobile vous séduira par sa luminosité exceptionnelle et son cadre paisible. Située dans un domaine tranquille, elle profite d'un grand salon réchauffé par un magnifique foyer au bois à combustion lente, de deux chambres confortables et d'un bureau pratique. Emplacement de rêve pour les amateurs de ski et de plein air: village, restos, vélo de montagne et parc aquatique à quelques minutes, autoroute et épiceries tout près, Montréal à une heure. Rénovée avec soin au fil des ans, elle n'attend que vous!",
+      "proprioUrl": "https://propriodirect.com/laurentides/saint-sauveur/maison-mobile-a-vendre/880-ch-du-havre-des-monts-22530726/",
+      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/22530726",
+      "fallbackImage": "22530726.jpg",
+      "publicPath": "/ca/qc/saint-sauveur/centre/880-ch-du-havre-des-monts/",
+      "postalCode": "J0R1R3",
+      "datePosted": "2026/06/09",
+      "yearBuilt": "1976",
+      "livingArea": "",
+      "floorLevel": "",
+      "condoFees": "",
+      "parking": "Extérieur",
+      "highlights": {
+        "Année de construction": "1976"
+      },
+      "details": {
+        "Équipement disponible": "Thermopompe murale",
+        "Toiture": "Bardeaux d'asphalte",
+        "Zonage": "Résidentiel",
+        "Mode de chauffage": "Plinthes électriques",
+        "Armoires": "Bois",
+        "Système d'égouts": "Municipal",
+        "Stationnement (total)": "Extérieur",
+        "Énergie pour le chauffage": "Électricité",
+        "Particularités": "Terrain loué",
+        "Approvisionnement en eau": "Municipalité"
+      },
+      "inclusions": "Hotte de cuisinière, miroir de la salle de bain, fixtures/luminaires, luminaires encastrées, thermopompe murale, stores, supports à télévision (2), serrure électronique, poêle au bois, +/- 3 cordes de bois, cabane à bois, remise, pôles de rideaux et rideaux. Exclu Possibilité de rajouter les électroménagers, la tondeuse, sofas dans le salon et bases de lit (2) dans les inclusions.",
+      "exclusions": "",
+      "rooms": [
+        {
+          "name": "Hall d'entrée/Vestibule",
+          "level": "Rez-de-jardin",
+          "dimensions": "4.10x5.7 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salon",
+          "level": "Rez-de-jardin",
+          "dimensions": "14.0x12.10 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Cuisine",
+          "level": "Rez-de-jardin",
+          "dimensions": "13.0x12.8 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "Rez-de-jardin",
+          "dimensions": "7.4x9.9 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Rangement",
+          "level": "Rez-de-jardin",
+          "dimensions": "7.5x9.9 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher principale",
+          "level": "Rez-de-jardin",
+          "dimensions": "9.9x9.10 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "Rez-de-jardin",
+          "dimensions": "9.2x9.6 P",
+          "flooring": "Plancher flottant"
+        }
+      ],
+      "taxes": {
+        "Total taxes": "1,572 $",
+        "Taxes municipales": "1,503 $",
+        "Taxes scolaires": "69 $",
+        "Bâtiment": "158,000 $",
+        "Évaluation totale": "158,000 $"
+      },
+      "additionalInfo": "Nichée au coeur des Laurentides, cette charmante maison mobile vous accueille au pied des pentes du mont Habitant, dans l'un des secteurs les plus prisés de Saint-Sauveur. Baignée de lumière, la propriété profite d'un ensoleillement remarquable qui réchauffe chaque pièce et met en valeur son cadre enchanteur. Voici l'adresse parfaite pour un pied-à-terre, un chalet quatre saisons ou une douce retraite. Située dans un domaine paisible, la maison offre la tranquillité d'un milieu naturel tout en demeurant à quelques minutes du village de Saint-Sauveur et de toutes ses activités: restaurants, boutiques, vélo de montagne, parc aquatique et bien plus. Un véritable emplacement de rêve pour les amateurs de ski et de plein air! La proximité de l'autoroute et des épiceries facilite par ailleurs le quotidien, et Montréal se trouve à moins d'une heure. À l'intérieur, le grand salon lumineux invite à la détente, réchauffé par un magnifique foyer au bois à combustion lente qui crée une ambiance chaleureuse les soirs d'hiver. La propriété compte deux chambres confortables ainsi qu'un bureau, idéal pour le télétravail ou pour accueillir des invités. Au fil des années, la maison a bénéficié de rénovations soignées qui témoignent de l'entretien attentif dont elle a fait l'objet. Elle ne fait pas de compromis sur le confort ni le style de vie. Le calme du domaine, l'effervescence du village, la chaleur d'un foyer: il ne manque que vous!"
     },
     {
       "uls": "23991648",
