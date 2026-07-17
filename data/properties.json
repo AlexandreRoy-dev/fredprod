@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-07-16T13:45:36.767766+00:00",
+  "generatedAt": "2026-07-17T13:20:43.967230+00:00",
   "listings": [
     {
       "uls": "16236651",
@@ -218,266 +218,6 @@
         "Évaluation totale": "217,000 $"
       },
       "additionalInfo": "Découvrez ce magnifique condo soigneusement entretenu offrant une aire de vie à concept ouvert où le salon, la salle à manger et la cuisine se marient harmonieusement. Baigné de lumière naturelle grâce à sa fenestration. L'unité comprend deux chambres à coucher de bonnes dimensions, dont une spacieuse chambre principale munie d'un walk-in et d'une salle de bain attenante procurant confort et intimité. Vous bénéficierez également d'un espace de rangement extérieur pratique ainsi que d'un espace de stationnement. Située dans une copropriété bien administrée et bien entretenue, dont la documentation témoigne d'une gestion rigoureuse, cette propriété offre une tranquillité d'esprit appréciable. À proximité des services, du transport en commun, du train de banlieue, du Cégep et de l'autoroute 15, elle combine parfaitement confort, accessibilité et qualité de vie. Une opportunité idéale pour ceux qui recherchent un condo clé en main dans un secteur stratégique."
-    },
-    {
-      "uls": "10265744",
-      "country": "ca",
-      "province": "qc",
-      "city": "brownsburg-chatham",
-      "sector": "centre",
-      "street": "360z-360az-rue-woodbine",
-      "title": "360Z-360AZ, Rue Woodbine - Brownsburg-Chatham",
-      "shareTitle": "Maison de plain-pied - 360Z-360AZ, Rue Woodbine, Brownsburg-Chatham",
-      "price": "574 900 $",
-      "address": "360Z-360AZ, Rue Woodbine",
-      "cityLabel": "Brownsburg-Chatham",
-      "propertyType": "Maison de plain-pied",
-      "size": "",
-      "beds": "2",
-      "baths": "1",
-      "sold": false,
-      "isNew": false,
-      "description": "Duplex construit en 2022 offrant une belle opportunité pour propriétaire occupant ou investisseur. Le logement du rez-de-chaussée est libre pour l'acheteur, tandis que le 360A est loué à 1 100 $/mois. Situé dans un secteur boisé avec services municipaux, à proximité des écoles, de l'hôpital, du centre-ville de Lachute et des autoroutes 327 et 50.",
-      "proprioUrl": "https://propriodirect.com/laurentides/brownsburg-chatham/maison-de-plain-pied-a-vendre/360z-360az-rue-woodbine-10265744/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/10265744",
-      "fallbackImage": "10265744.jpg",
-      "publicPath": "/ca/qc/brownsburg-chatham/centre/360z-360az-rue-woodbine/",
-      "postalCode": "J8G0A2",
-      "datePosted": "2026/06/09",
-      "yearBuilt": "2022",
-      "livingArea": "",
-      "floorLevel": "",
-      "condoFees": "",
-      "parking": "Extérieur",
-      "highlights": {
-        "Année de construction": "2022"
-      },
-      "details": {
-        "Équipement disponible": "Balcon privé, Climatiseur mural, Cour privée, Échangeur d'air",
-        "Toiture": "Bardeaux d'asphalte",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Plinthes électriques",
-        "Armoires": "Mélamine",
-        "Système d'égouts": "Municipal",
-        "Stationnement (total)": "Extérieur",
-        "Énergie pour le chauffage": "Électricité",
-        "Approvisionnement en eau": "Municipalité"
-      },
-      "inclusions": "Unité 360: Fixtures/luminaires, air climatisé, hotte de poêle, étagère garde à manger, pôles de rideaux et rideaux. Unité 360 A: Stores, air climatisé et hotte de poêle. Exclu Effets du locataire. Possibilités de rajouter dans les inclusions pour l'unité 360 le lave-vaisselle, le réfrigérateur, le pôele, laveuse et sécheuse.",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "1er niveau/RDC",
-          "dimensions": "6.6x5.1 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Cuisine",
-          "level": "1er niveau/RDC",
-          "dimensions": "10.11x8.3 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "1er niveau/RDC",
-          "dimensions": "10.11x10.2 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salon",
-          "level": "1er niveau/RDC",
-          "dimensions": "15.7x14.7 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "1er niveau/RDC",
-          "dimensions": "10x8.7 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "1er niveau/RDC",
-          "dimensions": "11.11x13.3 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "1er niveau/RDC",
-          "dimensions": "5.9x3.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "1er niveau/RDC",
-          "dimensions": "9.6x12.5 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle familiale",
-          "level": "Sous-sol",
-          "dimensions": "11.3x13 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Rangement",
-          "level": "Sous-sol",
-          "dimensions": "8.6x13.1 P",
-          "flooring": "Béton"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "4,333 $",
-        "Taxes municipales": "4,061 $",
-        "Taxes scolaires": "272 $",
-        "Terrain": "83,100 $",
-        "Bâtiment": "326,500 $",
-        "Évaluation totale": "409,600 $"
-      },
-      "additionalInfo": "Découvrez le 360-360A, rue Woodbine à Brownsburg-Chatham, un superbe duplex construit en 2022 offrant une excellente opportunité autant pour un propriétaire occupant que pour un investisseur. Le logement principal (360) est actuellement occupé par le propriétaire, tandis que le logement 360A est loué à 1 100 $ par mois, procurant un revenu intéressant dès l'acquisition. Les deux logements proposent un concept à aire ouverte recherché, où la luminosité naturelle est présente grâce à la fenestration. Vous apprécierez les espaces de rangement bien pensés, incluant des walk-in pratiques, ainsi que l'ambiance chaleureuse et moderne qu'offre cette construction récente. Située dans un environnement boisé et paisible, cette propriété bénéficie des services municipaux d'aqueduc et d'égout, vous permettant de profiter du confort urbain tout en étant entouré de nature. À proximité : Autoroute 327 à moins d'une minute Autoroute 50 à environ 5 minutes Hôpital de Lachute à moins de 5 minutes Centre-ville de Lachute à quelques minutes École primaire Bouchard à moins de 5 minutes École secondaire à environ 15 minutes Épiceries, pharmacies, restaurants et services essentiels à moins de 15 minutes Que vous souhaitiez réduire votre coût d'habitation grâce à un revenu locatif ou agrandir votre portefeuille immobilier avec une propriété récente et bien située, ce duplex représente une occasion à ne pas manquer. Son emplacement stratégique, ses logements lumineux et sa construction moderne en font un investissement de choix dans le secteur de Brownsburg-Chatham."
-    },
-    {
-      "uls": "18661649",
-      "country": "ca",
-      "province": "qc",
-      "city": "brownsburg-chatham",
-      "sector": "centre",
-      "street": "360-360a-rue-woodbine",
-      "title": "360-360A, Rue Woodbine - Brownsburg-Chatham",
-      "shareTitle": "Duplex - 360-360A, Rue Woodbine, Brownsburg-Chatham",
-      "price": "574 900 $",
-      "address": "360-360A, Rue Woodbine",
-      "cityLabel": "Brownsburg-Chatham",
-      "propertyType": "Duplex",
-      "size": "",
-      "beds": "2",
-      "baths": "1",
-      "sold": false,
-      "isNew": false,
-      "description": "Duplex construit en 2022 offrant une belle opportunité pour propriétaire occupant ou investisseur. Le logement du rez-de-chaussée est libre pour l'acheteur, tandis que le 360A est loué à 1 100 $/mois. Situé dans un secteur boisé avec services municipaux, à proximité des écoles, de l'hôpital, du centre-ville de Lachute et des autoroutes 327 et 50.",
-      "proprioUrl": "https://propriodirect.com/laurentides/brownsburg-chatham/duplex-a-vendre/360-360a-rue-woodbine-18661649/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/18661649",
-      "fallbackImage": "18661649.jpg",
-      "publicPath": "/ca/qc/brownsburg-chatham/centre/360-360a-rue-woodbine/",
-      "postalCode": "J8G0A2",
-      "datePosted": "2026/06/09",
-      "yearBuilt": "2022",
-      "livingArea": "",
-      "floorLevel": "",
-      "condoFees": "",
-      "parking": "Extérieur",
-      "highlights": {
-        "Année de construction": "2022"
-      },
-      "details": {
-        "Équipement disponible": "Climatiseur mural",
-        "Toiture": "Bardeaux d'asphalte",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Plinthes électriques",
-        "Armoires": "Mélamine",
-        "Système d'égouts": "Municipal",
-        "Stationnement (total)": "Extérieur",
-        "Particularités": "Boisé",
-        "Approvisionnement en eau": "Municipalité"
-      },
-      "inclusions": "Unité 360: Fixtures/luminaires, air climatisé, hotte de poêle, étagère garde à manger, pôles de rideaux et rideaux. Unité 360 A: Stores, air climatisé et hotte de poêle. Exclu Effets du locataire. Possibilités de rajouter dans les inclusions pour l'unité 360 le lave-vaisselle, le réfrigérateur, le pôele, laveuse et sécheuse.",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "1er niveau/RDC",
-          "dimensions": "6.6x5.1 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Sous-sol",
-          "dimensions": "3.10x12.11 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Cuisine",
-          "level": "1er niveau/RDC",
-          "dimensions": "10.11x8.3 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salon",
-          "level": "Sous-sol",
-          "dimensions": "11x14 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "1er niveau/RDC",
-          "dimensions": "10.11x10.2 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Cuisine",
-          "level": "Sous-sol",
-          "dimensions": "13.5x12.11 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salon",
-          "level": "1er niveau/RDC",
-          "dimensions": "15.7x14.7 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "Sous-sol",
-          "dimensions": "11.10x12.8 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "1er niveau/RDC",
-          "dimensions": "10x8.7 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Sous-sol",
-          "dimensions": "11.8x11.8 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "1er niveau/RDC",
-          "dimensions": "11.11x13.3 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "1er niveau/RDC",
-          "dimensions": "5.9x3.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "1er niveau/RDC",
-          "dimensions": "9.6x12.5 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle familiale",
-          "level": "Sous-sol",
-          "dimensions": "11.3x13 P",
-          "flooring": "Plancher flottant"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "4,333 $",
-        "Taxes municipales": "4,061 $",
-        "Taxes scolaires": "272 $",
-        "Terrain": "83,100 $",
-        "Bâtiment": "326,500 $",
-        "Évaluation totale": "409,600 $"
-      },
-      "additionalInfo": "Découvrez le 360-360A, rue Woodbine à Brownsburg-Chatham, un superbe duplex construit en 2022 offrant une excellente opportunité autant pour un propriétaire occupant que pour un investisseur. Le logement principal (360) est actuellement occupé par le propriétaire, tandis que le logement 360A est loué à 1 100 $ par mois, procurant un revenu intéressant dès l'acquisition. Les deux logements proposent un concept à aire ouverte recherché, où la luminosité naturelle est présente grâce à la fenestration. Vous apprécierez les espaces de rangement bien pensés, incluant des walk-in pratiques, ainsi que l'ambiance chaleureuse et moderne qu'offre cette construction récente. Située dans un environnement boisé et paisible, cette propriété bénéficie des services municipaux d'aqueduc et d'égout, vous permettant de profiter du confort urbain tout en étant entouré de nature. À proximité : Autoroute 327 à moins d'une minute Autoroute 50 à environ 5 minutes Hôpital de Lachute à moins de 5 minutes Centre-ville de Lachute à quelques minutes École primaire Bouchard à moins de 5 minutes École secondaire à environ 15 minutes Épiceries, pharmacies, restaurants et services essentiels à moins de 15 minutes Que vous souhaitiez réduire votre coût d'habitation grâce à un revenu locatif ou agrandir votre portefeuille immobilier avec une propriété récente et bien située, ce duplex représente une occasion à ne pas manquer. Son emplacement stratégique, ses logements lumineux et sa construction moderne en font un investissement de choix dans le secteur de Brownsburg-Chatham."
     },
     {
       "uls": "22530726",
@@ -715,9 +455,9 @@
         }
       ],
       "taxes": {
-        "Total taxes": "3,202 $",
+        "Total taxes": "3,208 $",
         "Taxes municipales": "2,715 $",
-        "Taxes scolaires": "487 $",
+        "Taxes scolaires": "493 $",
         "Terrain": "281,700 $",
         "Bâtiment": "460,100 $",
         "Évaluation totale": "741,800 $"
@@ -886,9 +626,9 @@
         }
       ],
       "taxes": {
-        "Total taxes": "3,223 $",
+        "Total taxes": "3,226 $",
         "Taxes municipales": "2,796 $",
-        "Taxes scolaires": "427 $",
+        "Taxes scolaires": "430 $",
         "Terrain": "121,500 $",
         "Bâtiment": "524,900 $",
         "Évaluation totale": "646,400 $"
@@ -1013,9 +753,9 @@
         }
       ],
       "taxes": {
-        "Total taxes": "3,223 $",
+        "Total taxes": "3,226 $",
         "Taxes municipales": "2,796 $",
-        "Taxes scolaires": "427 $",
+        "Taxes scolaires": "430 $",
         "Terrain": "121,500 $",
         "Bâtiment": "524,900 $",
         "Évaluation totale": "646,400 $"
@@ -1152,9 +892,9 @@
         }
       ],
       "taxes": {
-        "Total taxes": "2,626 $",
+        "Total taxes": "2,649 $",
         "Taxes municipales": "2,387 $",
-        "Taxes scolaires": "239 $",
+        "Taxes scolaires": "262 $",
         "Terrain": "115,800 $",
         "Bâtiment": "290,900 $",
         "Évaluation totale": "406,700 $"
@@ -1279,9 +1019,9 @@
         }
       ],
       "taxes": {
-        "Total taxes": "2,749 $",
+        "Total taxes": "2,778 $",
         "Taxes municipales": "2,500 $",
-        "Taxes scolaires": "249 $",
+        "Taxes scolaires": "278 $",
         "Terrain": "116,900 $",
         "Bâtiment": "316,200 $",
         "Évaluation totale": "433,100 $"
