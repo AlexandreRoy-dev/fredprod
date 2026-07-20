@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-07-19T13:08:28.765543+00:00",
+  "generatedAt": "2026-07-20T14:00:38.532457+00:00",
   "listings": [
     {
       "uls": "16236651",
@@ -521,7 +521,7 @@
       "street": "18085z-rue-de-brissac",
       "title": "18085Z, Rue de Brissac - Mirabel (Domaine Vert Nord)",
       "shareTitle": "Maison à étages - 18085Z, Rue de Brissac, Mirabel (Domaine Vert Nord)",
-      "price": "710 000 $",
+      "price": "699 000 $",
       "address": "18085Z, Rue de Brissac",
       "cityLabel": "Mirabel (Domaine Vert Nord)",
       "propertyType": "Maison à étages",
@@ -555,7 +555,7 @@
         "Garage": "Attaché, Époxy, Double largeur ou plus",
         "Système d'égouts": "Municipal"
       },
-      "inclusions": "Système d'alarme, caméras, rideaux et stores. Exclu Base de lit de la chambre principale (possibilité de mettre dans les inclusions).",
+      "inclusions": "",
       "exclusions": "",
       "rooms": [
         {
@@ -644,7 +644,7 @@
       "street": "18085-rue-de-brissac",
       "title": "18085, Rue de Brissac - Mirabel (Domaine Vert Nord)",
       "shareTitle": "Maison à étages - 18085, Rue de Brissac, Mirabel (Domaine Vert Nord)",
-      "price": "710 000 $",
+      "price": "699 000 $",
       "address": "18085, Rue de Brissac",
       "cityLabel": "Mirabel (Domaine Vert Nord)",
       "propertyType": "Maison à étages",
@@ -682,7 +682,7 @@
         "Garage": "Attaché, Époxy, Double largeur ou plus",
         "Système d'égouts": "Municipal"
       },
-      "inclusions": "Système d'alarme, caméras, rideaux et stores. Exclu Base de lit de la chambre principale (possibilité de mettre dans les inclusions).",
+      "inclusions": "",
       "exclusions": "",
       "rooms": [
         {
