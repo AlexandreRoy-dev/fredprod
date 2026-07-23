@@ -1,14 +1,9 @@
 {
-  "generatedAt": "2026-07-22T13:42:41.451219+00:00",
+  "generatedAt": "2026-07-23T13:48:31.209482+00:00",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
   "includeSold": true,
   "maxListings": 50,
-  "removedStale": [
-    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/12022113",
-    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/12022113.jpg",
-    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/17856740",
-    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/17856740.jpg"
-  ],
+  "removedStale": [],
   "listings": [
     {
       "uls": "16236651",
@@ -359,7 +354,7 @@
         "36.jpg",
         "37.jpg"
       ],
-      "source": "centris",
+      "source": "proprio",
       "publicPath": "/ca/qc/saint-lin-laurentides/centre/23-rue-fournier/",
       "ogShareImage": "assets/img/proprietes/25394168/og-share.jpg"
     },

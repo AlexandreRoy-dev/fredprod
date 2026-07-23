@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-07-22T13:42:41.449455+00:00",
+  "generatedAt": "2026-07-23T13:48:31.207612+00:00",
   "listings": [
     {
       "uls": "16236651",
@@ -49,7 +49,7 @@
         "Approvisionnement en eau": "Municipalité",
         "Système d'égouts": "Municipal"
       },
-      "inclusions": "Foyer électrique, fixtures/luminaires, thermopompe murale, luminaires encastrées, hotte de cuisinière, aspirateur central, support de télévision, stores, pôles de rideaux et rideaux. Exclu Possibilité de rajouter dans les inclusions laveuse/sécheuse.",
+      "inclusions": "Foyer électrique, fixtures/luminaires, thermopompe murale, luminaires encastrées, hotte de cuisinière, support de télévision, stores, pôles de rideaux et rideaux. Exclu Possibilité de rajouter dans les inclusions laveuse/sécheuse.",
       "exclusions": "",
       "rooms": [
         {
@@ -910,14 +910,14 @@
       "street": "23-rue-fournier",
       "title": "23, Rue Fournier - Saint-Lin/Laurentides (Saint-Lin)",
       "shareTitle": "Maison de plain-pied - 23, Rue Fournier, Saint-Lin/Laurentides (Saint-Lin)",
-      "price": "574 800 $",
+      "price": "",
       "address": "23, Rue Fournier",
       "cityLabel": "Saint-Lin/Laurentides (Saint-Lin)",
       "propertyType": "Maison de plain-pied",
       "size": "",
       "beds": "3",
       "baths": "2",
-      "sold": false,
+      "sold": true,
       "isNew": false,
       "description": "Nichée dans un environnement boisé et paisible, cette propriété bénéficie d'une intimité totale à l'arrière. Située à quelques minutes de l'école primaire de l'Aubier et de la route 335, elle offre un équilibre idéal entre nature et accessibilité. Intérieur lumineux et bien entretenu, avec 2 chambres au rez-de-chaussée, 1 à l'étage et 2 salles de bain complètes. Garage 24 x 30 pi2 et sentier arrière menant aux activités de plein air.",
       "proprioUrl": "https://propriodirect.com/lanaudiere/saint-lin-laurentides/maison-de-plain-pied-a-vendre/23-rue-fournier-25394168/",
