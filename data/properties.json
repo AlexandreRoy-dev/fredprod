@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-07-24T13:27:45.117084+00:00",
+  "generatedAt": "2026-07-25T13:18:00.306481+00:00",
   "listings": [
     {
       "uls": "16236651",
@@ -1252,123 +1252,6 @@
         "Évaluation totale": "214,700 $"
       },
       "additionalInfo": "Nichée au coeur de la nature à Saint-Jean-de-Matha, cette magnifique propriété vous invite à découvrir un art de vivre unique, à la fois calme, ressourçant et profondément connecté aux plus beaux éléments qui font la richesse de cette région. Implantée sur un généreux terrain boisé de plus de 46 000 pieds carrés, la propriété offre une intimité remarquable dans l'un des secteurs les plus paisibles de la région, entourée de voisins discrets et d'un environnement verdoyant à couper le souffle. À quelques pas seulement, la rivière Noire vous tend les bras avec son débarcadère accessible à proximité, parfait pour les amateurs de canot, de kayak ou simplement pour savourer le courant tranquille au fil des saisons. Le Lac Noir, accessible en quelques minutes à peine, enrichit davantage ce secteur d'une dimension récréative fort appréciée des familles et des amoureux de plein air. Intérieurement, la maison propose une organisation claire et intuitive: le rez-de-chaussée réunit un salon chaleureux, une salle à manger lumineuse, une cuisine fonctionnelle et une chambre principale spacieuse, dans un espace de vie simple, pratique et agréable au quotidien. Le sous-sol vient harmonieusement compléter la mise avec 2 chambres additionnelles, une salle de bain complète et de généreux espaces de rangement, offrant une belle polyvalence selon vos besoins et projets futurs. À l'extérieur, la cour privée et la grande galerie couverte en façade créent un espace de détente authentique, idéal pour profiter pleinement des chaudes soirées estivales entre amis ou en famille, en toute tranquillité. Cette propriété représente une opportunité de conjuguer la sérénité absolue de la campagne avec la commodité de la proximité des services essentiels."
-    },
-    {
-      "uls": "18571880",
-      "country": "ca",
-      "province": "qc",
-      "city": "saint-jerome",
-      "sector": "centre",
-      "street": "507-rue-castonguay-4",
-      "title": "507, Rue Castonguay, 4 - Saint-Jérôme (Saint-Jérôme)",
-      "shareTitle": "Appartement - 507, Rue Castonguay, 4, Saint-Jérôme (Saint-Jérôme)",
-      "price": "",
-      "address": "507, Rue Castonguay, 4",
-      "cityLabel": "Saint-Jérôme (Saint-Jérôme)",
-      "propertyType": "Appartement",
-      "size": "94.4 mc",
-      "beds": "2",
-      "baths": "1",
-      "sold": true,
-      "isNew": false,
-      "description": "Charmant condo situé à Saint-Jérôme, offrant plus de 1 000 pi² d'espace de vie lumineux et bien aménagé. Cette unité propose deux chambres confortables, ainsi que deux espaces de stationnement, un avantage rare. Construite en 2014 et entretenue avec soin, elle se distingue par sa cuisine rénovée en 2022 avec comptoirs en calacatta et design moderne. L'aire ouverte, agrémentée d'un foyer au gaz, crée une ambiance chaleureuse. Profitez d'un balcon avec vue sur de superbes couchers de soleil. Emplacement stratégique près de l'autoroute 15, de la route 117, des écoles, parcs et commodités.",
-      "proprioUrl": "https://propriodirect.com/laurentides/saint-jerome/appartement-a-vendre/507-rue-castonguay-4-18571880/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/18571880",
-      "fallbackImage": "18571880.jpg",
-      "publicPath": "/ca/qc/saint-jerome/centre/507-rue-castonguay-4/",
-      "postalCode": "J7Y0K6",
-      "datePosted": "2026/04/07",
-      "yearBuilt": "2014",
-      "livingArea": "94.4 mc",
-      "floorLevel": "Terrasse - (Demi sous-sol)",
-      "condoFees": "329 $ / mois",
-      "parking": "Extérieur",
-      "highlights": {
-        "Année de construction": "2014",
-        "Superficie habitable": "94.4 mc",
-        "Niveau": "Terrasse - (Demi sous-sol)",
-        "Frais de copropriété": "329 $ / mois",
-        "Facilité d'accès": "Ascenseur",
-        "Stationnement (total)": "Extérieur"
-      },
-      "details": {
-        "Équipement disponible": "Balcon privé, Échangeur d'air, Interphone, Thermopompe centrale",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Air soufflé",
-        "Armoires": "Mélamine",
-        "Système d'égouts": "Municipal",
-        "Stationnement (total)": "Extérieur",
-        "Énergie pour le chauffage": "Gaz naturel",
-        "Approvisionnement en eau": "Municipalité",
-        "Facilité d'accès": "Ascenseur"
-      },
-      "inclusions": "Lave-vaisselle, fixations/luminaires, stores, hotte de cuisinière, foyer au gaz naturel, tablette du salon, pôles de rideaux et rideaux. Exclu Pôles de rideaux et rideaux de la chambre principale. Possibilité de rajouter dans les inclusions: Réfrigérateur et tous les meubles que les acheteurs sont intéressés",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.10x8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Rangement",
-          "level": "Rez-de-jardin",
-          "dimensions": "13x7 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Cuisine",
-          "level": "Rez-de-jardin",
-          "dimensions": "11.7x8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "Rez-de-jardin",
-          "dimensions": "11x14.9 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salon",
-          "level": "Rez-de-jardin",
-          "dimensions": "13x13 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle de lavage",
-          "level": "Rez-de-jardin",
-          "dimensions": "4.10x5 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "Rez-de-jardin",
-          "dimensions": "8.5x10 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "Rez-de-jardin",
-          "dimensions": "12x12 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Rez-de-jardin",
-          "dimensions": "9.8x11.4 P",
-          "flooring": "Bois"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "2,421 $",
-        "Taxes municipales": "2,261 $",
-        "Taxes scolaires": "160 $",
-        "Terrain": "56,400 $",
-        "Bâtiment": "224,700 $",
-        "Évaluation totale": "281,100 $"
-      },
-      "additionalInfo": "Découvrez ce superbe condo impeccable situé à Saint-Jérôme, offrant deux chambres de belles dimensions. Profitez également de deux espaces de stationnement, un atout rare dans l'immeuble. Construit en 2014 et soigneusement entretenu, ce logement propose une superficie généreuse de plus de 1 000 pi², parfaitement aménagée pour maximiser confort et fonctionnalité. Dès votre entrée, vous serez charmé par son aire de vie ouverte, baignée de lumière naturelle grâce à une fenestration abondante. La cuisine est rénovée en 2022, constitue un véritable coup de coeur avec ses comptoirs en calacatta, son îlot central et ses armoires deux tons au design moderne. Elle s'ouvre harmonieusement sur le salon et la salle à manger, créant un espace convivial agrémenté d'un foyer au gaz, idéal pour vos soirées en toute tranquillité. L'unité comprend également une salle de bain moderne avec douche vitrée, ainsi qu'une salle de lavage indépendante offrant du rangement supplémentaire. À l'extérieur, vous profiterez d'un balcon accueillant, parfait pour relaxer tout en admirant de magnifiques couchers de soleil en façade. Le voisinage est reconnu pour son calme et sa qualité de vie exceptionnelle. La localisation est tout simplement idéale: à proximité de l'autoroute 15 et de la route 117, vous bénéficiez d'un accès rapide à tous les services essentiels tels que Costco, Walmart, Éconofitness, restaurants, écoles primaires et secondaires, ainsi que plusieurs parcs. Tout est à portée de main pour un quotidien des plus pratiques."
     },
     {
       "uls": "18514201",
