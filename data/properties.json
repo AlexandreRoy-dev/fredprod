@@ -1,8 +1,106 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-03T14:30:23.328277+00:00",
+  "generatedAt": "2026-08-04T14:03:17.498278+00:00",
   "listings": [
+    {
+      "uls": "23254573",
+      "country": "ca",
+      "province": "qc",
+      "city": "saint-hippolyte",
+      "sector": "centre",
+      "street": "900-ch-du-lac-connelly",
+      "title": "900, Ch. du Lac-Connelly - Saint-Hippolyte",
+      "shareTitle": "Maison de plain-pied - 900, Ch. du Lac-Connelly, Saint-Hippolyte",
+      "price": "350 000 $",
+      "address": "900, Ch. du Lac-Connelly",
+      "cityLabel": "Saint-Hippolyte",
+      "propertyType": "Maison de plain-pied",
+      "size": "",
+      "beds": "2",
+      "baths": "1",
+      "sold": false,
+      "isNew": true,
+      "description": "Découvrez cette propriété située à Saint-Hippolyte, dans un environnement paisible et boisé à proximité du lac Connelly. Implantée sur un terrain de près de 20 000 pi², elle offre un cadre intime, idéal comme résidence principale ou chalet. La propriété comprend **2 chambres** et des espaces de vie fonctionnels. À environ deux minutes de marche, une servitude de passage permet d'accéder au lac Connelly, navigable et propice à la baignade et aux activités nautiques. Plusieurs améliorations ont été réalisées en 2025, notamment à la cuisine, à la plomberie de la cuisine, à la salle de bain, aux revêtements de plancher et à la toiture.",
+      "proprioUrl": "https://propriodirect.com/laurentides/saint-hippolyte/maison-de-plain-pied-a-vendre/900-ch-du-lac-connelly-23254573/",
+      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/23254573",
+      "fallbackImage": "23254573.jpg",
+      "publicPath": "/ca/qc/saint-hippolyte/centre/900-ch-du-lac-connelly/",
+      "postalCode": "J8A2B4",
+      "datePosted": "2026/08/03",
+      "yearBuilt": "1946",
+      "livingArea": "",
+      "floorLevel": "",
+      "condoFees": "",
+      "parking": "Extérieur",
+      "highlights": {
+        "Année de construction": "1946"
+      },
+      "details": {
+        "Toiture": "Bardeaux d'asphalte",
+        "Stationnement (total)": "Extérieur",
+        "Particularités": "Accès à l'eau, Embarquation moteur permise",
+        "Mode de chauffage": "Plinthes électriques",
+        "Vue": "Sur l'eau, Sur la montagne",
+        "Approvisionnement en eau": "Puits artésien",
+        "Système d'égouts": "Champ d'épuration, Fosse septique"
+      },
+      "inclusions": "fixtures",
+      "exclusions": "",
+      "rooms": [
+        {
+          "name": "Salle à manger",
+          "level": "1er niveau/RDC",
+          "dimensions": "10.11x16.7 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salon",
+          "level": "1er niveau/RDC",
+          "dimensions": "23.3x7.5 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher principale",
+          "level": "1er niveau/RDC",
+          "dimensions": "10.11x9.10 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "1er niveau/RDC",
+          "dimensions": "10.11x8.8 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Cuisine",
+          "level": "1er niveau/RDC",
+          "dimensions": "10.10x14.6 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "1er niveau/RDC",
+          "dimensions": "7.6x4.5 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salle de lavage",
+          "level": "1er niveau/RDC",
+          "dimensions": "7.8x11.0 P",
+          "flooring": "Plancher flottant"
+        }
+      ],
+      "taxes": {
+        "Total taxes": "1,679 $",
+        "Taxes municipales": "1,519 $",
+        "Taxes scolaires": "160 $",
+        "Terrain": "66,400 $",
+        "Bâtiment": "188,900 $",
+        "Évaluation totale": "255,300 $"
+      },
+      "additionalInfo": "Découvrez cette propriété située sur le chemin du Lac-Connelly à Saint-Hippolyte, dans un environnement paisible et boisé où la tranquillité et la nature occupent une place centrale. Implantée sur un terrain de près de 20 000 pieds carrés, elle offre un cadre intime et verdoyant, tout en demeurant à proximité des services essentiels. La propriété comprend 2 chambres, une salle de bain ainsi que des espaces de vie fonctionnels, dont une cuisine de bonnes dimensions, un salon, une salle à manger et une salle de lavage. Elle offre plusieurs possibilités, que ce soit comme résidence principale ou comme chalet, selon vos besoins et votre mode de vie. L'un des principaux attraits de cette propriété demeure son accès au lac Connelly. Une servitude de passage située à environ deux minutes de marche permet de rejoindre le lac et de profiter de l'accès à l'eau. Le lac est navigable, permettant de profiter pleinement des activités nautiques et des plaisirs de la vie au bord de l'eau. Un emplacement tout indiqué pour se baigner, profiter de l'extérieur ou simplement apprécier le calme des environs. Le terrain boisé contribue à l'intimité des lieux et permet de profiter pleinement de l'environnement naturel. Malgré cette impression d'évasion, la propriété se trouve à moins de 10 minutes des commodités, notamment des épiceries, pharmacies et autres services essentiels. Améliorations apportées en 2025: Cuisine Plomberie de la cuisine Salle de bain Revêtement de plancher Toiture"
+    },
     {
       "uls": "16236651",
       "country": "ca",
@@ -120,7 +218,7 @@
       "street": "455-rue-rochon-102",
       "title": "455, Rue Rochon, 102 - Saint-Jérôme (Saint-Jérôme)",
       "shareTitle": "Appartement - 455, Rue Rochon, 102, Saint-Jérôme (Saint-Jérôme)",
-      "price": "284 900 $",
+      "price": "279 000 $",
       "address": "455, Rue Rochon, 102",
       "cityLabel": "Saint-Jérôme (Saint-Jérôme)",
       "propertyType": "Appartement",
