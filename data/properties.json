@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-07T12:54:52.043052+00:00",
+  "generatedAt": "2026-08-08T12:38:36.530048+00:00",
   "listings": [
     {
       "uls": "11864448",
@@ -1577,111 +1577,6 @@
         "Évaluation totale": "214,700 $"
       },
       "additionalInfo": "Nichée au coeur de la nature à Saint-Jean-de-Matha, cette magnifique propriété vous invite à découvrir un art de vivre unique, à la fois calme, ressourçant et profondément connecté aux plus beaux éléments qui font la richesse de cette région. Implantée sur un généreux terrain boisé de plus de 46 000 pieds carrés, la propriété offre une intimité remarquable dans l'un des secteurs les plus paisibles de la région, entourée de voisins discrets et d'un environnement verdoyant à couper le souffle. À quelques pas seulement, la rivière Noire vous tend les bras avec son débarcadère accessible à proximité, parfait pour les amateurs de canot, de kayak ou simplement pour savourer le courant tranquille au fil des saisons. Le Lac Noir, accessible en quelques minutes à peine, enrichit davantage ce secteur d'une dimension récréative fort appréciée des familles et des amoureux de plein air. Intérieurement, la maison propose une organisation claire et intuitive: le rez-de-chaussée réunit un salon chaleureux, une salle à manger lumineuse, une cuisine fonctionnelle et une chambre principale spacieuse, dans un espace de vie simple, pratique et agréable au quotidien. Le sous-sol vient harmonieusement compléter la mise avec 2 chambres additionnelles, une salle de bain complète et de généreux espaces de rangement, offrant une belle polyvalence selon vos besoins et projets futurs. À l'extérieur, la cour privée et la grande galerie couverte en façade créent un espace de détente authentique, idéal pour profiter pleinement des chaudes soirées estivales entre amis ou en famille, en toute tranquillité. Cette propriété représente une opportunité de conjuguer la sérénité absolue de la campagne avec la commodité de la proximité des services essentiels."
-    },
-    {
-      "uls": "18514201",
-      "country": "ca",
-      "province": "qc",
-      "city": "blainville",
-      "sector": "centre",
-      "street": "1164-boul-du-cure-labelle-406",
-      "title": "1164, Boul. du Curé-Labelle, 406 - Blainville (Nord)",
-      "shareTitle": "Appartement - 1164, Boul. du Curé-Labelle, 406, Blainville (Nord)",
-      "price": "",
-      "address": "1164, Boul. du Curé-Labelle, 406",
-      "cityLabel": "Blainville (Nord)",
-      "propertyType": "Appartement",
-      "size": "86.8 mc",
-      "beds": "2",
-      "baths": "1",
-      "sold": true,
-      "isNew": false,
-      "description": "Condo situé au dernier étage, unité de coin sans voisin au-dessus, offrant une belle luminosité grâce à sa fenestration sur plusieurs côtés. Aire de vie à aire ouverte regroupant salon, salle à manger et cuisine, avec plafond cathédrale et foyer au gaz au salon. Deux chambres de bonnes dimensions, unité bien entretenue. Emplacement stratégique près des services, écoles, route 117 et autoroute 15.",
-      "proprioUrl": "https://propriodirect.com/laurentides/blainville/appartement-a-vendre/1164-boul-du-cure-labelle-406-18514201/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/18514201",
-      "fallbackImage": "18514201.jpg",
-      "publicPath": "/ca/qc/blainville/centre/1164-boul-du-cure-labelle-406/",
-      "postalCode": "J7C3J4",
-      "datePosted": "2026/02/10",
-      "yearBuilt": "2009",
-      "livingArea": "86.8 mc",
-      "floorLevel": "3ième étage",
-      "condoFees": "308 $ / mois",
-      "parking": "Extérieur",
-      "highlights": {
-        "Année de construction": "2009",
-        "Superficie habitable": "86.8 mc",
-        "Niveau": "3ième étage",
-        "Frais de copropriété": "308 $ / mois",
-        "Stationnement (total)": "Extérieur"
-      },
-      "details": {
-        "Équipement disponible": "Balcon privé, Climatiseur mural, Échangeur d'air",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Plinthes électriques",
-        "Piscine": "Creusée",
-        "Armoires": "Mélamine",
-        "Système d'égouts": "Municipal",
-        "Stationnement (total)": "Extérieur",
-        "Énergie pour le chauffage": "Électricité",
-        "Particularités": "Unité de coin",
-        "Approvisionnement en eau": "Municipalité"
-      },
-      "inclusions": "Fixtures/luminaires, support à télévision (1), air climatisé murale, lave-vaisselle, hotte de cuisinière, foyer au gaz, pôles de rideaux et rideaux.",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "3ième étage",
-          "dimensions": "6.8x4.9 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "3ième étage",
-          "dimensions": "11.2x10.2 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Cuisine",
-          "level": "3ième étage",
-          "dimensions": "10.10x7.8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salon",
-          "level": "3ième étage",
-          "dimensions": "15.9x16.9 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "3ième étage",
-          "dimensions": "11x9 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "3ième étage",
-          "dimensions": "14.2x11 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "3ième étage",
-          "dimensions": "8.8x10.1 P",
-          "flooring": "Plancher flottant"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "2,376 $",
-        "Taxes municipales": "2,186 $",
-        "Taxes scolaires": "190 $",
-        "Terrain": "52,700 $",
-        "Bâtiment": "280,100 $",
-        "Évaluation totale": "332,800 $"
-      },
-      "additionalInfo": "Merveilleux condo situé au dernier étage, unité de coin, offrant une intimité recherchée : aucun voisin au-dessus et une fenestration généreuse sur plusieurs côtés, procurant une belle luminosité naturelle dans l'ensemble des pièces. L'espace de vie est conçu à aire ouverte, regroupant le salon, la salle à manger et la cuisine, ce qui crée une circulation fluide et un environnement convivial. Le salon spacieux se distingue par son plafond cathédrale et son foyer au gaz, ajoutant chaleur et caractère à la pièce principale. Le condo propose deux chambres de très bonnes dimensions, bien proportionnées et soigneusement entretenues. L'unité est propre, fonctionnelle et prête à accueillir ses nouveaux occupants. À l'extérieur, une place de stationnement située directement en face de la bâtisse ajoute un confort fort apprécié au quotidien. Emplacement stratégique à proximité de nombreux services : écoles primaires et secondaires, épiceries, commerces, ainsi qu'un accès rapide à la route 117 et à l'autoroute 15, facilitant les déplacements. Un condo lumineux, bien situé et offrant une qualité de vie recherchée."
     }
   ]
 }
