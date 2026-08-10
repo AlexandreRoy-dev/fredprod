@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-09T12:40:57.605566+00:00",
+  "generatedAt": "2026-08-10T12:58:17.759883+00:00",
   "listings": [
     {
       "uls": "11864448",
@@ -20,7 +20,7 @@
       "beds": "4",
       "baths": "2",
       "sold": false,
-      "isNew": false,
+      "isNew": true,
       "description": "Charmante propriété bien entretenue située dans un quartier familial de Saint-Jérôme! Elle offre 4 chambres, dont 2 au rez-de-chaussée et 2 au sous-sol, ainsi que 2 salles de bain. Profitez d'un salon chaleureux avec foyer électrique, d'un sous-sol complètement aménagé avec salle familiale et d'une cour intime bordée de haies, idéale pour profiter des beaux jours. Son emplacement est un atout, à proximité des autoroutes, du centre-ville, des pistes cyclables et du Parc Multisport. Plusieurs améliorations ont été apportées au fil des années, dont la toiture, les thermopompes murales, les planchers, l'isolation du sous-sol et plusieurs éléments",
       "proprioUrl": "https://propriodirect.com/laurentides/saint-jerome/maison-de-plain-pied-a-vendre/327-rue-pelletier-11864448/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/11864448",
@@ -247,7 +247,7 @@
       "beds": "2",
       "baths": "1",
       "sold": false,
-      "isNew": true,
+      "isNew": false,
       "description": "Découvrez cette propriété située à Saint-Hippolyte, dans un environnement paisible et boisé à proximité du lac Connelly. Implantée sur un terrain de près de 20 000 pi², elle offre un cadre intime, idéal comme résidence principale ou chalet. La propriété comprend **2 chambres** et des espaces de vie fonctionnels. À environ deux minutes de marche, une servitude de passage permet d'accéder au lac Connelly, navigable et propice à la baignade et aux activités nautiques. Plusieurs améliorations ont été réalisées en 2025, notamment à la cuisine, à la plomberie de la cuisine, à la salle de bain, aux revêtements de plancher et à la toiture.",
       "proprioUrl": "https://propriodirect.com/laurentides/saint-hippolyte/maison-de-plain-pied-a-vendre/900-ch-du-lac-connelly-23254573/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/23254573",
