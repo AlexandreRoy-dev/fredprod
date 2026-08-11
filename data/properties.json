@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-10T12:58:17.759883+00:00",
+  "generatedAt": "2026-08-11T12:57:02.218072+00:00",
   "listings": [
     {
       "uls": "11864448",
@@ -20,7 +20,7 @@
       "beds": "4",
       "baths": "2",
       "sold": false,
-      "isNew": true,
+      "isNew": false,
       "description": "Charmante propriété bien entretenue située dans un quartier familial de Saint-Jérôme! Elle offre 4 chambres, dont 2 au rez-de-chaussée et 2 au sous-sol, ainsi que 2 salles de bain. Profitez d'un salon chaleureux avec foyer électrique, d'un sous-sol complètement aménagé avec salle familiale et d'une cour intime bordée de haies, idéale pour profiter des beaux jours. Son emplacement est un atout, à proximité des autoroutes, du centre-ville, des pistes cyclables et du Parc Multisport. Plusieurs améliorations ont été apportées au fil des années, dont la toiture, les thermopompes murales, les planchers, l'isolation du sous-sol et plusieurs éléments",
       "proprioUrl": "https://propriodirect.com/laurentides/saint-jerome/maison-de-plain-pied-a-vendre/327-rue-pelletier-11864448/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/11864448",
@@ -155,7 +155,7 @@
       "beds": "2",
       "baths": "1",
       "sold": false,
-      "isNew": true,
+      "isNew": false,
       "description": "Charmant plain-pied situé dans un quartier familial et paisible de Saint-Lin--Laurentides. Cette propriété offre 2 chambres, 1 salle de bain et un spacieux salon agrémenté d'un poêle à combustion lente. Les grandes fenêtres procurent une belle luminosité naturelle et les nombreux espaces de rangement ajoutent au côté pratique. La grande cuisine avec porte patio s'ouvre sur un terrain soigneusement aménagé, agrémenté d'un magnifique gazebo. À proximité d'une école primaire, garderie, pharmacie, IGA, piste cyclable et autoroute. Une propriété bien située, chaleureuse et entretenue avec soin",
       "proprioUrl": "https://propriodirect.com/lanaudiere/saint-lin-laurentides/maison-de-plain-pied-a-vendre/11-rue-xavier-17178529/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/17178529",
