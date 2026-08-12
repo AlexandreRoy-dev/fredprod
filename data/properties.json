@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-11T12:57:02.218072+00:00",
+  "generatedAt": "2026-08-12T12:59:25.747062+00:00",
   "listings": [
     {
       "uls": "11864448",
@@ -1225,133 +1225,6 @@
         "Évaluation totale": "406,700 $"
       },
       "additionalInfo": "Située dans un secteur recherché et familial, à seulement cinq minutes à pied de l'école primaire de l'Aubier, cette propriété offre un cadre de vie idéal pour une famille. Implantée sur un terrain intime sans voisin à l'arrière, elle vous permet de profiter d'une cour aménagée et d'une tranquillité appréciable au quotidien. La maison comprend quatre chambres de bonnes dimensions, en plus d'un bureau au sous-sol, parfait pour le télétravail ou pour répondre aux besoins d'une famille grandissante. La chambre principale se distingue par sa salle de bain attenante, offrant confort et intimité. La propriété a bénéficié de plusieurs améliorations au fil des ans. En 2021, des travaux significatifs ont été réalisés, notamment l'ajout d'une thermopompe murale pour un confort optimal en toute saison, la rénovation d'une salle de bain, l'installation d'un adoucisseur d'eau ainsi que la finition du plafond au sous-sol. Plus récemment, en 2025, la toiture a été refaite, assurant une tranquillité d'esprit aux futurs propriétaires. L'aménagement intérieur est fonctionnel et lumineux, avec des espaces bien répartis et un sous-sol offrant de multiples possibilités selon vos besoins. Le garage intégré ajoute un aspect pratique au quotidien. Une propriété bien entretenue, située dans un environnement paisible, à proximité des services et des écoles, combinant espace, intimité et améliorations importantes déjà effectuées."
-    },
-    {
-      "uls": "25394168",
-      "country": "ca",
-      "province": "qc",
-      "city": "saint-lin-laurentides",
-      "sector": "centre",
-      "street": "23-rue-fournier",
-      "title": "23, Rue Fournier - Saint-Lin/Laurentides (Saint-Lin)",
-      "shareTitle": "Maison de plain-pied - 23, Rue Fournier, Saint-Lin/Laurentides (Saint-Lin)",
-      "price": "",
-      "address": "23, Rue Fournier",
-      "cityLabel": "Saint-Lin/Laurentides (Saint-Lin)",
-      "propertyType": "Maison de plain-pied",
-      "size": "",
-      "beds": "3",
-      "baths": "2",
-      "sold": true,
-      "isNew": false,
-      "description": "Nichée dans un environnement boisé et paisible, cette propriété bénéficie d'une intimité totale à l'arrière. Située à quelques minutes de l'école primaire de l'Aubier et de la route 335, elle offre un équilibre idéal entre nature et accessibilité. Intérieur lumineux et bien entretenu, avec 2 chambres au rez-de-chaussée, 1 à l'étage et 2 salles de bain complètes. Garage 24 x 30 pi2 et sentier arrière menant aux activités de plein air.",
-      "proprioUrl": "https://propriodirect.com/lanaudiere/saint-lin-laurentides/maison-de-plain-pied-a-vendre/23-rue-fournier-25394168/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/25394168",
-      "fallbackImage": "25394168.jpg",
-      "publicPath": "/ca/qc/saint-lin-laurentides/centre/23-rue-fournier/",
-      "postalCode": "J5M2H4",
-      "datePosted": "2026/05/13",
-      "yearBuilt": "2008",
-      "livingArea": "",
-      "floorLevel": "",
-      "condoFees": "",
-      "parking": "Extérieur, Au garage",
-      "highlights": {
-        "Année de construction": "2008",
-        "Garage": "Chauffé, Détaché, Double largeur ou plus"
-      },
-      "details": {
-        "Toiture": "Bardeaux d'asphalte",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Plinthes électriques",
-        "Garage": "Chauffé, Détaché, Double largeur ou plus",
-        "Piscine": "Hors-terre",
-        "Armoires": "Mélamine",
-        "Système d'égouts": "Champ d'épuration, Fosse septique",
-        "Stationnement (total)": "Extérieur, Au garage",
-        "Énergie pour le chauffage": "Électricité",
-        "Particularités": "Aucun voisin à l'arrière, Boisé",
-        "Approvisionnement en eau": "Puits artésien"
-      },
-      "inclusions": "Hotte de cuisinière, fixtures/luminaires, luminaires encastrés, stores, support de télévision (2), adoucisseur d'eau, système d'alarme non relié, échangeur d'air, thermopompe murale, ouvre-porte garage, foyer électrique, piscine hors-terre, chauffe-eau piscine (doit être installé), remise, gazebo, table de billard dans le garage, pôles de rideaux et rideaux. Exclu Lave-vaisselle et caméras de surveillance.",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "1er niveau/RDC",
-          "dimensions": "6.6x4.1 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salon",
-          "level": "1er niveau/RDC",
-          "dimensions": "15.6x11 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "1er niveau/RDC",
-          "dimensions": "9.9x12.9 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Cuisine",
-          "level": "1er niveau/RDC",
-          "dimensions": "12.1x9.5 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "1er niveau/RDC",
-          "dimensions": "11.5x7.8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "1er niveau/RDC",
-          "dimensions": "14.1x11.5 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "1er niveau/RDC",
-          "dimensions": "11.1x9.8 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle familiale",
-          "level": "Sous-sol",
-          "dimensions": "27x15.9 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de jeux",
-          "level": "Sous-sol",
-          "dimensions": "14x8.5 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Sous-sol",
-          "dimensions": "11.3x13.6 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "Sous-sol",
-          "dimensions": "9.7x8.5 P",
-          "flooring": "Céramique"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "2,778 $",
-        "Taxes municipales": "2,500 $",
-        "Taxes scolaires": "278 $",
-        "Terrain": "116,900 $",
-        "Bâtiment": "316,200 $",
-        "Évaluation totale": "433,100 $"
-      },
-      "additionalInfo": "Située dans un secteur boisé, paisible et recherché, cette propriété offre une tranquillité rare avec aucun voisin à l'arrière. Un véritable havre de paix, tout en restant près des services. À seulement 3 minutes en voiture de l'école primaire de l'Aubier et moins de 5 minutes de la route 335, l'emplacement est idéal pour une vie familiale ou pour ceux qui souhaitent combiner nature et accessibilité. La maison est très bien entretenue, lumineuse et accueillante, avec une belle clarté naturelle tout au long de la journée. Elle propose 2 chambres au rez-de-chaussée et une chambre à l'étage ainsi que deux salles de bain complètes. Un immense garage de 24 x 30 pieds offre un espace parfait pour les bricoleurs, amateurs de véhicules récréatifs ou rangement supplémentaire. À l'arrière, un sentier donne directement accès à un terrain idéal pour la marche, le skidoo ou le 4 roues."
     },
     {
       "uls": "23235992",
