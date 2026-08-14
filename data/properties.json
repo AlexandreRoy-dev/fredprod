@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-13T13:00:00.339858+00:00",
+  "generatedAt": "2026-08-14T12:55:58.414791+00:00",
   "listings": [
     {
       "uls": "11864448",
@@ -1225,131 +1225,6 @@
         "Évaluation totale": "406,700 $"
       },
       "additionalInfo": "Située dans un secteur recherché et familial, à seulement cinq minutes à pied de l'école primaire de l'Aubier, cette propriété offre un cadre de vie idéal pour une famille. Implantée sur un terrain intime sans voisin à l'arrière, elle vous permet de profiter d'une cour aménagée et d'une tranquillité appréciable au quotidien. La maison comprend quatre chambres de bonnes dimensions, en plus d'un bureau au sous-sol, parfait pour le télétravail ou pour répondre aux besoins d'une famille grandissante. La chambre principale se distingue par sa salle de bain attenante, offrant confort et intimité. La propriété a bénéficié de plusieurs améliorations au fil des ans. En 2021, des travaux significatifs ont été réalisés, notamment l'ajout d'une thermopompe murale pour un confort optimal en toute saison, la rénovation d'une salle de bain, l'installation d'un adoucisseur d'eau ainsi que la finition du plafond au sous-sol. Plus récemment, en 2025, la toiture a été refaite, assurant une tranquillité d'esprit aux futurs propriétaires. L'aménagement intérieur est fonctionnel et lumineux, avec des espaces bien répartis et un sous-sol offrant de multiples possibilités selon vos besoins. Le garage intégré ajoute un aspect pratique au quotidien. Une propriété bien entretenue, située dans un environnement paisible, à proximité des services et des écoles, combinant espace, intimité et améliorations importantes déjà effectuées."
-    },
-    {
-      "uls": "23235992",
-      "country": "ca",
-      "province": "qc",
-      "city": "saint-joseph-du-lac",
-      "sector": "centre",
-      "street": "396-rue-julien",
-      "title": "396, Rue Julien - Saint-Joseph-du-Lac (Sud)",
-      "shareTitle": "Maison de plain-pied - 396, Rue Julien, Saint-Joseph-du-Lac (Sud)",
-      "price": "",
-      "address": "396, Rue Julien",
-      "cityLabel": "Saint-Joseph-du-Lac (Sud)",
-      "propertyType": "Maison de plain-pied",
-      "size": "",
-      "beds": "4",
-      "baths": "1",
-      "sold": true,
-      "isNew": false,
-      "description": "Charmante propriété située à Saint-Joseph-du-Lac, à proximité de la route 344 et de l'autoroute 640, dans un secteur paisible et familial près d'une école. Implantée sur un terrain intime de plus de 11 000 pi², cette maison bien entretenue offre 4 chambres ainsi qu'un bureau pouvant servir de 5e chambre. Les espaces de vie sont lumineux et fonctionnels, avec un sous-sol entièrement aménagé idéal pour la vie familiale. Plusieurs rénovations importantes ont été réalisées au fil des années, assurant confort et tranquillité d'esprit. Une belle opportunité pour une famille cherchant un milieu de vie chaleureux et accessible.",
-      "proprioUrl": "https://propriodirect.com/laurentides/saint-joseph-du-lac/maison-de-plain-pied-a-vendre/396-rue-julien-23235992/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/23235992",
-      "fallbackImage": "23235992.jpg",
-      "publicPath": "/ca/qc/saint-joseph-du-lac/centre/396-rue-julien/",
-      "postalCode": "J0N1M0",
-      "datePosted": "2026/04/28",
-      "yearBuilt": "1989",
-      "livingArea": "",
-      "floorLevel": "",
-      "condoFees": "",
-      "parking": "Extérieur, Au garage",
-      "highlights": {
-        "Année de construction": "1989",
-        "Garage": "Attaché"
-      },
-      "details": {
-        "Équipement disponible": "Installation aspirateur central, Balcon privé, Cour privée, Système d'alarme",
-        "Toiture": "Bardeaux d'asphalte",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Plinthes à convection",
-        "Garage": "Attaché",
-        "Système d'égouts": "Municipal",
-        "Stationnement (total)": "Extérieur, Au garage",
-        "Énergie pour le chauffage": "Électricité",
-        "Approvisionnement en eau": "Municipalité"
-      },
-      "inclusions": "Hotte de cuisinière, miroir de la salle de bain, fixtures, ventilateur dans les chambres au rez-de-chaussée, luminaires, luminaires encastrés, stores, caméra de surveillance, système d'alarme, 2 remises, module de jeux pour enfant, aspirateur central et accessoires. Exclu Lave-vaisselle.",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Salon",
-          "level": "1er niveau/RDC",
-          "dimensions": "15.6x13.2 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Cuisine",
-          "level": "1er niveau/RDC",
-          "dimensions": "11.4x10.11 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "1er niveau/RDC",
-          "dimensions": "8.11x11.6 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "1er niveau/RDC",
-          "dimensions": "13.8x11.9 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "1er niveau/RDC",
-          "dimensions": "10.11x11.4 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "1er niveau/RDC",
-          "dimensions": "9.8x10.3 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "1er niveau/RDC",
-          "dimensions": "11.3x10.1 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle familiale",
-          "level": "Sous-sol",
-          "dimensions": "23.10x24.8 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Sous-sol",
-          "dimensions": "13.1x13.4 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle d'eau",
-          "level": "Sous-sol",
-          "dimensions": "7.9x10.9 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Bureau à domicile",
-          "level": "Sous-sol",
-          "dimensions": "14.11x13.1 P",
-          "flooring": "Plancher flottant"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "3,135 $",
-        "Taxes municipales": "2,822 $",
-        "Taxes scolaires": "313 $",
-        "Terrain": "191,400 $",
-        "Bâtiment": "352,200 $",
-        "Évaluation totale": "543,600 $"
-      },
-      "additionalInfo": "Superbe propriété située dans un secteur recherché de Saint-Joseph-du-Lac, à proximité de la route 344 et de l'autoroute 640, offrant un accès rapide aux principaux axes routiers tout en conservant la tranquillité d'un quartier familial. À distance de marche d'une école et près de toutes les commodités essentielles, cette maison représente un choix idéal pour une famille en quête de confort et de stabilité. Implantée sur un vaste terrain intime de plus de 11 000 pieds carrés, cette propriété a été entretenue avec grand soin au fil des années. On y ressent immédiatement l'attention et l'amour qui y ont été investis. Elle propose 4 chambres à coucher ainsi qu'un bureau, pouvant facilement être aménagé en cinquième chambre selon vos besoins. Le rez-de-chaussée offre une disposition fonctionnelle avec des espaces de vie lumineux et accueillants. Le sous-sol, entièrement aménagé, comprend une grande salle familiale et offre de nombreuses possibilités d'aménagement selon votre style de vie. Le tout est complété par un garage pratique et une allée pouvant accueillir plusieurs véhicules. Plusieurs rénovations majeures ont été effectuées, assurant une tranquillité d'esprit aux futurs propriétaires: 2014 : -Remplacement complet du drain français -Remplacement des gouttières 2018 : -Toiture 2021 : -Remplacement des fenêtres et des portes 2023 : -Remplacement de la pompe submersible et du réservoir d'eau chaude 2024 : -L'asphalte de l'allée/entrée de stationnement -Remplacement du plancher de toutes les pièces du sous-sol"
     },
     {
       "uls": "15999928",
