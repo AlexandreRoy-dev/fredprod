@@ -1,9 +1,12 @@
 {
-  "generatedAt": "2026-08-23T12:31:28.234047+00:00",
+  "generatedAt": "2026-08-24T12:40:03.368287+00:00",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
   "includeSold": true,
   "maxListings": 50,
-  "removedStale": [],
+  "removedStale": [
+    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/16236651",
+    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/16236651.jpg"
+  ],
   "listings": [
     {
       "uls": "11864448",
@@ -103,48 +106,6 @@
       "source": "centris",
       "publicPath": "/ca/qc/saint-hippolyte/centre/900-ch-du-lac-connelly/",
       "ogShareImage": "assets/img/proprietes/23254573/og-share.jpg"
-    },
-    {
-      "uls": "16236651",
-      "photoCount": 33,
-      "photos": [
-        "01.jpg",
-        "02.jpg",
-        "03.jpg",
-        "04.jpg",
-        "05.jpg",
-        "06.jpg",
-        "07.jpg",
-        "08.jpg",
-        "09.jpg",
-        "10.jpg",
-        "11.jpg",
-        "12.jpg",
-        "13.jpg",
-        "14.jpg",
-        "15.jpg",
-        "16.jpg",
-        "17.jpg",
-        "18.jpg",
-        "19.jpg",
-        "20.jpg",
-        "21.jpg",
-        "22.jpg",
-        "23.jpg",
-        "24.jpg",
-        "25.jpg",
-        "26.jpg",
-        "27.jpg",
-        "28.jpg",
-        "29.jpg",
-        "30.jpg",
-        "31.jpg",
-        "32.jpg",
-        "33.jpg"
-      ],
-      "source": "proprio",
-      "publicPath": "/ca/qc/saint-eustache/centre/577-rue-jerome-richer-1/",
-      "ogShareImage": "assets/img/proprietes/16236651/og-share.jpg"
     },
     {
       "uls": "16477655",

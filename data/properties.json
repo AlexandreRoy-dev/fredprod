@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-23T12:31:28.232411+00:00",
+  "generatedAt": "2026-08-24T12:40:03.366788+00:00",
   "listings": [
     {
       "uls": "11864448",
@@ -327,114 +327,6 @@
         "Évaluation totale": "255,300 $"
       },
       "additionalInfo": "Découvrez cette propriété située sur le chemin du Lac-Connelly à Saint-Hippolyte, dans un environnement paisible et boisé où la tranquillité et la nature occupent une place centrale. Implantée sur un terrain de près de 20 000 pieds carrés, elle offre un cadre intime et verdoyant, tout en demeurant à proximité des services essentiels. La propriété comprend 2 chambres, une salle de bain ainsi que des espaces de vie fonctionnels, dont une cuisine de bonnes dimensions, un salon, une salle à manger et une salle de lavage. Elle offre plusieurs possibilités, que ce soit comme résidence principale ou comme chalet, selon vos besoins et votre mode de vie. L'un des principaux attraits de cette propriété demeure son accès au lac Connelly. Une servitude de passage située à environ deux minutes de marche permet de rejoindre le lac et de profiter de l'accès à l'eau. Le lac est navigable, permettant de profiter pleinement des activités nautiques et des plaisirs de la vie au bord de l'eau. Un emplacement tout indiqué pour se baigner, profiter de l'extérieur ou simplement apprécier le calme des environs. Le terrain boisé contribue à l'intimité des lieux et permet de profiter pleinement de l'environnement naturel. Malgré cette impression d'évasion, la propriété se trouve à moins de 10 minutes des commodités, notamment des épiceries, pharmacies et autres services essentiels. Améliorations apportées en 2025: Cuisine Plomberie de la cuisine Salle de bain Revêtement de plancher Toiture"
-    },
-    {
-      "uls": "16236651",
-      "country": "ca",
-      "province": "qc",
-      "city": "saint-eustache",
-      "sector": "centre",
-      "street": "577-rue-jerome-richer-1",
-      "title": "577, Rue Jérôme-Richer, 1 - Saint-Eustache (Nord Est)",
-      "shareTitle": "Appartement - 577, Rue Jérôme-Richer, 1, Saint-Eustache (Nord Est)",
-      "price": "",
-      "address": "577, Rue Jérôme-Richer, 1",
-      "cityLabel": "Saint-Eustache (Nord Est)",
-      "propertyType": "Appartement",
-      "size": "87.6 mc",
-      "beds": "2",
-      "baths": "1",
-      "sold": true,
-      "isNew": false,
-      "description": "Superbe condo de 2 chambres à Saint-Eustache avec cuisine rénovée. Acte de vente et occupation flexibles, gestion externe et emplacement stratégique près des autoroutes 15 et 640, de l'Hôpital de Saint-Eustache, des écoles Arc-en-ciel et des Patriotes, du Super C et de plusieurs services essentiels. Une visite s'impose!",
-      "proprioUrl": "https://propriodirect.com/laurentides/saint-eustache/appartement-a-vendre/577-rue-jerome-richer-1-16236651/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/16236651",
-      "fallbackImage": "16236651.jpg",
-      "publicPath": "/ca/qc/saint-eustache/centre/577-rue-jerome-richer-1/",
-      "postalCode": "J7P5P5",
-      "datePosted": "2026/07/09",
-      "yearBuilt": "2002",
-      "livingArea": "87.6 mc",
-      "floorLevel": "Rez-de-jardin",
-      "condoFees": "200 $ / mois",
-      "parking": "Extérieur",
-      "highlights": {
-        "Année de construction": "2002",
-        "Superficie habitable": "87.6 mc",
-        "Niveau": "Rez-de-jardin",
-        "Frais de copropriété": "200 $ / mois",
-        "Stationnement (total)": "Extérieur"
-      },
-      "details": {
-        "Équipement disponible": "Installation aspirateur central, Thermopompe murale",
-        "Stationnement (total)": "Extérieur",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Plinthes électriques",
-        "Énergie pour le chauffage": "Électricité",
-        "Approvisionnement en eau": "Municipalité",
-        "Système d'égouts": "Municipal"
-      },
-      "inclusions": "Foyer électrique, fixtures/luminaires, thermopompe murale, luminaires encastrées, hotte de cuisinière, support de télévision, stores, pôles de rideaux et rideaux. Exclu Possibilité de rajouter dans les inclusions laveuse/sécheuse.",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Rez-de-jardin",
-          "dimensions": "8x4 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salon",
-          "level": "Rez-de-jardin",
-          "dimensions": "14.9x17.8 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "Rez-de-jardin",
-          "dimensions": "9.4x11.10 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Cuisine",
-          "level": "Rez-de-jardin",
-          "dimensions": "10x10 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "Rez-de-jardin",
-          "dimensions": "10x7.10 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "Rez-de-jardin",
-          "dimensions": "12.4x13.2 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Rez-de-jardin",
-          "dimensions": "9.3x12.4 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de lavage",
-          "level": "Rez-de-jardin",
-          "dimensions": "10x10.5 P",
-          "flooring": "Plancher flottant"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "2,404 $",
-        "Taxes municipales": "2,223 $",
-        "Taxes scolaires": "181 $",
-        "Terrain": "122,200 $",
-        "Bâtiment": "173,100 $",
-        "Évaluation totale": "295,300 $"
-      },
-      "additionalInfo": "Superbe condo de 2 chambres offrant un excellent équilibre entre confort, emplacement et tranquillité. Dès l'entrée, vous apprécierez les belles divisions ainsi que l'aire de vie conviviale. Le salon, la salle à manger et la cuisine offrent un espace agréable au quotidien, que ce soit pour recevoir ou simplement profiter de votre chez-vous. La cuisine, rénovée récemment, apporte une touche actuelle et moderne à l'unité. Elle saura plaire à ceux qui recherchent un espace fonctionnel, au goût du jour et facile à entretenir. Le condo comprend également une salle de bain complète avec bain et douche séparée, une salle de lavage pratique avec rangement, ainsi que deux espaces de stationnement. La copropriété bénéficie d'une gestion externe, un avantage intéressant pour les acheteurs qui souhaitent une administration plus structurée et un suivi simplifié. L'acte de vente et l'occupation peuvent être flexibles, ce qui permet de mieux s'adapter aux besoins de l'acheteur. L'emplacement est un autre point fort. Vous serez à proximité des autoroutes 15 et 640, facilitant les déplacements vers Laval, Montréal et les Laurentides. Le secteur offre aussi un accès rapide à l'Hôpital de Saint-Eustache, à l'école secondaire des Patriotes, à l'école primaire Arc-en-ciel, à l'épicerie Super C, ainsi qu'à plusieurs commerces, services, parcs et transports en commun. Avec ses 2 chambres, sa cuisine rénovée, sa localisation stratégique et sa flexibilité d'occupation, ce condo représente une belle opportunité autant pour un premier acheteur, une personne seule, un couple ou même un acheteur recherchant un pied-à-terre bien situé à Saint-Eustache."
     },
     {
       "uls": "16477655",
