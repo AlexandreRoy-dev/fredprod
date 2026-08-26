@@ -1,8 +1,126 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-25T12:39:35.151908+00:00",
+  "generatedAt": "2026-08-26T12:42:19.794065+00:00",
   "listings": [
+    {
+      "uls": "15220100",
+      "country": "ca",
+      "province": "qc",
+      "city": "terrebonne-terrebonne",
+      "sector": "centre",
+      "street": "3769-rue-des-flandres",
+      "title": "3769, Rue des Flandres - Terrebonne (Saint-Louis/Hauteville)",
+      "shareTitle": "Maison de plain-pied - 3769, Rue des Flandres, Terrebonne (Saint-Louis/Hauteville)",
+      "price": "599 000 $",
+      "address": "3769, Rue des Flandres",
+      "cityLabel": "Terrebonne (Saint-Louis/Hauteville)",
+      "propertyType": "Maison de plain-pied",
+      "size": "",
+      "beds": "4",
+      "baths": "2",
+      "sold": false,
+      "isNew": true,
+      "description": "Plain-pied de 4 chambres situé sur un coin de rue, dans un secteur familial et paisible. Aire ouverte lumineuse, grande salle familiale au sous-sol et cour intime avec piscine. À quelques minutes des écoles, de Maxi, Super C, Jean Coutu et de l'autoroute 640. Propriété soigneusement entretenue.",
+      "proprioUrl": "https://propriodirect.com/lanaudiere/terrebonne-terrebonne/maison-de-plain-pied-a-vendre/3769-rue-des-flandres-15220100/",
+      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/15220100",
+      "fallbackImage": "15220100.jpg",
+      "publicPath": "/ca/qc/terrebonne-terrebonne/centre/3769-rue-des-flandres/",
+      "postalCode": "J6X2H8",
+      "datePosted": "2026/08/25",
+      "yearBuilt": "1986",
+      "livingArea": "",
+      "floorLevel": "",
+      "condoFees": "",
+      "parking": "Extérieur",
+      "highlights": {
+        "Année de construction": "1986"
+      },
+      "details": {
+        "Équipement disponible": "Installation aspirateur central, Cour privée",
+        "Toiture": "Bardeaux d'asphalte",
+        "Zonage": "Résidentiel",
+        "Mode de chauffage": "Plinthes électriques",
+        "Piscine": "Hors-terre",
+        "Système d'égouts": "Municipal",
+        "Stationnement (total)": "Extérieur",
+        "Énergie pour le chauffage": "Électricité",
+        "Approvisionnement en eau": "Municipalité"
+      },
+      "inclusions": "Lave-vaisselle, miroir de la salle de bain, fixtures/luminaires, ventilateurs (3), luminaires extérieurs, stores, supports TV (2), hotte de cuisinière, aspirateur central et accessoires, foyer au bois, piscine hors terre, remise, rideaux et pôles de rideaux. Exclu Exclusion : Gazebo Possibilité de rajouter dans les inclusions : Ensemble de patio.",
+      "exclusions": "",
+      "rooms": [
+        {
+          "name": "Hall d'entrée/Vestibule",
+          "level": "1er niveau/RDC",
+          "dimensions": "6.4x4.2 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle à manger",
+          "level": "1er niveau/RDC",
+          "dimensions": "20x8.10 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Cuisine",
+          "level": "1er niveau/RDC",
+          "dimensions": "16.4x9.6 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher principale",
+          "level": "1er niveau/RDC",
+          "dimensions": "11.11x12.9 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "1er niveau/RDC",
+          "dimensions": "12x9.3 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "1er niveau/RDC",
+          "dimensions": "8.6x7.7 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle familiale",
+          "level": "Sous-sol",
+          "dimensions": "15.11x21.10 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "Sous-sol",
+          "dimensions": "11.4x10.9 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "Sous-sol",
+          "dimensions": "11.4x9.8 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "Sous-sol",
+          "dimensions": "7.11x8.11 P",
+          "flooring": "Céramique"
+        }
+      ],
+      "taxes": {
+        "Total taxes": "3,743 $",
+        "Taxes municipales": "3,421 $",
+        "Taxes scolaires": "322 $",
+        "Terrain": "247,200 $",
+        "Bâtiment": "244,400 $",
+        "Évaluation totale": "491,600 $"
+      },
+      "additionalInfo": "Découvrez ce charmant plain-pied de 4 chambres à coucher, soigneusement entretenu au fil des années et situé sur un coin de rue, dans un quartier paisible, familial et sécuritaire de Terrebonne. Dès votre entrée, vous apprécierez la grande aire de vie ouverte, baignée de lumière naturelle grâce aux grandes fenêtres. L'espace est convivial et fonctionnel, parfait autant pour la vie quotidienne que pour recevoir famille et amis. Les chambres sont toutes de belles dimensions et offrent une belle polyvalence selon vos besoins. Au sous-sol, une vaste salle familiale vous attend, idéale comme cinéma maison, salle de jeux, espace pour les enfants ou coin détente. À l'extérieur, profitez d'une cour intime et soigneusement aménagée, parfaite pour recevoir durant la belle saison. La piscine et les différents espaces extérieurs créent un environnement convivial où vous pourrez pleinement profiter de vos étés. La propriété a également bénéficié d'améliorations importantes, notamment une toiture refaite vers 2022 ainsi qu'un chauffe-eau remplacé en 2023. Une maison prise avec soin et prête à accueillir ses prochains propriétaires. Pour les familles, l'emplacement est particulièrement intéressant avec l'École primaire de l'Étincelle située à environ 3 minutes en voiture et l'École secondaire des Trois-Saisons à environ 4 minutes, en plus de plusieurs parcs dans le secteur. Vous profitez également d'une excellente proximité avec les services et commerces du quotidien, notamment Maxi, Super C, Metro Plus, Jean Coutu, ainsi que plusieurs restaurants et autres commerces à quelques minutes de la propriété. L'autoroute 640 est également accessible en quelques minutes, facilitant les déplacements quotidiens vers les secteurs environnants. Une propriété qui combine espace, luminosité, intimité et proximité des services!"
+    },
     {
       "uls": "11864448",
       "country": "ca",
