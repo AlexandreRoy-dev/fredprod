@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-29T16:07:22.231903+00:00",
+  "generatedAt": "2026-08-30T15:57:49.432514+00:00",
   "listings": [
     {
       "uls": "28305557",
@@ -763,14 +763,14 @@
       "street": "11810-rue-de-vaudreuil",
       "title": "11810, Rue De Vaudreuil - Mirabel (Domaine Vert Nord)",
       "shareTitle": "Maison à étages - 11810, Rue De Vaudreuil, Mirabel (Domaine Vert Nord)",
-      "price": "899 000 $",
+      "price": "",
       "address": "11810, Rue De Vaudreuil",
       "cityLabel": "Mirabel (Domaine Vert Nord)",
       "propertyType": "Maison à étages",
       "size": "",
       "beds": "5",
       "baths": "2",
-      "sold": false,
+      "sold": true,
       "isNew": false,
       "description": "Propriété offrant 5 chambres, dont 3 à l'étage, ainsi que 2 salles de bain complètes et une salle d'eau. Située dans un croissant paisible et familial, à proximité de la nouvelle école primaire, de l'A15 et des Outlets Mirabel. Terrain de plus de 7 500 pi² avec haies de cèdres assurant une belle intimité. Cour aménagée avec piscine creusée, bar extérieur avec pergola et spa. Aménagement extérieur récent, parfait pour recevoir et profiter pleinement de l'été.",
       "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/11810-rue-de-vaudreuil-23991648/",
