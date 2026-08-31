@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-08-30T15:57:49.432514+00:00",
+  "generatedAt": "2026-08-31T18:40:50.103583+00:00",
   "listings": [
     {
       "uls": "28305557",
@@ -322,14 +322,14 @@
       "street": "327-rue-pelletier",
       "title": "327, Rue Pelletier - Saint-Jérôme (Saint-Jérôme)",
       "shareTitle": "Maison de plain-pied - 327, Rue Pelletier, Saint-Jérôme (Saint-Jérôme)",
-      "price": "525 000 $",
+      "price": "",
       "address": "327, Rue Pelletier",
       "cityLabel": "Saint-Jérôme (Saint-Jérôme)",
       "propertyType": "Maison de plain-pied",
       "size": "",
       "beds": "4",
       "baths": "2",
-      "sold": false,
+      "sold": true,
       "isNew": false,
       "description": "Charmante propriété bien entretenue située dans un quartier familial de Saint-Jérôme! Elle offre 4 chambres, dont 2 au rez-de-chaussée et 2 au sous-sol, ainsi que 2 salles de bain. Profitez d'un salon chaleureux avec foyer électrique, d'un sous-sol complètement aménagé avec salle familiale et d'une cour intime bordée de haies, idéale pour profiter des beaux jours. Son emplacement est un atout, à proximité des autoroutes, du centre-ville, des pistes cyclables et du Parc Multisport. Plusieurs améliorations ont été apportées au fil des années, dont la toiture, les thermopompes murales, les planchers, l'isolation du sous-sol et plusieurs éléments",
       "proprioUrl": "https://propriodirect.com/laurentides/saint-jerome/maison-de-plain-pied-a-vendre/327-rue-pelletier-11864448/",
