@@ -1,8 +1,142 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-09-01T16:00:14.943494+00:00",
+  "generatedAt": "2026-09-02T15:52:40.382828+00:00",
   "listings": [
+    {
+      "uls": "18012999",
+      "country": "ca",
+      "province": "qc",
+      "city": "saint-colomban",
+      "sector": "centre",
+      "street": "295-rue-des-ormes",
+      "title": "295, Rue des Ormes - Saint-Colomban",
+      "shareTitle": "Maison à étages - 295, Rue des Ormes, Saint-Colomban",
+      "price": "875 000 $",
+      "address": "295, Rue des Ormes",
+      "cityLabel": "Saint-Colomban",
+      "propertyType": "Maison à étages",
+      "size": "",
+      "beds": "3",
+      "baths": "2",
+      "sold": false,
+      "isNew": true,
+      "description": "Découvrez cette magnifique propriété à Saint-Colomban, située dans un rond-point paisible offrant intimité et tranquillité. Son concept à aire ouverte au goût du jour, sa superbe fenestration et sa luminosité naturelle vous charmeront. Elle propose 3 chambres, un bureau pouvant servir de 4e chambre, 2 salles de bain, une salle d'eau ainsi qu'un sous-sol entièrement aménagé. Profitez également de deux garages, chacun avec sa propre porte d'accès. Plusieurs améliorations ont été apportées au fil des ans. À proximité des garderies, écoles primaires, dépanneur et à seulement 8 minutes de l'autoroute 15. Une propriété idéale pour la famille!",
+      "proprioUrl": "https://propriodirect.com/laurentides/saint-colomban/maison-a-etages-a-vendre/295-rue-des-ormes-18012999/",
+      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/18012999",
+      "fallbackImage": "18012999.jpg",
+      "publicPath": "/ca/qc/saint-colomban/centre/295-rue-des-ormes/",
+      "postalCode": "J5K0J2",
+      "datePosted": "2026/09/01",
+      "yearBuilt": "2013",
+      "livingArea": "",
+      "floorLevel": "",
+      "condoFees": "",
+      "parking": "Extérieur, Au garage",
+      "highlights": {
+        "Année de construction": "2013",
+        "Garage": "Attaché, Chauffé"
+      },
+      "details": {
+        "Équipement disponible": "Installation aspirateur central, Adoucisseur d'eau, Échangeur d'air, Porte de garage électrique, Système d'alarme, Thermopompe murale",
+        "Toiture": "Bardeaux d'asphalte",
+        "Zonage": "Résidentiel",
+        "Mode de chauffage": "Plinthes électriques",
+        "Garage": "Attaché, Chauffé",
+        "Piscine": "Chauffée, Creusée",
+        "Système d'égouts": "Système BIONEST, Champ d'épuration, Fosse septique",
+        "Stationnement (total)": "Extérieur, Au garage",
+        "Énergie pour le chauffage": "Électricité",
+        "Fenêtres": "PVC",
+        "Particularités": "Cul-de-sac",
+        "Approvisionnement en eau": "Puits artésien"
+      },
+      "inclusions": "Lave-vaisselle, hotte de cuisine, miroir de la salle de bain, fixtures/luminaires, pôles de rideaux, rideaux, stores, lit escamotable dans la chambre du sous-sol, adoucisseur d'eau, système d'alarme, serrure électronique, échangeur d'air, thermopompe murale, ouvre-porte garage, foyer au propane, tablette du garage, support télévision mural dans le salon, chauffe-eau piscine 2021, remise, module d'enfant, aspirateur central et accessoires. Exclu Borne électrique et support télévision mural dans chambre principale. Possibilité de rajouter dans les inclusions: Foyer extérieur, cuisinière électrique et réfrigérateur.",
+      "exclusions": "",
+      "rooms": [
+        {
+          "name": "Salon",
+          "level": "Rez-de-jardin",
+          "dimensions": "13.0x14.3 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Salle à manger",
+          "level": "Rez-de-jardin",
+          "dimensions": "10.10x13.7 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Cuisine",
+          "level": "Rez-de-jardin",
+          "dimensions": "15.1x13.5 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle d'eau",
+          "level": "Rez-de-jardin",
+          "dimensions": "7.8x8.10 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "2ième étage",
+          "dimensions": "13.0x8.11 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Chambre à coucher principale",
+          "level": "2ième étage",
+          "dimensions": "13.0x11.6 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Penderie (Walk-in)",
+          "level": "2ième étage",
+          "dimensions": "9.0x5.3 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "2ième étage",
+          "dimensions": "11.0x10.11 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "2ième étage",
+          "dimensions": "12.9x10.11 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salle de jeux",
+          "level": "Sous-sol",
+          "dimensions": "25.5x15.2 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Bureau à domicile",
+          "level": "Sous-sol",
+          "dimensions": "10.10x11.11 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "Sous-sol",
+          "dimensions": "6.7x9.4 P",
+          "flooring": "Céramique"
+        }
+      ],
+      "taxes": {
+        "Total taxes": "3,929 $",
+        "Taxes municipales": "3,488 $",
+        "Taxes scolaires": "441 $",
+        "Terrain": "136,000 $",
+        "Bâtiment": "522,700 $",
+        "Évaluation totale": "658,700 $"
+      },
+      "additionalInfo": "Découvrez cette magnifique propriété située à Saint-Colomban! Implantée dans un rond-point, elle offre un environnement calme, intime et idéal pour la famille. Dès votre arrivée, vous serez charmé par son concept à aire ouverte, moderne et convivial, ainsi que par sa magnifique fenestration qui baigne les pièces de lumière naturelle. La propriété offre 3 chambres à coucher, en plus d'un bureau pouvant facilement être converti en 4e chambre, selon vos besoins. Vous y trouverez également 2 salles de bain complètes ainsi qu'une salle d'eau, offrant confort et fonctionnalité pour toute la famille. Le sous-sol entièrement aménagé propose un espace supplémentaire idéal pour une salle familiale, une salle de jeux, un cinéma maison ou encore un espace de travail. Pour les amateurs de rangement et de véhicules, la propriété se démarque également par ses deux garages, chacun bénéficiant de sa propre porte d'accès. Un atout rare et pratique! À l'extérieur, profitez d'un environnement offrant intimité et tranquillité, tout en étant à proximité de plusieurs services essentiels. Vous serez à quelques minutes d'un dépanneur, des garderies et des écoles primaires, en plus d'un accès rapide à l'autoroute 15, située à environ 8 minutes. Une propriété chaleureuse, lumineuse et soigneusement entretenue qui saura répondre aux besoins de votre famille Plusieurs améliorations ont été réalisées au fil des années afin de moderniser et d'améliorer la propriété: Rénovations et améliorations: 2021 Luminaires Piscine creusée 2022 Revêtement extérieur en acier sur la façade Revêtement extérieur en vinyle du cabanon 2023 Porte et fenêtres du garage 2024 Plancher chauffant de la salle de bain Baignoire et vanité de la salle de bain Plancher chauffant de la salle d'eau Plancher de bois du salon Plancher d'époxy du garage inférieur Foyer au propane."
+    },
     {
       "uls": "28305557",
       "country": "ca",
@@ -20,7 +154,7 @@
       "beds": "3",
       "baths": "1",
       "sold": false,
-      "isNew": true,
+      "isNew": false,
       "description": "Imaginez vous réveiller chaque matin au son des oiseaux, entouré d'une forêt dense et apaisante. C'est ce que propose cette maison de plain-pied à Saint-Jean-de-Matha, nichée sur un terrain boisé de plus de 46 000 pieds carrés, dans l'un des secteurs les plus tranquilles de la région. La rivière Noire et son débarcadère, un ruisseau, des sentiers boisés et le Lac Noir à quelques minutes créent un environnement naturel d'une richesse rare. La maison offre 3 chambres, un salon chaleureux, une cuisine et une galerie couverte parfaite pour contempler la nature en toute quiétude.",
       "proprioUrl": "https://propriodirect.com/lanaudiere/saint-jean-de-matha/maison-de-plain-pied-a-vendre/149-ch-du-vieux-moulin-28305557/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/28305557",
