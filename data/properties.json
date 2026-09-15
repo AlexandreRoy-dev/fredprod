@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-09-14T17:33:03.468673+00:00",
+  "generatedAt": "2026-09-15T16:08:45.792377+00:00",
   "listings": [
     {
       "uls": "18012999",
@@ -246,14 +246,14 @@
       "street": "3769-rue-des-flandres",
       "title": "3769, Rue des Flandres - Terrebonne (Saint-Louis/Hauteville)",
       "shareTitle": "Maison de plain-pied - 3769, Rue des Flandres, Terrebonne (Saint-Louis/Hauteville)",
-      "price": "599 000 $",
+      "price": "",
       "address": "3769, Rue des Flandres",
       "cityLabel": "Terrebonne (Saint-Louis/Hauteville)",
       "propertyType": "Maison de plain-pied",
       "size": "",
       "beds": "4",
       "baths": "2",
-      "sold": false,
+      "sold": true,
       "isNew": false,
       "description": "Plain-pied de 4 chambres situé sur un coin de rue, dans un secteur familial et paisible. Aire ouverte lumineuse, grande salle familiale au sous-sol et cour intime avec piscine. À quelques minutes des écoles, de Maxi, Super C, Jean Coutu et de l'autoroute 640. Propriété soigneusement entretenue.",
       "proprioUrl": "https://propriodirect.com/lanaudiere/terrebonne-terrebonne/maison-de-plain-pied-a-vendre/3769-rue-des-flandres-15220100/",
