@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-09-21T17:47:36.597862+00:00",
+  "generatedAt": "2026-09-22T16:10:46.065045+00:00",
   "listings": [
     {
       "uls": "19496833",
@@ -795,114 +795,6 @@
       "additionalInfo": "Découvrez cette propriété située sur le chemin du Lac-Connelly à Saint-Hippolyte, dans un environnement paisible et boisé où la tranquillité et la nature occupent une place centrale. Implantée sur un terrain de près de 20 000 pieds carrés, elle offre un cadre intime et verdoyant, tout en demeurant à proximité des services essentiels. La propriété comprend 2 chambres, une salle de bain ainsi que des espaces de vie fonctionnels, dont une cuisine de bonnes dimensions, un salon, une salle à manger et une salle de lavage. Elle offre plusieurs possibilités, que ce soit comme résidence principale ou comme chalet, selon vos besoins et votre mode de vie. L'un des principaux attraits de cette propriété demeure son accès au lac Connelly. Une servitude de passage située à environ deux minutes de marche permet de rejoindre le lac et de profiter de l'accès à l'eau. Le lac est navigable, permettant de profiter pleinement des activités nautiques et des plaisirs de la vie au bord de l'eau. Un emplacement tout indiqué pour se baigner, profiter de l'extérieur ou simplement apprécier le calme des environs. Le terrain boisé contribue à l'intimité des lieux et permet de profiter pleinement de l'environnement naturel. Malgré cette impression d'évasion, la propriété se trouve à moins de 10 minutes des commodités, notamment des épiceries, pharmacies et autres services essentiels. Améliorations apportées en 2025: Cuisine Plomberie de la cuisine Salle de bain Revêtement de plancher Toiture"
     },
     {
-      "uls": "16477655",
-      "country": "ca",
-      "province": "qc",
-      "city": "saint-jerome",
-      "sector": "centre",
-      "street": "455-rue-rochon-102",
-      "title": "455, Rue Rochon, 102 - Saint-Jérôme (Saint-Jérôme)",
-      "shareTitle": "Appartement - 455, Rue Rochon, 102, Saint-Jérôme (Saint-Jérôme)",
-      "price": "279 000 $",
-      "address": "455, Rue Rochon, 102",
-      "cityLabel": "Saint-Jérôme (Saint-Jérôme)",
-      "propertyType": "Appartement",
-      "size": "85.6 mc",
-      "beds": "2",
-      "baths": "1",
-      "sold": false,
-      "isNew": false,
-      "description": "Condo lumineux à aire ouverte offrant 2 chambres à coucher, dont une chambre principale avec walk-in et salle de bain attenante. Espace de rangement extérieur et stationnement inclus. Situé dans une copropriété bien gérée et bien entretenue. Emplacement pratique à proximité des services, du transport en commun, du train de banlieue et de l'autoroute 15.",
-      "proprioUrl": "https://propriodirect.com/laurentides/saint-jerome/appartement-a-vendre/455-rue-rochon-102-16477655/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/16477655",
-      "fallbackImage": "16477655.jpg",
-      "publicPath": "/ca/qc/saint-jerome/centre/455-rue-rochon-102/",
-      "postalCode": "J7Y3Z7",
-      "datePosted": "2026/06/24",
-      "yearBuilt": "2004",
-      "livingArea": "85.6 mc",
-      "floorLevel": "Terrasse - (Demi sous-sol)",
-      "condoFees": "235 $ / mois",
-      "parking": "Extérieur",
-      "highlights": {
-        "Année de construction": "2004",
-        "Superficie habitable": "85.6 mc",
-        "Niveau": "Terrasse - (Demi sous-sol)",
-        "Frais de copropriété": "235 $ / mois",
-        "Stationnement (total)": "Extérieur"
-      },
-      "details": {
-        "Équipement disponible": "Installation aspirateur central, Échangeur d'air, Interphone",
-        "Zonage": "Résidentiel",
-        "Mode de chauffage": "Plinthes électriques",
-        "Système d'égouts": "Municipal",
-        "Stationnement (total)": "Extérieur",
-        "Énergie pour le chauffage": "Électricité",
-        "Approvisionnement en eau": "Municipalité"
-      },
-      "inclusions": "lave-vaisselle, hotte de cuisinière, fixtures/luminaires, stores, aspirateur central et accessoires, air climatisé non fonctionnel, échangeur d'air, pôles de rideaux et rideaux. Exclu Possibilité de rajouter laveuse et sécheuse.",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Rez-de-jardin",
-          "dimensions": "6.6x3.7 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "Rez-de-jardin",
-          "dimensions": "14.4x12.8 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.5x4 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Rez-de-jardin",
-          "dimensions": "9x12.6 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Cuisine",
-          "level": "Rez-de-jardin",
-          "dimensions": "10.7x10.2 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "Rez-de-jardin",
-          "dimensions": "10.7x11 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salon",
-          "level": "Rez-de-jardin",
-          "dimensions": "15x16.5 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "Rez-de-jardin",
-          "dimensions": "14.2x12 P",
-          "flooring": "Céramique"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "1,785 $",
-        "Taxes municipales": "1,663 $",
-        "Taxes scolaires": "122 $",
-        "Terrain": "57,400 $",
-        "Bâtiment": "159,600 $",
-        "Évaluation totale": "217,000 $"
-      },
-      "additionalInfo": "Découvrez ce magnifique condo soigneusement entretenu offrant une aire de vie à concept ouvert où le salon, la salle à manger et la cuisine se marient harmonieusement. Baigné de lumière naturelle grâce à sa fenestration. L'unité comprend deux chambres à coucher de bonnes dimensions, dont une spacieuse chambre principale munie d'un walk-in et d'une salle de bain attenante procurant confort et intimité. Vous bénéficierez également d'un espace de rangement extérieur pratique ainsi que d'un espace de stationnement. Située dans une copropriété bien administrée et bien entretenue, dont la documentation témoigne d'une gestion rigoureuse, cette propriété offre une tranquillité d'esprit appréciable. À proximité des services, du transport en commun, du train de banlieue, du Cégep et de l'autoroute 15, elle combine parfaitement confort, accessibilité et qualité de vie. Une opportunité idéale pour ceux qui recherchent un condo clé en main dans un secteur stratégique."
-    },
-    {
       "uls": "22530726",
       "country": "ca",
       "province": "qc",
@@ -1213,7 +1105,7 @@
       "baths": "1",
       "sold": false,
       "isNew": false,
-      "description": "Découvrez une propriété moderne et impeccablement entretenue au coeur d'un secteur recherché de Mirabel. Situé près des Premium Outlets Montréal, des écoles, des parcs et des principaux axes routiers, le 18085 rue de Brissac offre un mode de vie pratique et raffiné. Construite en 2022, cette unité de coin séduit par sa luminosité exceptionnelle, son design contemporain et ses finitions haut de gamme. Elle propose 3 chambres à coucher, dont une superbe chambre principale avec walk-in aménagé, des comptoirs de quartz, un élégant escalier vitré ainsi qu'un garage avec plancher d'époxy. Une propriété clé en main pensée avec soin.",
+      "description": "3 chambres, garage double en plus de deux espaces de stationnement extérieurs, cour privée, construction 2022, piscine et gym. Cette unité de coin à Mirabel est libre immédiatement et a bénéficié de plusieurs améliorations et rénovations au fil du temps. Lumineuse, moderne et impeccablement entretenue, elle offre notamment des comptoirs de quartz, un escalier vitré, un walk-in aménagé et un garage avec plancher d'époxy. Voir l'addenda pour la liste complète des améliorations.",
       "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/18085z-rue-de-brissac-14836756/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/14836756",
       "fallbackImage": "14836756.jpg",
@@ -1336,7 +1228,7 @@
       "baths": "1",
       "sold": false,
       "isNew": false,
-      "description": "Découvrez une propriété moderne et impeccablement entretenue au coeur d'un secteur recherché de Mirabel. Situé près des Premium Outlets Montréal, des écoles, des parcs et des principaux axes routiers, le 18085 rue de Brissac offre un mode de vie pratique et raffiné. Construite en 2022, cette unité de coin séduit par sa luminosité exceptionnelle, son design contemporain et ses finitions haut de gamme. Elle propose 3 chambres à coucher, dont une superbe chambre principale avec walk-in aménagé, des comptoirs de quartz, un élégant escalier vitré ainsi qu'un garage avec plancher d'époxy. Une propriété clé en main pensée avec soin.",
+      "description": "3 chambres, garage double en plus de deux espaces de stationnement extérieurs, cour privée, construction 2022, piscine et gym. Cette unité de coin à Mirabel est libre immédiatement et a bénéficié de plusieurs améliorations et rénovations au fil du temps. Lumineuse, moderne et impeccablement entretenue, elle offre notamment des comptoirs de quartz, un escalier vitré, un walk-in aménagé et un garage avec plancher d'époxy. Voir l'addenda pour la liste complète des améliorations.",
       "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/18085-rue-de-brissac-21435686/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/21435686",
       "fallbackImage": "21435686.jpg",
