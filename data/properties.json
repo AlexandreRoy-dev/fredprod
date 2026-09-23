@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-09-22T16:10:46.065045+00:00",
+  "generatedAt": "2026-09-23T16:00:32.801498+00:00",
   "listings": [
     {
       "uls": "19496833",
@@ -20,7 +20,7 @@
       "beds": "2",
       "baths": "1",
       "sold": false,
-      "isNew": true,
+      "isNew": false,
       "description": "Superbe condo d'environ 1 200 pi², très bien entretenu et libre immédiatement. Il offre deux chambres de belles dimensions, de grandes pièces et une belle luminosité naturelle. Vous profiterez également de deux stationnements et d'un emplacement pratique, à moins de 5 minutes à pied de la gare de Blainville, près de la route 117 et de nombreux services. Animaux permis sous conditions et location permise pour une durée minimale d'un an.",
       "proprioUrl": "https://propriodirect.com/laurentides/blainville/appartement-a-vendre/127-54e-avenue-e-103-19496833/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/19496833",
@@ -1096,7 +1096,7 @@
       "street": "18085z-rue-de-brissac",
       "title": "18085Z, Rue de Brissac - Mirabel (Domaine Vert Nord)",
       "shareTitle": "Maison à étages - 18085Z, Rue de Brissac, Mirabel (Domaine Vert Nord)",
-      "price": "699 000 $",
+      "price": "699 500 $",
       "address": "18085Z, Rue de Brissac",
       "cityLabel": "Mirabel (Domaine Vert Nord)",
       "propertyType": "Maison à étages",
@@ -1219,7 +1219,7 @@
       "street": "18085-rue-de-brissac",
       "title": "18085, Rue de Brissac - Mirabel (Domaine Vert Nord)",
       "shareTitle": "Maison à étages - 18085, Rue de Brissac, Mirabel (Domaine Vert Nord)",
-      "price": "699 000 $",
+      "price": "699 500 $",
       "address": "18085, Rue de Brissac",
       "cityLabel": "Mirabel (Domaine Vert Nord)",
       "propertyType": "Maison à étages",
