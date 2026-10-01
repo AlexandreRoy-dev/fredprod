@@ -1,12 +1,9 @@
 {
-  "generatedAt": "2026-09-30T17:32:09.249214+00:00",
+  "generatedAt": "2026-10-01T17:56:14.351135+00:00",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
   "includeSold": true,
   "maxListings": 50,
-  "removedStale": [
-    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/17178529",
-    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/17178529.jpg"
-  ],
+  "removedStale": [],
   "listings": [
     {
       "uls": "19496833",
