@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T17:50:00.174122+00:00",
+  "generatedAt": "2026-10-07T18:21:27.213344+00:00",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
   "includeSold": true,
   "maxListings": 50,
@@ -244,7 +244,7 @@
         "10.jpg",
         "11.jpg"
       ],
-      "source": "centris",
+      "source": "proprio",
       "publicPath": "/ca/qc/lac-superieur/centre/mtee-brien/",
       "ogShareImage": "assets/img/proprietes/10347000/og-share.jpg"
     },
