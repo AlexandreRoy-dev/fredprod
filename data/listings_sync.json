@@ -1,10 +1,33 @@
 {
-  "generatedAt": "2026-10-07T18:21:27.213344+00:00",
+  "generatedAt": "2026-10-08T18:22:30.235198+00:00",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
   "includeSold": true,
   "maxListings": 50,
-  "removedStale": [],
+  "removedStale": [
+    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/10347000",
+    "/home/runner/work/fredprod/fredprod/assets/img/proprietes/10347000.jpg"
+  ],
   "listings": [
+    {
+      "uls": "16373762",
+      "photoCount": 11,
+      "photos": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg",
+        "10.jpg",
+        "11.jpg"
+      ],
+      "source": "centris",
+      "publicPath": "/ca/qc/lac-superieur/centre/mtee-brien/",
+      "ogShareImage": "assets/img/proprietes/16373762/og-share.jpg"
+    },
     {
       "uls": "19496833",
       "photoCount": 31,
@@ -227,26 +250,6 @@
       "source": "centris",
       "publicPath": "/ca/qc/saint-sauveur/centre/880-ch-du-havre-des-monts/",
       "ogShareImage": "assets/img/proprietes/22530726/og-share.jpg"
-    },
-    {
-      "uls": "10347000",
-      "photoCount": 11,
-      "photos": [
-        "01.jpg",
-        "02.jpg",
-        "03.jpg",
-        "04.jpg",
-        "05.jpg",
-        "06.jpg",
-        "07.jpg",
-        "08.jpg",
-        "09.jpg",
-        "10.jpg",
-        "11.jpg"
-      ],
-      "source": "proprio",
-      "publicPath": "/ca/qc/lac-superieur/centre/mtee-brien/",
-      "ogShareImage": "assets/img/proprietes/10347000/og-share.jpg"
     },
     {
       "uls": "14836756",
