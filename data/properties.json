@@ -1,8 +1,131 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-10-12T20:49:54.044190+00:00",
+  "generatedAt": "2026-10-13T18:49:13.485491+00:00",
   "listings": [
+    {
+      "uls": "22614481",
+      "country": "ca",
+      "province": "qc",
+      "city": "laval-sainte-rose",
+      "sector": "centre",
+      "street": "1191-rue-alphonse-rainaud",
+      "title": "1191, Rue Alphonse-Rainaud - Laval (Val/Jardins Ste-Rose)",
+      "shareTitle": "Maison à étages - 1191, Rue Alphonse-Rainaud, Laval (Val/Jardins Ste-Rose)",
+      "price": "624 000 $",
+      "address": "1191, Rue Alphonse-Rainaud",
+      "cityLabel": "Laval (Val/Jardins Ste-Rose)",
+      "propertyType": "Maison à étages",
+      "size": "",
+      "beds": "3",
+      "baths": "2",
+      "sold": false,
+      "isNew": false,
+      "description": "Découvrez cette charmante maison jumelée offrant 3 chambres à coucher et 2 salles de bain, située dans un quartier paisible et familial de Sainte-Rose! Profitez d'un emplacement de choix à proximité des écoles, des commerces, du Vieux-Sainte-Rose et du Bois de l'Équerre. La gare est accessible à pied et les principaux axes routiers sont à quelques minutes. Toiture et balcon rénovés en 2025. Occupation rapide possible!",
+      "proprioUrl": "https://propriodirect.com/laval/laval-sainte-rose/maison-a-etages-a-vendre/1191-rue-alphonse-rainaud-22614481/",
+      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/22614481",
+      "fallbackImage": "22614481.jpg",
+      "publicPath": "/ca/qc/laval-sainte-rose/centre/1191-rue-alphonse-rainaud/",
+      "postalCode": "H7L0C2",
+      "datePosted": "2026/10/13",
+      "yearBuilt": "2008",
+      "livingArea": "",
+      "floorLevel": "",
+      "condoFees": "",
+      "parking": "Extérieur",
+      "highlights": {
+        "Année de construction": "2008"
+      },
+      "details": {
+        "Équipement disponible": "Installation aspirateur central, Balcon privé, Climatiseur mural, Cour privée, Échangeur d'air, Système d'alarme",
+        "Toiture": "Bardeaux d'asphalte",
+        "Zonage": "Résidentiel",
+        "Mode de chauffage": "Plinthes électriques",
+        "Système d'égouts": "Municipal",
+        "Stationnement (total)": "Extérieur",
+        "Énergie pour le chauffage": "Électricité",
+        "Approvisionnement en eau": "Municipalité"
+      },
+      "inclusions": "Lave-vaisselle, hotte de cuisinière, fixtures/luminaires, luminaires encastrés, stores, tablette chambre secondaire à l'étage, pôles de rideaux et rideaux, système d'alarme, air climatisé mural, échangeur d'air, remise, aspirateur central et accessoires.",
+      "exclusions": "",
+      "rooms": [
+        {
+          "name": "Hall d'entrée/Vestibule",
+          "level": "1er niveau/RDC",
+          "dimensions": "5.0x5.2 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salon",
+          "level": "1er niveau/RDC",
+          "dimensions": "15.5x14 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Salle à manger",
+          "level": "1er niveau/RDC",
+          "dimensions": "10.5x8.6 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Cuisine",
+          "level": "1er niveau/RDC",
+          "dimensions": "8.3x8.6 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle d'eau",
+          "level": "1er niveau/RDC",
+          "dimensions": "4.1x4.6 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Chambre à coucher principale",
+          "level": "2ième étage",
+          "dimensions": "14.4x10.9 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "2ième étage",
+          "dimensions": "10.2x10.9 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "2ième étage",
+          "dimensions": "8.6x8.5 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle familiale",
+          "level": "Sous-sol",
+          "dimensions": "11.5x9.4 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "Sous-sol",
+          "dimensions": "17.9x9.4 P",
+          "flooring": "Plancher flottant"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "Sous-sol",
+          "dimensions": "8.2x8.0 P",
+          "flooring": "Céramique"
+        }
+      ],
+      "taxes": {
+        "Total taxes": "3,548 $",
+        "Taxes municipales": "3,207 $",
+        "Taxes scolaires": "341 $",
+        "Terrain": "271,500 $",
+        "Bâtiment": "235,200 $",
+        "Évaluation totale": "506,700 $"
+      },
+      "additionalInfo": "Charmante maison jumelée située dans le secteur recherché de Sainte-Rose, à Laval! Offrant 3 chambres à coucher, 2 salles de bain et 1 salle d'eau, cette propriété représente une belle opportunité pour une famille à la recherche de confort, de tranquillité et de proximité avec les services. Située dans un quartier résidentiel paisible et familial, elle bénéficie d'un emplacement stratégique à moins de 5 minutes en voiture du charmant Vieux-Sainte-Rose, reconnu pour ses nombreux restaurants, ses commerces et son ambiance chaleureuse. Les familles apprécieront particulièrement la proximité de l'école primaire du Parc et de l'école secondaire Curé-Antoine-Labelle, ainsi que des parcs, des espaces verts, des épiceries et de nombreux services essentiels. Les amateurs de plein air seront également comblés par le Bois de l'Équerre, situé à environ 5 minutes en voiture, offrant de magnifiques sentiers pour profiter de la nature en toute saison. Pour faciliter les déplacements quotidiens, la gare de Sainte-Rose se trouve à environ 15 minutes de marche, un avantage considérable pour les utilisateurs du transport en commun. Les principaux axes routiers, notamment les autoroutes 15, 440 et 640, sont également facilement accessibles. Disponible dès maintenant pour une occupation rapide, cette propriété combine parfaitement la tranquillité d'un quartier résidentiel et les avantages d'un emplacement de choix. Une belle occasion de s'établir dans un secteur apprécié de Laval, à proximité de tout ce dont vous avez besoin au quotidien! Améliorations apportées à la propriété : 2013 : Aménagement et finition complète du sous-sol, auparavant non aménagé. 2025 : Réfection de la toiture et rénovation du balcon."
+    },
     {
       "uls": "16373762",
       "country": "ca",
