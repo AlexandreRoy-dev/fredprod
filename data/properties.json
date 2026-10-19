@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-10-18T15:18:18.779682+00:00",
+  "generatedAt": "2026-10-19T18:16:09.596123+00:00",
   "listings": [
     {
       "uls": "22614481",
@@ -20,7 +20,7 @@
       "beds": "3",
       "baths": "2",
       "sold": false,
-      "isNew": false,
+      "isNew": true,
       "description": "Découvrez cette charmante maison jumelée offrant 3 chambres à coucher et 2 salles de bain, située dans un quartier paisible et familial de Sainte-Rose! Profitez d'un emplacement de choix à proximité des écoles, des commerces, du Vieux-Sainte-Rose et du Bois de l'Équerre. La gare est accessible à pied et les principaux axes routiers sont à quelques minutes. Toiture et balcon rénovés en 2025. Occupation rapide possible!",
       "proprioUrl": "https://propriodirect.com/laval/laval-sainte-rose/maison-a-etages-a-vendre/1191-rue-alphonse-rainaud-22614481/",
       "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/22614481",
