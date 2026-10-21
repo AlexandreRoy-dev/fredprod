@@ -66,7 +66,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/ assets/img/proprietes/ assets/js/property-gallery.js assets/js/property-share.js assets/css/properties.css proprietes.html ca/ *.html scripts/
+          git add data/ assets/img/proprietes/ assets/js/property-gallery.js assets/js/property-share.js assets/css/properties.css proprietes.html ca/ *.html scripts/ sitemap.xml robots.txt
 
           if git diff --staged --quiet; then
             echo "No listing changes to commit."

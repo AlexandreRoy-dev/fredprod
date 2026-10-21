@@ -24,11 +24,16 @@
       return assetsBase + uls + "/";
     }
 
+    function photoLabel(index) {
+      var title = root.getAttribute("data-share-title") || "Photo de la propriété";
+      return title + ", photo " + (index + 1);
+    }
+
     function setPhoto(index) {
       if (!photos.length) return;
       activeIndex = (index + photos.length) % photos.length;
       main.src = basePath() + photos[activeIndex];
-      main.alt = root.getAttribute("data-share-title") || "Photo de la propriété";
+      main.alt = photoLabel(activeIndex);
       counter.textContent = activeIndex + 1 + " / " + photos.length;
       thumbs.querySelectorAll("[data-index]").forEach(function (btn) {
         btn.classList.toggle("is-active", Number(btn.getAttribute("data-index")) === activeIndex);
@@ -42,11 +47,15 @@
         btn.type = "button";
         btn.setAttribute("data-index", String(index));
         btn.className = "gallery-thumb";
+        btn.setAttribute("aria-label", "Afficher la photo " + (index + 1));
+        var alt = photoLabel(index).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
         btn.innerHTML =
           '<img src="' +
           basePath() +
           file +
-          '" alt="" loading="lazy">';
+          '" alt="' +
+          alt +
+          '" loading="lazy">';
         btn.addEventListener("click", function () {
           setPhoto(index);
         });

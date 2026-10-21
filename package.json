@@ -11,6 +11,7 @@
     "clean": "rimraf public/*",
     "copy-assets": "cpx \"src/assets/**/*.*\" public/",
     "copy-html": "cpx \"src/html/*.html\" public/",
+    "build:site-css": "npx tailwindcss@3.4.17 -c tailwind.site.config.js -i src/tailwind/site-input.css -o assets/css/site.css --minify",
     "css-compile": "npx @tailwindcss/cli -i src/tailwind/tailwind.css -o public/css/tailwind/tailwind.css",
     "css-minified": "npx @tailwindcss/cli -i src/tailwind/tailwind.css -o public/css/tailwind/tailwind.min.css --minify",
     "css": "npm-run-all --sequential css-*",
