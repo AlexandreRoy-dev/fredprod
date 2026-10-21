@@ -14,6 +14,16 @@ CENTRIS_AGENT_URL = (
     "https://www.centris.ca/fr/courtier-immobilier~frederic-roy~proprio-direct/j2971"
 )
 PROPRIO_AGENT_URL = "https://propriodirect.com/frederic-roy"
+# Trailing slash matches data/properties.json agentUrl. Both profiles were checked (HTTP 200).
+AGENT_PROFILE_URL = "https://propriodirect.com/frederic-roy/"
+PROPERTY_SCHEMA_TYPES = {
+    "Appartement": "Apartment",
+    "Maison à étages": "House",
+    "Maison de plain-pied": "House",
+    "Maison mobile": "House",
+    "Terrain": "Place",
+}
+ACCOMMODATION_SCHEMA_TYPES = {"Apartment", "House"}
 
 
 def load_registry() -> dict:
@@ -49,18 +59,18 @@ def site_chrome(active: str, depth: int = 0) -> tuple[str, str]:
 
     header = f"""<nav class="bg-fred-blue sticky top-0 z-50 transition-all duration-300 shadow-md">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="{p}index.html" class="flex flex-col group drop-shadow-md w-max">
+        <a href="/" class="flex flex-col group drop-shadow-md w-max">
             <img src="{p}public/LOGO_FRED_ROY_blanc_gold.png" alt="Fred Roy" class="h-12 w-auto object-contain" />
             <span class="h-[2px] w-8 bg-fred-gold mt-2 group-hover:w-full transition-all duration-500 ease-out"></span>
         </a>
 
         <ul class="hidden md:flex items-center gap-12 text-white text-xs tracking-luxury font-semibold uppercase drop-shadow-md">
-            <li><a href="{p}index.html#apropos" class="{nav_cls['apropos']}">À Propos</a></li>
+            <li><a href="/#apropos" class="{nav_cls['apropos']}">À Propos</a></li>
             <li><a href="{p}proprietes.html" class="{nav_cls['proprietes']}">Propriétés</a></li>
-            <li><a href="{p}index.html#services" class="{nav_cls['services']}">Services</a></li>
-            <li><a href="{p}index.html#temoignages" class="{nav_cls['temoignages']}">Témoignages</a></li>
+            <li><a href="/#services" class="{nav_cls['services']}">Services</a></li>
+            <li><a href="/#temoignages" class="{nav_cls['temoignages']}">Témoignages</a></li>
             <li>
-                <a href="{p}index.html#contact" class="px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300">
+                <a href="/#contact" class="px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300">
                     Me Contacter
                 </a>
             </li>
@@ -78,12 +88,12 @@ def site_chrome(active: str, depth: int = 0) -> tuple[str, str]:
 
     <div id="mobile-menu" class="md:hidden fixed inset-0 top-0 z-40 bg-fred-blue/98 backdrop-blur-sm pt-24 px-6 pb-8 hidden" aria-hidden="true">
         <ul class="flex flex-col gap-8 text-white text-sm tracking-luxury font-semibold uppercase">
-            <li><a href="{p}index.html#apropos" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">À Propos</a></li>
+            <li><a href="/#apropos" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">À Propos</a></li>
             <li><a href="{p}proprietes.html" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Propriétés</a></li>
-            <li><a href="{p}index.html#services" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Services</a></li>
-            <li><a href="{p}index.html#temoignages" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Témoignages</a></li>
+            <li><a href="/#services" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Services</a></li>
+            <li><a href="/#temoignages" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Témoignages</a></li>
             <li>
-                <a href="{p}index.html#contact" class="inline-block px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300 mobile-menu-link">
+                <a href="/#contact" class="inline-block px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300 mobile-menu-link">
                     Me Contacter
                 </a>
             </li>
@@ -94,7 +104,7 @@ def site_chrome(active: str, depth: int = 0) -> tuple[str, str]:
     footer = f"""<footer class="bg-fred-blue text-white py-20">
     <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-start gap-12">
         <div>
-            <a href="{p}index.html" class="block mb-6 w-max">
+            <a href="/" class="block mb-6 w-max">
                 <img src="{p}public/LOGO_FRED_ROY_blanc_gold.png" alt="Fred Roy" class="h-16 w-auto object-contain" />
             </a>
             <p class="text-gray-400 text-sm font-light max-w-xs mb-8">
@@ -105,9 +115,9 @@ def site_chrome(active: str, depth: int = 0) -> tuple[str, str]:
         </div>
 
         <div class="flex gap-8 text-xs uppercase tracking-widest text-gray-400">
-            <a href="{p}index.html" class="hover:text-fred-gold transition-colors">Accueil</a>
+            <a href="/" class="hover:text-fred-gold transition-colors">Accueil</a>
             <a href="{p}proprietes.html" class="hover:text-fred-gold transition-colors">Propriétés</a>
-            <a href="{p}index.html#contact" class="hover:text-fred-gold transition-colors">Contact</a>
+            <a href="/#contact" class="hover:text-fred-gold transition-colors">Contact</a>
         </div>
 
         <div class="text-xs text-gray-500 font-light">
@@ -228,28 +238,7 @@ def head_block(
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {{
-      theme: {{
-        extend: {{
-          colors: {{
-            fred: {{
-              blue: '#282e64',
-              gold: '#be9018',
-              gray: '#F5F7FA',
-            }}
-          }},
-          fontFamily: {{
-            sans: ['Montserrat', 'sans-serif'],
-          }},
-          letterSpacing: {{
-            luxury: '0.2em',
-          }}
-        }}
-      }}
-    }}
-  </script>
+  <link rel="stylesheet" href="/assets/css/site.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="{p}assets/css/properties.css" rel="stylesheet">
   <link rel="canonical" href="{escape(canonical)}">
@@ -275,6 +264,127 @@ def head_block(
   </style>
 {extra}
 </head>"""
+
+
+def json_ld_script(data: dict) -> str:
+    payload = json.dumps(data, ensure_ascii=False, indent=2).replace("<", "\\u003c")
+    return f'  <script type="application/ld+json">\n{payload}\n  </script>\n'
+
+
+def agent_ref() -> dict:
+    """Identity stated on the site. Profiles checked: HTTP 200.
+
+    TODO: add address and areaServed once the office and territory are confirmed.
+    The site does not state them.
+    """
+    return {
+        "@type": "RealEstateAgent",
+        "name": "Fred Roy",
+        "alternateName": "Frédéric Roy",
+        "url": f"{BASE_URL}/",
+        "telephone": "+1-438-882-6840",
+        "email": "info@fredroy.ca",
+        "sameAs": [AGENT_PROFILE_URL, CENTRIS_AGENT_URL],
+    }
+
+
+def price_digits(raw: str | None) -> str | None:
+    if not raw:
+        return None
+    digits = re.sub(r"\D", "", raw)
+    return digits or None
+
+
+def iso_date(value: str | None) -> str | None:
+    if not value:
+        return None
+    match = re.fullmatch(r"(\d{4})/(\d{2})/(\d{2})", str(value).strip())
+    if not match:
+        return None
+    return f"{match.group(1)}-{match.group(2)}-{match.group(3)}"
+
+
+def listing_schema(listing: dict, canonical: str, image: str, description: str) -> dict:
+    schema_type = PROPERTY_SCHEMA_TYPES.get(listing.get("propertyType") or "", "Place")
+    about = {
+        "@type": schema_type,
+        "name": listing.get("title") or listing.get("address") or listing.get("shareTitle"),
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": listing.get("address") or "",
+            "addressLocality": listing.get("cityLabel") or "",
+            "addressRegion": "QC",
+            "addressCountry": "CA",
+        },
+    }
+    postal = listing.get("postalCode")
+    if postal:
+        about["address"]["postalCode"] = str(postal)
+    if schema_type in ACCOMMODATION_SCHEMA_TYPES:
+        beds = str(listing.get("beds") or "")
+        baths = str(listing.get("baths") or "")
+        if re.fullmatch(r"\d+", beds):
+            about["numberOfBedrooms"] = int(beds)
+        if re.fullmatch(r"\d+", baths):
+            about["numberOfBathroomsTotal"] = int(baths)
+        year = str(listing.get("yearBuilt") or "")
+        if re.fullmatch(r"\d{4}", year):
+            about["yearBuilt"] = int(year)
+
+    node = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateListing",
+        "name": listing.get("shareTitle") or listing.get("title") or "Propriété",
+        "url": canonical,
+        "description": description,
+        "image": image,
+        "inLanguage": "fr",
+        "about": about,
+    }
+    posted = iso_date(listing.get("datePosted"))
+    if posted:
+        node["datePublished"] = posted
+
+    seller = agent_ref()
+    amount = price_digits(listing.get("price"))
+    if listing.get("sold"):
+        node["offers"] = {
+            "@type": "Offer",
+            "availability": "https://schema.org/SoldOut",
+            "seller": seller,
+        }
+    elif amount:
+        node["offers"] = {
+            "@type": "Offer",
+            "price": amount,
+            "priceCurrency": "CAD",
+            "availability": "https://schema.org/InStock",
+            "seller": seller,
+        }
+    return node
+
+
+def listings_page_schema(listings: list, description: str) -> dict:
+    elements = []
+    for position, listing in enumerate(listings, start=1):
+        elements.append(
+            {
+                "@type": "ListItem",
+                "position": position,
+                "name": listing.get("shareTitle") or listing.get("title") or "Propriété",
+                "url": BASE_URL + public_path(listing),
+            }
+        )
+    return {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Propriétés - Fred Roy, courtier immobilier",
+        "url": f"{BASE_URL}/proprietes.html",
+        "description": description,
+        "inLanguage": "fr",
+        "about": agent_ref(),
+        "mainEntity": {"@type": "ItemList", "itemListElement": elements},
+    }
 
 
 def listing_card_html(listing: dict, depth: int = 0) -> str:
@@ -338,8 +448,8 @@ def generate_listings_page(registry: dict) -> None:
     )
 
     description = (
-        "Découvrez les propriétés en vigueur de Fred Roy, courtier immobilier "
-        "résidentiel Proprio Direct."
+        "Inscriptions actuelles et propriétés vendues de Fred Roy, "
+        "courtier immobilier résidentiel Proprio Direct."
     )
     og_image = f"{BASE_URL}/public/LOGO_FRED_ROY_blanc_gold.png"
     if ordered:
@@ -353,6 +463,7 @@ def generate_listings_page(registry: dict) -> None:
         canonical=f"{BASE_URL}/proprietes.html",
         og_image=og_image,
         depth=0,
+        extra=json_ld_script(listings_page_schema(ordered, description)),
     )}
 <body class="antialiased bg-fred-gray text-fred-blue font-sans selection:bg-fred-gold selection:text-white proprietes-page">
 {header}
@@ -501,7 +612,7 @@ def generate_detail_page(listing: dict) -> None:
     else:
         actions_html = f"""
             <div class="property-actions">
-              <a class="btn-primary" href="{p}index.html#contact">Demander une visite</a>
+              <a class="btn-primary" href="/#contact">Demander une visite</a>
               <a class="btn-outline" href="{escape(listing.get('proprioUrl') or '#')}" target="_blank" rel="noopener">Voir sur Proprio Direct</a>
               <a class="btn-outline" href="{escape(listing.get('centrisUrl') or '#')}" target="_blank" rel="noopener">Voir sur Centris</a>
             </div>"""
@@ -570,12 +681,16 @@ def generate_detail_page(listing: dict) -> None:
             <p>{escape(listing.get("additionalInfo") or "")}</p>
           </div>"""
 
+    full_description = listing.get("description") or description
     body = f"""{head_block(
         title=listing.get("shareTitle") or listing.get("title") or "Propriété",
         description=description,
         canonical=canonical,
         og_image=og_image,
         depth=depth,
+        extra=json_ld_script(
+            listing_schema(listing, canonical, og_image, full_description)
+        ),
     )}
 <body class="antialiased bg-fred-gray text-fred-blue font-sans selection:bg-fred-gold selection:text-white property-details-page">
 {header}
@@ -717,6 +832,48 @@ def update_nav_links() -> None:
             print(f"updated Propriétés links in {path.name}")
 
 
+ROBOTS_TXT = """User-agent: *
+Allow: /
+Disallow: /src/
+
+Sitemap: https://fredroy.ca/sitemap.xml
+"""
+
+
+def generate_robots_and_sitemap(registry: dict) -> None:
+    text = ROBOTS_TXT if ROBOTS_TXT.endswith("\n") else ROBOTS_TXT + "\n"
+    (ROOT / "robots.txt").write_text(text, encoding="utf-8")
+    (ROOT / "public" / "robots.txt").write_text(text, encoding="utf-8")
+    src_robots = ROOT / "src" / "assets" / "robots.txt"
+    if src_robots.parent.exists():
+        src_robots.write_text(text, encoding="utf-8")
+
+    locs: list[str] = [
+        f"{BASE_URL}/",
+        f"{BASE_URL}/proprietes.html",
+        f"{BASE_URL}/confidentialite.html",
+    ]
+    for listing in registry.get("listings", []):
+        locs.append(BASE_URL + public_path(listing))
+    seen: list[str] = []
+    for loc in locs:
+        if loc not in seen:
+            seen.append(loc)
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for loc in seen:
+        lines.append("  <url>")
+        lines.append(f"    <loc>{escape(loc)}</loc>")
+        lines.append("  </url>")
+    lines.append("</urlset>")
+    lines.append("")
+    (ROOT / "sitemap.xml").write_text("\n".join(lines), encoding="utf-8")
+    print(f"wrote robots.txt and sitemap.xml ({len(seen)} urls)")
+
+
 def generate_all() -> None:
     registry = load_registry()
     generate_listings_page(registry)
@@ -724,6 +881,7 @@ def generate_all() -> None:
         generate_detail_page(listing)
     prune_stale_detail_pages(registry)
     update_nav_links()
+    generate_robots_and_sitemap(registry)
 
 
 if __name__ == "__main__":

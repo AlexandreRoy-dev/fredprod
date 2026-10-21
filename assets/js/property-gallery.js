@@ -42,11 +42,12 @@
         btn.type = "button";
         btn.setAttribute("data-index", String(index));
         btn.className = "gallery-thumb";
-        btn.innerHTML =
-          '<img src="' +
-          basePath() +
-          file +
-          '" alt="" loading="lazy">';
+        var label = root.getAttribute("data-share-title") || "Photo de la propriété";
+        var img = document.createElement("img");
+        img.src = basePath() + file;
+        img.alt = "Photo " + (index + 1) + ", " + label;
+        img.loading = "lazy";
+        btn.appendChild(img);
         btn.addEventListener("click", function () {
           setPhoto(index);
         });

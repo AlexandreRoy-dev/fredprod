@@ -13,6 +13,7 @@
     "copy-html": "cpx \"src/html/*.html\" public/",
     "css-compile": "npx @tailwindcss/cli -i src/tailwind/tailwind.css -o public/css/tailwind/tailwind.css",
     "css-minified": "npx @tailwindcss/cli -i src/tailwind/tailwind.css -o public/css/tailwind/tailwind.min.css --minify",
+    "css-site": "npx tailwindcss@3.4.17 -c tailwind.site.config.js -i src/tailwind/site-input.css -o assets/css/site.css --minify",
     "css": "npm-run-all --sequential css-*",
     "build": "npm-run-all --sequential clean copy-* css",
     "watch": "npm-run-all build --parallel watch-templates watch-css browsersync",

@@ -1,2 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /src/
+
+Sitemap: https://fredroy.ca/sitemap.xml
