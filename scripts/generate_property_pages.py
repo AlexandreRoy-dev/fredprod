@@ -14,6 +14,151 @@ CENTRIS_AGENT_URL = (
     "https://www.centris.ca/fr/courtier-immobilier~frederic-roy~proprio-direct/j2971"
 )
 PROPRIO_AGENT_URL = "https://propriodirect.com/frederic-roy"
+AGENT_NAME = "Fred Roy"
+AGENT_PHONE = "+1-438-882-6840"
+AGENT_EMAIL = "info@fredroy.ca"
+META_DESCRIPTION_LIMIT = 158
+
+
+def home_href(anchor: str = "") -> str:
+    """Homepage URL without /index.html, so / and /index.html are not duplicates."""
+    if anchor:
+        return "/#" + anchor.lstrip("#")
+    return "/"
+
+
+def plain_text(text: str) -> str:
+    cleaned = (text or "").replace("**", "")
+    return re.sub(r"\s+", " ", cleaned).strip()
+
+
+def meta_description(text: str, limit: int = META_DESCRIPTION_LIMIT) -> str:
+    """Complete sentences from existing copy, trimmed to the snippet limit."""
+    cleaned = plain_text(text)
+    if len(cleaned) <= limit:
+        return cleaned
+    sentences = re.split(r"(?<=[.!?])\s+", cleaned)
+    chosen = ""
+    for sentence in sentences:
+        candidate = sentence if not chosen else f"{chosen} {sentence}"
+        if len(candidate) <= limit:
+            chosen = candidate
+        else:
+            break
+    if chosen:
+        return chosen
+    return cleaned[:limit].rsplit(" ", 1)[0].rstrip(" ,;:")
+
+
+def price_number(price: str) -> int | None:
+    digits = re.sub(r"\D", "", price or "")
+    return int(digits) if digits else None
+
+
+def json_ld_script(data: dict) -> str:
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    payload = payload.replace("<", "\\u003c")
+    return f'  <script type="application/ld+json">{payload}</script>\n'
+
+
+def agent_entity() -> dict:
+    return {
+        "@type": "RealEstateAgent",
+        "name": AGENT_NAME,
+        "alternateName": "Frédéric Roy",
+        "url": f"{BASE_URL}/",
+        "telephone": AGENT_PHONE,
+        "email": AGENT_EMAIL,
+        "image": f"{BASE_URL}/public/fred.jpg",
+    }
+
+
+def iso_date(value: str) -> str | None:
+    parts = str(value or "").split("/")
+    if len(parts) == 3 and all(part.isdigit() for part in parts):
+        year, month, day = parts
+        return f"{int(year):04d}-{int(month):02d}-{int(day):02d}"
+    return None
+
+
+def int_fact(value: str) -> int | None:
+    text = str(value or "").strip()
+    return int(text) if text.isdigit() else None
+
+
+def listing_json_ld(listing: dict, canonical: str, og_image: str, description: str) -> str:
+    address = {
+        "@type": "PostalAddress",
+        "streetAddress": listing.get("address") or "",
+        "addressLocality": listing.get("cityLabel") or "",
+        "addressRegion": "QC",
+        "addressCountry": "CA",
+    }
+    if listing.get("postalCode"):
+        address["postalCode"] = listing["postalCode"]
+
+    data: dict = {
+        "@context": "https://schema.org",
+        "@type": "RealEstateListing",
+        "name": listing.get("shareTitle") or listing.get("title") or listing.get("address"),
+        "url": canonical,
+        "description": description,
+        "image": og_image,
+        "inLanguage": "fr-CA",
+        "address": address,
+        "broker": agent_entity(),
+    }
+    posted = iso_date(listing.get("datePosted") or "")
+    if posted:
+        data["datePosted"] = posted
+    bedrooms = int_fact(listing.get("beds") or "")
+    if bedrooms is not None:
+        data["numberOfBedrooms"] = bedrooms
+    bathrooms = int_fact(listing.get("baths") or "")
+    if bathrooms is not None:
+        data["numberOfBathroomsTotal"] = bathrooms
+
+    offer = {
+        "@type": "Offer",
+        "priceCurrency": "CAD",
+        "url": canonical,
+        "availability": (
+            "https://schema.org/SoldOut"
+            if listing.get("sold")
+            else "https://schema.org/InStock"
+        ),
+    }
+    amount = price_number(listing.get("price") or "")
+    if amount is not None:
+        offer["price"] = amount
+    if amount is not None or listing.get("sold"):
+        data["offers"] = offer
+    return json_ld_script(data)
+
+
+def generate_sitemap(registry: dict) -> None:
+    generated = str(registry.get("generatedAt") or "")
+    lastmod = generated[:10] if len(generated) >= 10 and generated[4] == "-" else ""
+    locs = [
+        f"{BASE_URL}/",
+        f"{BASE_URL}/proprietes.html",
+        f"{BASE_URL}/confidentialite.html",
+    ]
+    locs.extend(BASE_URL + public_path(item) for item in registry.get("listings", []))
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for loc in locs:
+        lines.append("  <url>")
+        lines.append(f"    <loc>{escape(loc)}</loc>")
+        if lastmod:
+            lines.append(f"    <lastmod>{lastmod}</lastmod>")
+        lines.append("  </url>")
+    lines.append("</urlset>")
+    lines.append("")
+    (ROOT / "sitemap.xml").write_text("\n".join(lines), encoding="utf-8")
+    print("wrote sitemap.xml")
 
 
 def load_registry() -> dict:
@@ -49,18 +194,18 @@ def site_chrome(active: str, depth: int = 0) -> tuple[str, str]:
 
     header = f"""<nav class="bg-fred-blue sticky top-0 z-50 transition-all duration-300 shadow-md">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="{p}index.html" class="flex flex-col group drop-shadow-md w-max">
+        <a href="{home_href()}" class="flex flex-col group drop-shadow-md w-max">
             <img src="{p}public/LOGO_FRED_ROY_blanc_gold.png" alt="Fred Roy" class="h-12 w-auto object-contain" />
             <span class="h-[2px] w-8 bg-fred-gold mt-2 group-hover:w-full transition-all duration-500 ease-out"></span>
         </a>
 
         <ul class="hidden md:flex items-center gap-12 text-white text-xs tracking-luxury font-semibold uppercase drop-shadow-md">
-            <li><a href="{p}index.html#apropos" class="{nav_cls['apropos']}">À Propos</a></li>
+            <li><a href="{home_href('apropos')}" class="{nav_cls['apropos']}">À Propos</a></li>
             <li><a href="{p}proprietes.html" class="{nav_cls['proprietes']}">Propriétés</a></li>
-            <li><a href="{p}index.html#services" class="{nav_cls['services']}">Services</a></li>
-            <li><a href="{p}index.html#temoignages" class="{nav_cls['temoignages']}">Témoignages</a></li>
+            <li><a href="{home_href('services')}" class="{nav_cls['services']}">Services</a></li>
+            <li><a href="{home_href('temoignages')}" class="{nav_cls['temoignages']}">Témoignages</a></li>
             <li>
-                <a href="{p}index.html#contact" class="px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300">
+                <a href="{home_href('contact')}" class="px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300">
                     Me Contacter
                 </a>
             </li>
@@ -78,12 +223,12 @@ def site_chrome(active: str, depth: int = 0) -> tuple[str, str]:
 
     <div id="mobile-menu" class="md:hidden fixed inset-0 top-0 z-40 bg-fred-blue/98 backdrop-blur-sm pt-24 px-6 pb-8 hidden" aria-hidden="true">
         <ul class="flex flex-col gap-8 text-white text-sm tracking-luxury font-semibold uppercase">
-            <li><a href="{p}index.html#apropos" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">À Propos</a></li>
+            <li><a href="{home_href('apropos')}" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">À Propos</a></li>
             <li><a href="{p}proprietes.html" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Propriétés</a></li>
-            <li><a href="{p}index.html#services" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Services</a></li>
-            <li><a href="{p}index.html#temoignages" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Témoignages</a></li>
+            <li><a href="{home_href('services')}" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Services</a></li>
+            <li><a href="{home_href('temoignages')}" class="block py-2 hover:text-fred-gold transition-colors mobile-menu-link">Témoignages</a></li>
             <li>
-                <a href="{p}index.html#contact" class="inline-block px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300 mobile-menu-link">
+                <a href="{home_href('contact')}" class="inline-block px-6 py-3 border border-white text-white hover:bg-white hover:text-fred-blue transition-all duration-300 mobile-menu-link">
                     Me Contacter
                 </a>
             </li>
@@ -94,7 +239,7 @@ def site_chrome(active: str, depth: int = 0) -> tuple[str, str]:
     footer = f"""<footer class="bg-fred-blue text-white py-20">
     <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-start gap-12">
         <div>
-            <a href="{p}index.html" class="block mb-6 w-max">
+            <a href="{home_href()}" class="block mb-6 w-max">
                 <img src="{p}public/LOGO_FRED_ROY_blanc_gold.png" alt="Fred Roy" class="h-16 w-auto object-contain" />
             </a>
             <p class="text-gray-400 text-sm font-light max-w-xs mb-8">
@@ -105,9 +250,9 @@ def site_chrome(active: str, depth: int = 0) -> tuple[str, str]:
         </div>
 
         <div class="flex gap-8 text-xs uppercase tracking-widest text-gray-400">
-            <a href="{p}index.html" class="hover:text-fred-gold transition-colors">Accueil</a>
+            <a href="{home_href()}" class="hover:text-fred-gold transition-colors">Accueil</a>
             <a href="{p}proprietes.html" class="hover:text-fred-gold transition-colors">Propriétés</a>
-            <a href="{p}index.html#contact" class="hover:text-fred-gold transition-colors">Contact</a>
+            <a href="{home_href('contact')}" class="hover:text-fred-gold transition-colors">Contact</a>
         </div>
 
         <div class="text-xs text-gray-500 font-light">
@@ -215,7 +360,7 @@ def head_block(
 ) -> str:
     p = asset_prefix(depth)
     return f"""<!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-CA">
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -228,28 +373,7 @@ def head_block(
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {{
-      theme: {{
-        extend: {{
-          colors: {{
-            fred: {{
-              blue: '#282e64',
-              gold: '#be9018',
-              gray: '#F5F7FA',
-            }}
-          }},
-          fontFamily: {{
-            sans: ['Montserrat', 'sans-serif'],
-          }},
-          letterSpacing: {{
-            luxury: '0.2em',
-          }}
-        }}
-      }}
-    }}
-  </script>
+  <link rel="stylesheet" href="{p}assets/css/site.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="{p}assets/css/properties.css" rel="stylesheet">
   <link rel="canonical" href="{escape(canonical)}">
@@ -264,6 +388,7 @@ def head_block(
   <meta property="og:url" content="{escape(canonical)}">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_CA">
+  <meta property="og:site_name" content="{AGENT_NAME}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{escape(title)}">
   <meta name="twitter:description" content="{escape(description)}">
@@ -337,9 +462,9 @@ def generate_listings_page(registry: dict) -> None:
         '<p class="col-span-full text-center text-gray-500">Aucune propriété à afficher pour le moment.</p>'
     )
 
-    description = (
-        "Découvrez les propriétés en vigueur de Fred Roy, courtier immobilier "
-        "résidentiel Proprio Direct."
+    description = meta_description(
+        "Découvrez les inscriptions actuelles et les propriétés vendues de Fred Roy, "
+        "courtier immobilier résidentiel, partenaire Proprio Direct."
     )
     og_image = f"{BASE_URL}/public/LOGO_FRED_ROY_blanc_gold.png"
     if ordered:
@@ -347,12 +472,33 @@ def generate_listings_page(registry: dict) -> None:
             f"{BASE_URL}/assets/img/proprietes/{ordered[0]['uls']}/og-share.jpg"
         )
 
+    list_items = []
+    for position, item in enumerate(ordered, start=1):
+        list_items.append(
+            {
+                "@type": "ListItem",
+                "position": position,
+                "name": item.get("shareTitle") or item.get("title") or item.get("address"),
+                "url": BASE_URL + public_path(item),
+            }
+        )
+    listings_ld = json_ld_script(
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Propriétés de Fred Roy",
+            "url": f"{BASE_URL}/proprietes.html",
+            "numberOfItems": len(list_items),
+            "itemListElement": list_items,
+        }
+    )
     html = f"""{head_block(
-        title="Propriétés - Fred Roy, courtier immobilier",
+        title="Propriétés | Fred Roy, courtier immobilier",
         description=description,
         canonical=f"{BASE_URL}/proprietes.html",
         og_image=og_image,
         depth=0,
+        extra=listings_ld,
     )}
 <body class="antialiased bg-fred-gray text-fred-blue font-sans selection:bg-fred-gold selection:text-white proprietes-page">
 {header}
@@ -431,9 +577,10 @@ def generate_detail_page(listing: dict) -> None:
     canonical = BASE_URL + path
     og_image = f"{BASE_URL}/assets/img/proprietes/{listing['uls']}/og-share.jpg"
     fallback = f"{p}assets/img/proprietes/{listing['fallbackImage']}"
-    description = listing.get("description") or listing.get("shareTitle") or listing.get("title")
-    if len(description) > 300:
-        description = description[:297].rstrip() + "…"
+    full_description = plain_text(
+        listing.get("description") or listing.get("shareTitle") or listing.get("title") or ""
+    )
+    description = meta_description(full_description)
 
     badge = ""
     if listing.get("sold"):
@@ -501,7 +648,7 @@ def generate_detail_page(listing: dict) -> None:
     else:
         actions_html = f"""
             <div class="property-actions">
-              <a class="btn-primary" href="{p}index.html#contact">Demander une visite</a>
+              <a class="btn-primary" href="{home_href('contact')}">Demander une visite</a>
               <a class="btn-outline" href="{escape(listing.get('proprioUrl') or '#')}" target="_blank" rel="noopener">Voir sur Proprio Direct</a>
               <a class="btn-outline" href="{escape(listing.get('centrisUrl') or '#')}" target="_blank" rel="noopener">Voir sur Centris</a>
             </div>"""
@@ -570,12 +717,14 @@ def generate_detail_page(listing: dict) -> None:
             <p>{escape(listing.get("additionalInfo") or "")}</p>
           </div>"""
 
+    listing_ld = listing_json_ld(listing, canonical, og_image, full_description)
     body = f"""{head_block(
         title=listing.get("shareTitle") or listing.get("title") or "Propriété",
         description=description,
         canonical=canonical,
         og_image=og_image,
         depth=depth,
+        extra=listing_ld,
     )}
 <body class="antialiased bg-fred-gray text-fred-blue font-sans selection:bg-fred-gold selection:text-white property-details-page">
 {header}
@@ -633,7 +782,7 @@ def generate_detail_page(listing: dict) -> None:
           <div class="property-description">
             <span class="prop-subtitle">À propos</span>
             <h2>Description de la propriété</h2>
-            <p>{escape(listing.get('description') or 'Description à venir.')}</p>
+            <p>{escape(full_description or 'Description à venir.')}</p>
           </div>
           {highlights_html}
           {details_html}
@@ -724,6 +873,7 @@ def generate_all() -> None:
         generate_detail_page(listing)
     prune_stale_detail_pages(registry)
     update_nav_links()
+    generate_sitemap(registry)
 
 
 if __name__ == "__main__":
