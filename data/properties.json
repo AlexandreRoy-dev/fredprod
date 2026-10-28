@@ -1,8 +1,258 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-10-27T17:20:52.586769+00:00",
+  "generatedAt": "2026-10-28T17:51:54.013529+00:00",
   "listings": [
+    {
+      "uls": "26992407",
+      "country": "ca",
+      "province": "qc",
+      "city": "mirabel",
+      "sector": "centre",
+      "street": "18085-rue-de-brissac",
+      "title": "18085, Rue de Brissac - Mirabel (Domaine Vert Nord)",
+      "shareTitle": "Maison à étages - 18085, Rue de Brissac, Mirabel (Domaine Vert Nord)",
+      "price": "699 000 $",
+      "address": "18085, Rue de Brissac",
+      "cityLabel": "Mirabel (Domaine Vert Nord)",
+      "propertyType": "Maison à étages",
+      "size": "110.0 mc",
+      "beds": "3",
+      "baths": "1",
+      "sold": false,
+      "isNew": false,
+      "description": "Superbe unité de coin construite en 2022, située dans un secteur recherché de Mirabel! Offrant 3 chambres, un garage double et deux espaces de stationnement extérieurs, cette propriété combine confort et modernité. Profitez d'une cour privée ainsi que d'un accès à une piscine et à un gym. Lumineuse et impeccablement entretenue, elle se distingue par ses comptoirs de quartz, son élégant escalier avec rampes de verre, son walk-in aménagé et son garage avec plancher d'époxy. Libre immédiatement, cette propriété clé en main saura vous séduire! Consultez l'addenda pour découvrir la liste complète des améliorations apportées.",
+      "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/18085-rue-de-brissac-26992407/",
+      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/26992407",
+      "fallbackImage": "26992407.jpg",
+      "publicPath": "/ca/qc/mirabel/centre/18085-rue-de-brissac/",
+      "postalCode": "J7J0Z1",
+      "datePosted": "2026/10/28",
+      "yearBuilt": "2022",
+      "livingArea": "110.0 mc",
+      "floorLevel": "",
+      "condoFees": "243 $ / mois",
+      "parking": "Extérieur, Au garage",
+      "highlights": {
+        "Année de construction": "2022",
+        "Superficie habitable": "110.0 mc",
+        "Frais de copropriété": "243 $ / mois",
+        "Garage": "Attaché, Double largeur ou plus"
+      },
+      "details": {
+        "Équipement disponible": "Cour privée, Échangeur d'air, Porte de garage électrique, Système d'alarme, Thermopompe centrale",
+        "Toiture": "Membrane élastomère",
+        "Stationnement (total)": "Extérieur, Au garage",
+        "Zonage": "Résidentiel",
+        "Énergie pour le chauffage": "Électricité",
+        "Particularités": "Unité de coin",
+        "Approvisionnement en eau": "Municipalité",
+        "Garage": "Attaché, Double largeur ou plus",
+        "Système d'égouts": "Municipal"
+      },
+      "inclusions": "",
+      "exclusions": "",
+      "rooms": [
+        {
+          "name": "Hall d'entrée/Vestibule",
+          "level": "Rez-de-jardin",
+          "dimensions": "7.2x12.3 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salon",
+          "level": "2ième étage",
+          "dimensions": "17.8x17.5 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Cuisine",
+          "level": "2ième étage",
+          "dimensions": "10x10.5 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle à manger",
+          "level": "2ième étage",
+          "dimensions": "11.4x8.8 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle d'eau",
+          "level": "2ième étage",
+          "dimensions": "7.6x3.8 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Chambre à coucher principale",
+          "level": "3ième étage",
+          "dimensions": "10.6x12.8 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Penderie (Walk-in)",
+          "level": "3ième étage",
+          "dimensions": "6.6x9.11 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "3ième étage",
+          "dimensions": "11.5x10 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "3ième étage",
+          "dimensions": "9.1x8.7 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Penderie (Walk-in)",
+          "level": "3ième étage",
+          "dimensions": "3.8x3.7 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "3ième étage",
+          "dimensions": "8.11x8.6 P",
+          "flooring": "Céramique"
+        }
+      ],
+      "taxes": {
+        "Total taxes": "3,226 $",
+        "Taxes municipales": "2,796 $",
+        "Taxes scolaires": "430 $",
+        "Terrain": "121,500 $",
+        "Bâtiment": "524,900 $",
+        "Évaluation totale": "646,400 $"
+      },
+      "additionalInfo": "Bienvenue au 18085, rue de Brissac, dans l'un des secteurs les plus convoités de Mirabel! Située dans un quartier paisible, familial et recherché, cette propriété vous offre un cadre de vie exceptionnel, alliant confort, tranquillité et proximité des services. À quelques minutes du Premium Outlets Montréal, des commerces, des restaurants, des écoles, des parcs et des services essentiels, elle bénéficie également d'un accès rapide aux principales routes et autoroutes. Un emplacement de choix pour profiter pleinement du quotidien! Construite en 2022, cette superbe unité de coin se démarque par sa luminosité abondante, son intimité accrue et son design contemporain. Sa généreuse fenestration met en valeur des espaces de vie accueillants, où modernité et fonctionnalité se marient harmonieusement. La propriété propose 3 chambres à coucher, dont une chambre principale avec un grand walk-in aménagé, une salle de bain complète ainsi qu'une élégante salle d'eau. Chaque pièce a été pensée pour offrir un maximum de confort et répondre aux besoins de la vie moderne. Les finitions de qualité ajoutent une touche raffinée à l'ensemble : comptoirs de quartz, hotte encastrée sur mesure, magnifique escalier central avec rampes de verre et garage avec plancher d'époxy. La cuisine et le salon, dotés d'un plancher de céramique, apportent une touche distinctive tout en offrant un entretien pratique au quotidien. La salle de bain se démarque également par sa céramique au plancher et sur les murs, pour un résultat élégant et harmonieux. Plusieurs améliorations ont été réalisées depuis la construction afin de bonifier le confort, l'esthétique et la qualité des espaces, notamment : Garage avec plancher en époxy. Rampes d'escalier en verre. Salle de bain avec céramique au plancher et sur les murs. Walk-in aménagé dans la chambre principale. Planchers de céramique au salon et à la cuisine. Une propriété récente, soigneusement aménagée et idéalement située, qui saura séduire les acheteurs à la recherche d'un milieu de vie moderne, lumineux et fonctionnel, au coeur de Mirabel. Une occasion à ne pas manquer!"
+    },
+    {
+      "uls": "27435948",
+      "country": "ca",
+      "province": "qc",
+      "city": "mirabel",
+      "sector": "centre",
+      "street": "18085z-rue-de-brissac",
+      "title": "18085Z, Rue de Brissac - Mirabel (Domaine Vert Nord)",
+      "shareTitle": "Maison à étages - 18085Z, Rue de Brissac, Mirabel (Domaine Vert Nord)",
+      "price": "699 000 $",
+      "address": "18085Z, Rue de Brissac",
+      "cityLabel": "Mirabel (Domaine Vert Nord)",
+      "propertyType": "Maison à étages",
+      "size": "",
+      "beds": "3",
+      "baths": "1",
+      "sold": false,
+      "isNew": false,
+      "description": "Superbe unité de coin construite en 2022, située dans un secteur recherché de Mirabel! Offrant 3 chambres, un garage double et deux espaces de stationnement extérieurs, cette propriété combine confort et modernité. Profitez d'une cour privée ainsi que d'un accès à une piscine et à un gym. Lumineuse et impeccablement entretenue, elle se distingue par ses comptoirs de quartz, son élégant escalier avec rampes de verre, son walk-in aménagé et son garage avec plancher d'époxy. Libre immédiatement, cette propriété clé en main saura vous séduire! Consultez l'addenda pour découvrir la liste complète des améliorations apportées.",
+      "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/18085z-rue-de-brissac-27435948/",
+      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/27435948",
+      "fallbackImage": "27435948.jpg",
+      "publicPath": "/ca/qc/mirabel/centre/18085z-rue-de-brissac/",
+      "postalCode": "J7J0Z1",
+      "datePosted": "2026/10/28",
+      "yearBuilt": "2022",
+      "livingArea": "",
+      "floorLevel": "",
+      "condoFees": "",
+      "parking": "Extérieur, Au garage",
+      "highlights": {
+        "Année de construction": "2022",
+        "Garage": "Attaché, Double largeur ou plus"
+      },
+      "details": {
+        "Équipement disponible": "Cour privée, Échangeur d'air, Système d'alarme, Thermopompe centrale",
+        "Stationnement (total)": "Extérieur, Au garage",
+        "Zonage": "Résidentiel",
+        "Énergie pour le chauffage": "Électricité",
+        "Approvisionnement en eau": "Municipalité",
+        "Garage": "Attaché, Double largeur ou plus",
+        "Système d'égouts": "Municipal"
+      },
+      "inclusions": "",
+      "exclusions": "",
+      "rooms": [
+        {
+          "name": "Hall d'entrée/Vestibule",
+          "level": "Rez-de-jardin",
+          "dimensions": "7.2x12.3 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salon",
+          "level": "2ième étage",
+          "dimensions": "17.8x17.5 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Cuisine",
+          "level": "2ième étage",
+          "dimensions": "10x10.5 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle à manger",
+          "level": "2ième étage",
+          "dimensions": "11.4x8.8 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle d'eau",
+          "level": "2ième étage",
+          "dimensions": "7.6x3.8 P",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Chambre à coucher principale",
+          "level": "3ième étage",
+          "dimensions": "10.6x12.8 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Penderie (Walk-in)",
+          "level": "3ième étage",
+          "dimensions": "6.6x9.11 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "3ième étage",
+          "dimensions": "11.5x10 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "3ième étage",
+          "dimensions": "9.1x8.7 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Penderie (Walk-in)",
+          "level": "3ième étage",
+          "dimensions": "3.8x3.7 P",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "3ième étage",
+          "dimensions": "8.11x8.6 P",
+          "flooring": "Céramique"
+        }
+      ],
+      "taxes": {
+        "Total taxes": "3,226 $",
+        "Taxes municipales": "2,796 $",
+        "Taxes scolaires": "430 $",
+        "Terrain": "121,500 $",
+        "Bâtiment": "524,900 $",
+        "Évaluation totale": "646,400 $"
+      },
+      "additionalInfo": "Bienvenue au 18085, rue de Brissac, dans l'un des secteurs les plus convoités de Mirabel! Située dans un quartier paisible, familial et recherché, cette propriété vous offre un cadre de vie exceptionnel, alliant confort, tranquillité et proximité des services. À quelques minutes du Premium Outlets Montréal, des commerces, des restaurants, des écoles, des parcs et des services essentiels, elle bénéficie également d'un accès rapide aux principales routes et autoroutes. Un emplacement de choix pour profiter pleinement du quotidien! Construite en 2022, cette superbe unité de coin se démarque par sa luminosité abondante, son intimité accrue et son design contemporain. Sa généreuse fenestration met en valeur des espaces de vie accueillants, où modernité et fonctionnalité se marient harmonieusement. La propriété propose 3 chambres à coucher, dont une chambre principale avec un grand walk-in aménagé, une salle de bain complète ainsi qu'une élégante salle d'eau. Chaque pièce a été pensée pour offrir un maximum de confort et répondre aux besoins de la vie moderne. Les finitions de qualité ajoutent une touche raffinée à l'ensemble : comptoirs de quartz, hotte encastrée sur mesure, magnifique escalier central avec rampes de verre et garage avec plancher d'époxy. La cuisine et le salon, dotés d'un plancher de céramique, apportent une touche distinctive tout en offrant un entretien pratique au quotidien. La salle de bain se démarque également par sa céramique au plancher et sur les murs, pour un résultat élégant et harmonieux. Plusieurs améliorations ont été réalisées depuis la construction afin de bonifier le confort, l'esthétique et la qualité des espaces, notamment : Garage avec plancher en époxy. Rampes d'escalier en verre. Salle de bain avec céramique au plancher et sur les murs. Walk-in aménagé dans la chambre principale. Planchers de céramique au salon et à la cuisine. Une propriété récente, soigneusement aménagée et idéalement située, qui saura séduire les acheteurs à la recherche d'un milieu de vie moderne, lumineux et fonctionnel, au coeur de Mirabel. Une occasion à ne pas manquer!"
+    },
     {
       "uls": "22614481",
       "country": "ca",
@@ -737,256 +987,6 @@
         "Évaluation totale": "158,000 $"
       },
       "additionalInfo": "Nichée au coeur des Laurentides, cette charmante maison mobile vous accueille au pied des pentes du mont Habitant, dans l'un des secteurs les plus prisés de Saint-Sauveur. Baignée de lumière, la propriété profite d'un ensoleillement remarquable qui réchauffe chaque pièce et met en valeur son cadre enchanteur. Voici l'adresse parfaite pour un pied-à-terre, un chalet quatre saisons ou une douce retraite. Située dans un domaine paisible, la maison offre la tranquillité d'un milieu naturel tout en demeurant à quelques minutes du village de Saint-Sauveur et de toutes ses activités: restaurants, boutiques, vélo de montagne, parc aquatique et bien plus. Un véritable emplacement de rêve pour les amateurs de ski et de plein air! La proximité de l'autoroute et des épiceries facilite par ailleurs le quotidien, et Montréal se trouve à moins d'une heure. À l'intérieur, le grand salon lumineux invite à la détente, réchauffé par un magnifique foyer au bois à combustion lente qui crée une ambiance chaleureuse les soirs d'hiver. La propriété compte deux chambres confortables ainsi qu'un bureau, idéal pour le télétravail ou pour accueillir des invités. Au fil des années, la maison a bénéficié de rénovations soignées qui témoignent de l'entretien attentif dont elle a fait l'objet. Elle ne fait pas de compromis sur le confort ni le style de vie. Le calme du domaine, l'effervescence du village, la chaleur d'un foyer: il ne manque que vous!"
-    },
-    {
-      "uls": "14836756",
-      "country": "ca",
-      "province": "qc",
-      "city": "mirabel",
-      "sector": "centre",
-      "street": "18085z-rue-de-brissac",
-      "title": "18085Z, Rue de Brissac - Mirabel (Domaine Vert Nord)",
-      "shareTitle": "Maison à étages - 18085Z, Rue de Brissac, Mirabel (Domaine Vert Nord)",
-      "price": "698 000 $",
-      "address": "18085Z, Rue de Brissac",
-      "cityLabel": "Mirabel (Domaine Vert Nord)",
-      "propertyType": "Maison à étages",
-      "size": "",
-      "beds": "3",
-      "baths": "1",
-      "sold": false,
-      "isNew": false,
-      "description": "3 chambres, garage double en plus de deux espaces de stationnement extérieurs, cour privée, construction 2022, piscine et gym. Cette unité de coin à Mirabel est libre immédiatement et a bénéficié de plusieurs améliorations et rénovations au fil du temps. Lumineuse, moderne et impeccablement entretenue, elle offre notamment des comptoirs de quartz, un escalier vitré, un walk-in aménagé et un garage avec plancher d'époxy. Voir l'addenda pour la liste complète des améliorations.",
-      "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/18085z-rue-de-brissac-14836756/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/14836756",
-      "fallbackImage": "14836756.jpg",
-      "publicPath": "/ca/qc/mirabel/centre/18085z-rue-de-brissac/",
-      "postalCode": "J7J0Z1",
-      "datePosted": "2026/05/20",
-      "yearBuilt": "2022",
-      "livingArea": "",
-      "floorLevel": "",
-      "condoFees": "",
-      "parking": "Extérieur, Au garage",
-      "highlights": {
-        "Année de construction": "2022",
-        "Garage": "Attaché, Époxy, Double largeur ou plus"
-      },
-      "details": {
-        "Équipement disponible": "Cour privée, Échangeur d'air, Système d'alarme, Thermopompe centrale",
-        "Stationnement (total)": "Extérieur, Au garage",
-        "Zonage": "Résidentiel",
-        "Énergie pour le chauffage": "Électricité",
-        "Approvisionnement en eau": "Municipalité",
-        "Garage": "Attaché, Époxy, Double largeur ou plus",
-        "Système d'égouts": "Municipal"
-      },
-      "inclusions": "",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.2x12.3 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salon",
-          "level": "2ième étage",
-          "dimensions": "17.8x17.5 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Cuisine",
-          "level": "2ième étage",
-          "dimensions": "10x10.5 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "2ième étage",
-          "dimensions": "11.4x8.8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle d'eau",
-          "level": "2ième étage",
-          "dimensions": "7.6x3.8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "3ième étage",
-          "dimensions": "10.6x12.8 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "3ième étage",
-          "dimensions": "6.6x9.11 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "3ième étage",
-          "dimensions": "11.5x10 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "3ième étage",
-          "dimensions": "9.1x8.7 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "3ième étage",
-          "dimensions": "3.8x3.7 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "3ième étage",
-          "dimensions": "8.11x8.6 P",
-          "flooring": "Céramique"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "3,226 $",
-        "Taxes municipales": "2,796 $",
-        "Taxes scolaires": "430 $",
-        "Terrain": "121,500 $",
-        "Bâtiment": "524,900 $",
-        "Évaluation totale": "646,400 $"
-      },
-      "additionalInfo": "Bienvenue dans l'un des quartiers les plus recherchés de Mirabel! Situé dans un secteur paisible, familial et en pleine demande, le 18085 rue de Brissac offre un équilibre parfait entre tranquillité et accessibilité. À quelques minutes seulement du Premium Outlets Montréal, les amateurs de magasinage seront véritablement comblés. Le secteur bénéficie également de nombreux commerces, restaurants, écoles, parcs et services essentiels, en plus d'un accès rapide aux principales routes et autoroutes. Un emplacement idéal pour les familles actives autant que pour les professionnels recherchant un mode de vie pratique et confortable au quotidien. Construite en 2022, cette magnifique propriété en unité de coin se distingue immédiatement par sa luminosité abondante et l'intimité supérieure qu'elle procure. Grâce à sa généreuse fenestration et à son concept moderne soigneusement pensé, chaque espace est baigné de lumière naturelle et aménagé avec goût. La propriété propose 3 chambres à coucher spacieuses, dont une superbe chambre des maîtres avec un grand walk-in aménagé, une salle de bain complète ainsi qu'une élégante salle d'eau. Les finitions haut de gamme ajoutent une touche raffinée à l'ensemble de la propriété. Vous y retrouverez notamment des comptoirs de quartz, une hotte encastrée sur mesure, un spectaculaire escalier central avec rampes de verre ainsi qu'un garage au plancher d'époxy. Chaque détail a été soigneusement sélectionné afin d'offrir un environnement à la fois esthétique, fonctionnel et clé en main. Les propriétaires ont investi généreusement dans des améliorations de qualité depuis la construction: Garage avec plancher en époxy. Rampe d'escalier en verre. Salle de bain avec céramique sur le plancher et les murs. Walk-in aménagé dans la chambre principale. Salon et cuisine avec plancher en céramique."
-    },
-    {
-      "uls": "21435686",
-      "country": "ca",
-      "province": "qc",
-      "city": "mirabel",
-      "sector": "centre",
-      "street": "18085-rue-de-brissac",
-      "title": "18085, Rue de Brissac - Mirabel (Domaine Vert Nord)",
-      "shareTitle": "Maison à étages - 18085, Rue de Brissac, Mirabel (Domaine Vert Nord)",
-      "price": "698 000 $",
-      "address": "18085, Rue de Brissac",
-      "cityLabel": "Mirabel (Domaine Vert Nord)",
-      "propertyType": "Maison à étages",
-      "size": "110.0 mc",
-      "beds": "3",
-      "baths": "1",
-      "sold": false,
-      "isNew": false,
-      "description": "3 chambres, garage double en plus de deux espaces de stationnement extérieurs, cour privée, construction 2022, piscine et gym. Cette unité de coin à Mirabel est libre immédiatement et a bénéficié de plusieurs améliorations et rénovations au fil du temps. Lumineuse, moderne et impeccablement entretenue, elle offre notamment des comptoirs de quartz, un escalier vitré, un walk-in aménagé et un garage avec plancher d'époxy. Voir l'addenda pour la liste complète des améliorations.",
-      "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/18085-rue-de-brissac-21435686/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/21435686",
-      "fallbackImage": "21435686.jpg",
-      "publicPath": "/ca/qc/mirabel/centre/18085-rue-de-brissac/",
-      "postalCode": "J7J0Z1",
-      "datePosted": "2026/05/19",
-      "yearBuilt": "2022",
-      "livingArea": "110.0 mc",
-      "floorLevel": "",
-      "condoFees": "243 $ / mois",
-      "parking": "Extérieur, Au garage",
-      "highlights": {
-        "Année de construction": "2022",
-        "Superficie habitable": "110.0 mc",
-        "Frais de copropriété": "243 $ / mois",
-        "Garage": "Attaché, Époxy, Double largeur ou plus"
-      },
-      "details": {
-        "Équipement disponible": "Cour privée, Échangeur d'air, Porte de garage électrique, Système d'alarme, Thermopompe centrale",
-        "Toiture": "Membrane élastomère",
-        "Stationnement (total)": "Extérieur, Au garage",
-        "Zonage": "Résidentiel",
-        "Énergie pour le chauffage": "Électricité",
-        "Particularités": "Unité de coin",
-        "Approvisionnement en eau": "Municipalité",
-        "Garage": "Attaché, Époxy, Double largeur ou plus",
-        "Système d'égouts": "Municipal"
-      },
-      "inclusions": "",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.2x12.3 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salon",
-          "level": "2ième étage",
-          "dimensions": "17.8x17.5 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Cuisine",
-          "level": "2ième étage",
-          "dimensions": "10x10.5 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "2ième étage",
-          "dimensions": "11.4x8.8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle d'eau",
-          "level": "2ième étage",
-          "dimensions": "7.6x3.8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "3ième étage",
-          "dimensions": "10.6x12.8 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "3ième étage",
-          "dimensions": "6.6x9.11 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "3ième étage",
-          "dimensions": "11.5x10 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "3ième étage",
-          "dimensions": "9.1x8.7 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "3ième étage",
-          "dimensions": "3.8x3.7 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "3ième étage",
-          "dimensions": "8.11x8.6 P",
-          "flooring": "Céramique"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "3,226 $",
-        "Taxes municipales": "2,796 $",
-        "Taxes scolaires": "430 $",
-        "Terrain": "121,500 $",
-        "Bâtiment": "524,900 $",
-        "Évaluation totale": "646,400 $"
-      },
-      "additionalInfo": "Bienvenue dans l'un des quartiers les plus recherchés de Mirabel! Situé dans un secteur paisible, familial et en pleine demande, le 18085 rue de Brissac offre un équilibre parfait entre tranquillité et accessibilité. À quelques minutes seulement du Premium Outlets Montréal, les amateurs de magasinage seront véritablement comblés. Le secteur bénéficie également de nombreux commerces, restaurants, écoles, parcs et services essentiels, en plus d'un accès rapide aux principales routes et autoroutes. Un emplacement idéal pour les familles actives autant que pour les professionnels recherchant un mode de vie pratique et confortable au quotidien. Construite en 2022, cette magnifique propriété en unité de coin se distingue immédiatement par sa luminosité abondante et l'intimité supérieure qu'elle procure. Grâce à sa généreuse fenestration et à son concept moderne soigneusement pensé, chaque espace est baigné de lumière naturelle et aménagé avec goût. La propriété propose 3 chambres à coucher spacieuses, dont une superbe chambre des maîtres avec un grand walk-in aménagé, une salle de bain complète ainsi qu'une élégante salle d'eau. Les finitions haut de gamme ajoutent une touche raffinée à l'ensemble de la propriété. Vous y retrouverez notamment des comptoirs de quartz, une hotte encastrée sur mesure, un spectaculaire escalier central avec rampes de verre ainsi qu'un garage au plancher d'époxy. Chaque détail a été soigneusement sélectionné afin d'offrir un environnement à la fois esthétique, fonctionnel et clé en main. Les propriétaires ont investi généreusement dans des améliorations de qualité depuis la construction: Garage avec plancher en époxy. Rampe d'escalier en verre. Salle de bain avec céramique sur le plancher et les murs. Walk-in aménagé dans la chambre principale. Salon et cuisine avec plancher en céramique."
     }
   ]
 }
