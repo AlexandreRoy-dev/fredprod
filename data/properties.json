@@ -1,135 +1,8 @@
 {
   "baseUrl": "https://fredroy.ca",
   "agentUrl": "https://propriodirect.com/frederic-roy/",
-  "generatedAt": "2026-10-31T16:45:23.078463+00:00",
+  "generatedAt": "2026-11-01T17:33:18.223295+00:00",
   "listings": [
-    {
-      "uls": "26992407",
-      "country": "ca",
-      "province": "qc",
-      "city": "mirabel",
-      "sector": "centre",
-      "street": "18085-rue-de-brissac",
-      "title": "18085, Rue de Brissac - Mirabel (Domaine Vert Nord)",
-      "shareTitle": "Maison à étages - 18085, Rue de Brissac, Mirabel (Domaine Vert Nord)",
-      "price": "699 000 $",
-      "address": "18085, Rue de Brissac",
-      "cityLabel": "Mirabel (Domaine Vert Nord)",
-      "propertyType": "Maison à étages",
-      "size": "110.0 mc",
-      "beds": "3",
-      "baths": "1",
-      "sold": false,
-      "isNew": false,
-      "description": "Superbe unité de coin construite en 2022, située dans un secteur recherché de Mirabel! Offrant 3 chambres, un garage double et deux espaces de stationnement extérieurs, cette propriété combine confort et modernité. Profitez d'une cour privée ainsi que d'un accès à une piscine et à un gym. Lumineuse et impeccablement entretenue, elle se distingue par ses comptoirs de quartz, son élégant escalier avec rampes de verre, son walk-in aménagé et son garage avec plancher d'époxy. Libre immédiatement, cette propriété clé en main saura vous séduire! Consultez l'addenda pour découvrir la liste complète des améliorations apportées.",
-      "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/18085-rue-de-brissac-26992407/",
-      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/26992407",
-      "fallbackImage": "26992407.jpg",
-      "publicPath": "/ca/qc/mirabel/centre/18085-rue-de-brissac/",
-      "postalCode": "J7J0Z1",
-      "datePosted": "2026/10/28",
-      "yearBuilt": "2022",
-      "livingArea": "110.0 mc",
-      "floorLevel": "",
-      "condoFees": "243 $ / mois",
-      "parking": "Extérieur, Au garage",
-      "highlights": {
-        "Année de construction": "2022",
-        "Superficie habitable": "110.0 mc",
-        "Frais de copropriété": "243 $ / mois",
-        "Garage": "Attaché, Double largeur ou plus"
-      },
-      "details": {
-        "Équipement disponible": "Cour privée, Échangeur d'air, Porte de garage électrique, Système d'alarme, Thermopompe centrale",
-        "Toiture": "Membrane élastomère",
-        "Stationnement (total)": "Extérieur, Au garage",
-        "Zonage": "Résidentiel",
-        "Énergie pour le chauffage": "Électricité",
-        "Particularités": "Unité de coin",
-        "Approvisionnement en eau": "Municipalité",
-        "Garage": "Attaché, Double largeur ou plus",
-        "Système d'égouts": "Municipal"
-      },
-      "inclusions": "",
-      "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.2x12.3 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salon",
-          "level": "2ième étage",
-          "dimensions": "17.8x17.5 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Cuisine",
-          "level": "2ième étage",
-          "dimensions": "10x10.5 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "2ième étage",
-          "dimensions": "11.4x8.8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Salle d'eau",
-          "level": "2ième étage",
-          "dimensions": "7.6x3.8 P",
-          "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "3ième étage",
-          "dimensions": "10.6x12.8 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "3ième étage",
-          "dimensions": "6.6x9.11 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "3ième étage",
-          "dimensions": "11.5x10 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "3ième étage",
-          "dimensions": "9.1x8.7 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "3ième étage",
-          "dimensions": "3.8x3.7 P",
-          "flooring": "Bois"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "3ième étage",
-          "dimensions": "8.11x8.6 P",
-          "flooring": "Céramique"
-        }
-      ],
-      "taxes": {
-        "Total taxes": "3,226 $",
-        "Taxes municipales": "2,796 $",
-        "Taxes scolaires": "430 $",
-        "Terrain": "121,500 $",
-        "Bâtiment": "524,900 $",
-        "Évaluation totale": "646,400 $"
-      },
-      "additionalInfo": "Bienvenue au 18085, rue de Brissac, dans l'un des secteurs les plus convoités de Mirabel! Située dans un quartier paisible, familial et recherché, cette propriété vous offre un cadre de vie exceptionnel, alliant confort, tranquillité et proximité des services. À quelques minutes du Premium Outlets Montréal, des commerces, des restaurants, des écoles, des parcs et des services essentiels, elle bénéficie également d'un accès rapide aux principales routes et autoroutes. Un emplacement de choix pour profiter pleinement du quotidien! Construite en 2022, cette superbe unité de coin se démarque par sa luminosité abondante, son intimité accrue et son design contemporain. Sa généreuse fenestration met en valeur des espaces de vie accueillants, où modernité et fonctionnalité se marient harmonieusement. La propriété propose 3 chambres à coucher, dont une chambre principale avec un grand walk-in aménagé, une salle de bain complète ainsi qu'une élégante salle d'eau. Chaque pièce a été pensée pour offrir un maximum de confort et répondre aux besoins de la vie moderne. Les finitions de qualité ajoutent une touche raffinée à l'ensemble : comptoirs de quartz, hotte encastrée sur mesure, magnifique escalier central avec rampes de verre et garage avec plancher d'époxy. La cuisine et le salon, dotés d'un plancher de céramique, apportent une touche distinctive tout en offrant un entretien pratique au quotidien. La salle de bain se démarque également par sa céramique au plancher et sur les murs, pour un résultat élégant et harmonieux. Plusieurs améliorations ont été réalisées depuis la construction afin de bonifier le confort, l'esthétique et la qualité des espaces, notamment : Garage avec plancher en époxy. Rampes d'escalier en verre. Salle de bain avec céramique au plancher et sur les murs. Walk-in aménagé dans la chambre principale. Planchers de céramique au salon et à la cuisine. Une propriété récente, soigneusement aménagée et idéalement située, qui saura séduire les acheteurs à la recherche d'un milieu de vie moderne, lumineux et fonctionnel, au coeur de Mirabel. Une occasion à ne pas manquer!"
-    },
     {
       "uls": "27435948",
       "country": "ca",
@@ -137,11 +10,11 @@
       "city": "mirabel",
       "sector": "centre",
       "street": "18085z-rue-de-brissac",
-      "title": "18085Z, Rue de Brissac - Mirabel (Domaine Vert Nord)",
-      "shareTitle": "Maison à étages - 18085Z, Rue de Brissac, Mirabel (Domaine Vert Nord)",
+      "title": "18085Z, Rue de Brissac - Mirabel",
+      "shareTitle": "Maison à étages - 18085Z, Rue de Brissac, Mirabel",
       "price": "699 000 $",
       "address": "18085Z, Rue de Brissac",
-      "cityLabel": "Mirabel (Domaine Vert Nord)",
+      "cityLabel": "Mirabel",
       "propertyType": "Maison à étages",
       "size": "",
       "beds": "3",
@@ -179,67 +52,193 @@
         {
           "name": "Hall d'entrée/Vestibule",
           "level": "Rez-de-jardin",
-          "dimensions": "7.2x12.3 P",
+          "dimensions": "7.2 X 12.3 ft irr / 2.18 X 3.73 m irr",
           "flooring": "Céramique"
         },
         {
           "name": "Salon",
           "level": "2ième étage",
-          "dimensions": "17.8x17.5 P",
+          "dimensions": "17.8 X 17.5 ft irr / 5.38 X 5.31 m irr",
           "flooring": "Céramique"
         },
         {
           "name": "Cuisine",
           "level": "2ième étage",
-          "dimensions": "10x10.5 P",
+          "dimensions": "10 X 10.5 ft / 3.05 X 3.18 m",
           "flooring": "Céramique"
         },
         {
           "name": "Salle à manger",
           "level": "2ième étage",
-          "dimensions": "11.4x8.8 P",
+          "dimensions": "11.4 X 8.8 ft / 3.45 X 2.64 m",
           "flooring": "Céramique"
         },
         {
           "name": "Salle d'eau",
           "level": "2ième étage",
-          "dimensions": "7.6x3.8 P",
+          "dimensions": "7.6 X 3.8 ft / 2.29 X 1.12 m",
           "flooring": "Céramique"
         },
         {
           "name": "Chambre à coucher principale",
           "level": "3ième étage",
-          "dimensions": "10.6x12.8 P",
+          "dimensions": "10.6 X 12.8 ft / 3.20 X 3.86 m",
           "flooring": "Bois"
         },
         {
           "name": "Penderie (Walk-in)",
           "level": "3ième étage",
-          "dimensions": "6.6x9.11 P",
+          "dimensions": "6.6 X 9.11 ft / 1.98 X 3.02 m",
           "flooring": "Bois"
         },
         {
           "name": "Chambre à coucher",
           "level": "3ième étage",
-          "dimensions": "11.5x10 P",
+          "dimensions": "11.5 X 10 ft irr / 3.48 X 3.05 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Chambre à coucher",
           "level": "3ième étage",
-          "dimensions": "9.1x8.7 P",
+          "dimensions": "9.1 X 8.7 ft / 2.77 X 2.62 m",
           "flooring": "Bois"
         },
         {
           "name": "Penderie (Walk-in)",
           "level": "3ième étage",
-          "dimensions": "3.8x3.7 P",
+          "dimensions": "3.8 X 3.7 ft / 1.12 X 1.09 m",
           "flooring": "Bois"
         },
         {
           "name": "Salle de bains",
           "level": "3ième étage",
-          "dimensions": "8.11x8.6 P",
+          "dimensions": "8.11 X 8.6 ft / 2.72 X 2.59 m",
+          "flooring": "Céramique"
+        }
+      ],
+      "taxes": {
+        "Total taxes": "3,226 $",
+        "Taxes municipales": "2,796 $",
+        "Taxes scolaires": "430 $",
+        "Terrain": "121,500 $",
+        "Bâtiment": "524,900 $",
+        "Évaluation totale": "646,400 $"
+      },
+      "additionalInfo": "Bienvenue au 18085, rue de Brissac, dans l'un des secteurs les plus convoités de Mirabel! Située dans un quartier paisible, familial et recherché, cette propriété vous offre un cadre de vie exceptionnel, alliant confort, tranquillité et proximité des services. À quelques minutes du Premium Outlets Montréal, des commerces, des restaurants, des écoles, des parcs et des services essentiels, elle bénéficie également d'un accès rapide aux principales routes et autoroutes. Un emplacement de choix pour profiter pleinement du quotidien! Construite en 2022, cette superbe unité de coin se démarque par sa luminosité abondante, son intimité accrue et son design contemporain. Sa généreuse fenestration met en valeur des espaces de vie accueillants, où modernité et fonctionnalité se marient harmonieusement. La propriété propose 3 chambres à coucher, dont une chambre principale avec un grand walk-in aménagé, une salle de bain complète ainsi qu'une élégante salle d'eau. Chaque pièce a été pensée pour offrir un maximum de confort et répondre aux besoins de la vie moderne. Les finitions de qualité ajoutent une touche raffinée à l'ensemble : comptoirs de quartz, hotte encastrée sur mesure, magnifique escalier central avec rampes de verre et garage avec plancher d'époxy. La cuisine et le salon, dotés d'un plancher de céramique, apportent une touche distinctive tout en offrant un entretien pratique au quotidien. La salle de bain se démarque également par sa céramique au plancher et sur les murs, pour un résultat élégant et harmonieux. Plusieurs améliorations ont été réalisées depuis la construction afin de bonifier le confort, l'esthétique et la qualité des espaces, notamment : Garage avec plancher en époxy. Rampes d'escalier en verre. Salle de bain avec céramique au plancher et sur les murs. Walk-in aménagé dans la chambre principale. Planchers de céramique au salon et à la cuisine. Une propriété récente, soigneusement aménagée et idéalement située, qui saura séduire les acheteurs à la recherche d'un milieu de vie moderne, lumineux et fonctionnel, au coeur de Mirabel. Une occasion à ne pas manquer!"
+    },
+    {
+      "uls": "26992407",
+      "country": "ca",
+      "province": "qc",
+      "city": "mirabel",
+      "sector": "centre",
+      "street": "18085-rue-de-brissac",
+      "title": "18085, Rue de Brissac - Mirabel",
+      "shareTitle": "Maison à étages - 18085, Rue de Brissac, Mirabel",
+      "price": "699 000 $",
+      "address": "18085, Rue de Brissac",
+      "cityLabel": "Mirabel",
+      "propertyType": "Maison à étages",
+      "size": "110.0 mc",
+      "beds": "3",
+      "baths": "1",
+      "sold": false,
+      "isNew": false,
+      "description": "Superbe unité de coin construite en 2022, située dans un secteur recherché de Mirabel! Offrant 3 chambres, un garage double et deux espaces de stationnement extérieurs, cette propriété combine confort et modernité. Profitez d'une cour privée ainsi que d'un accès à une piscine et à un gym. Lumineuse et impeccablement entretenue, elle se distingue par ses comptoirs de quartz, son élégant escalier avec rampes de verre, son walk-in aménagé et son garage avec plancher d'époxy. Libre immédiatement, cette propriété clé en main saura vous séduire! Consultez l'addenda pour découvrir la liste complète des améliorations apportées.",
+      "proprioUrl": "https://propriodirect.com/laurentides/mirabel/maison-a-etages-a-vendre/18085-rue-de-brissac-26992407/",
+      "centrisUrl": "https://www.centris.ca/fr/propriete~a-vendre/26992407",
+      "fallbackImage": "26992407.jpg",
+      "publicPath": "/ca/qc/mirabel/centre/18085-rue-de-brissac/",
+      "postalCode": "J7J0Z1",
+      "datePosted": "2026/10/28",
+      "yearBuilt": "2022",
+      "livingArea": "110.0 mc",
+      "floorLevel": "",
+      "condoFees": "243 $ / mois",
+      "parking": "Extérieur, Au garage",
+      "highlights": {
+        "Année de construction": "2022",
+        "Superficie habitable": "110.0 mc",
+        "Frais de copropriété": "243 $ / mois",
+        "Garage": "Attaché, Double largeur ou plus"
+      },
+      "details": {
+        "Équipement disponible": "Cour privée, Échangeur d'air, Porte de garage électrique, Système d'alarme, Thermopompe centrale",
+        "Toiture": "Membrane élastomère",
+        "Stationnement (total)": "Extérieur, Au garage",
+        "Zonage": "Résidentiel",
+        "Énergie pour le chauffage": "Électricité",
+        "Approvisionnement en eau": "Municipalité",
+        "Garage": "Attaché, Double largeur ou plus",
+        "Système d'égouts": "Municipal"
+      },
+      "inclusions": "",
+      "exclusions": "",
+      "rooms": [
+        {
+          "name": "Hall d'entrée/Vestibule",
+          "level": "Rez-de-jardin",
+          "dimensions": "7.2 X 12.3 ft irr / 2.18 X 3.73 m irr",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salon",
+          "level": "2ième étage",
+          "dimensions": "17.8 X 17.5 ft irr / 5.38 X 5.31 m irr",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Cuisine",
+          "level": "2ième étage",
+          "dimensions": "10 X 10.5 ft / 3.05 X 3.18 m",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle à manger",
+          "level": "2ième étage",
+          "dimensions": "11.4 X 8.8 ft / 3.45 X 2.64 m",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Salle d'eau",
+          "level": "2ième étage",
+          "dimensions": "7.6 X 3.8 ft / 2.29 X 1.12 m",
+          "flooring": "Céramique"
+        },
+        {
+          "name": "Chambre à coucher principale",
+          "level": "3ième étage",
+          "dimensions": "10.6 X 12.8 ft / 3.20 X 3.86 m",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Penderie (Walk-in)",
+          "level": "3ième étage",
+          "dimensions": "6.6 X 9.11 ft / 1.98 X 3.02 m",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "3ième étage",
+          "dimensions": "11.5 X 10 ft irr / 3.48 X 3.05 m irr",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Chambre à coucher",
+          "level": "3ième étage",
+          "dimensions": "9.1 X 8.7 ft / 2.77 X 2.62 m",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Penderie (Walk-in)",
+          "level": "3ième étage",
+          "dimensions": "3.8 X 3.7 ft / 1.12 X 1.09 m",
+          "flooring": "Bois"
+        },
+        {
+          "name": "Salle de bains",
+          "level": "3ième étage",
+          "dimensions": "8.11 X 8.6 ft / 2.72 X 2.59 m",
           "flooring": "Céramique"
         }
       ],
@@ -260,11 +259,11 @@
       "city": "laval-sainte-rose",
       "sector": "centre",
       "street": "1191-rue-alphonse-rainaud",
-      "title": "1191, Rue Alphonse-Rainaud - Laval (Val/Jardins Ste-Rose)",
-      "shareTitle": "Maison à étages - 1191, Rue Alphonse-Rainaud, Laval (Val/Jardins Ste-Rose)",
+      "title": "1191, Rue Alphonse-Rainaud - Laval (Sainte-Rose)",
+      "shareTitle": "Maison à étages - 1191, Rue Alphonse-Rainaud, Laval (Sainte-Rose)",
       "price": "",
       "address": "1191, Rue Alphonse-Rainaud",
-      "cityLabel": "Laval (Val/Jardins Ste-Rose)",
+      "cityLabel": "Laval (Sainte-Rose)",
       "propertyType": "Maison à étages",
       "size": "",
       "beds": "3",
@@ -302,67 +301,55 @@
         {
           "name": "Hall d'entrée/Vestibule",
           "level": "1er niveau/RDC",
-          "dimensions": "5.0x5.2 P",
+          "dimensions": "5 X 5.2 ft irr / 1.52 X 1.57 m irr",
           "flooring": "Céramique"
         },
         {
           "name": "Salon",
           "level": "1er niveau/RDC",
-          "dimensions": "15.5x14 P",
+          "dimensions": "15.5 X 14 ft irr / 4.70 X 4.27 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Salle à manger",
           "level": "1er niveau/RDC",
-          "dimensions": "10.5x8.6 P",
+          "dimensions": "10.5 X 8.6 ft irr / 3.18 X 2.59 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Cuisine",
           "level": "1er niveau/RDC",
-          "dimensions": "8.3x8.6 P",
+          "dimensions": "8.3 X 8.6 ft / 2.51 X 2.59 m",
           "flooring": "Céramique"
         },
         {
           "name": "Salle d'eau",
           "level": "1er niveau/RDC",
-          "dimensions": "4.1x4.6 P",
+          "dimensions": "4.1 X 4.6 ft irr / 1.24 X 1.37 m irr",
           "flooring": "Céramique"
         },
         {
           "name": "Chambre à coucher principale",
           "level": "2ième étage",
-          "dimensions": "14.4x10.9 P",
+          "dimensions": "14.4 X 10.9 ft irr / 4.37 X 3.28 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Chambre à coucher",
           "level": "2ième étage",
-          "dimensions": "10.2x10.9 P",
+          "dimensions": "10.2 X 10.9 ft irr / 3.10 X 3.28 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Salle de bains",
           "level": "2ième étage",
-          "dimensions": "8.6x8.5 P",
+          "dimensions": "8.6 X 8.5 ft irr / 2.59 X 2.57 m irr",
           "flooring": "Céramique"
         },
         {
-          "name": "Salle familiale",
-          "level": "Sous-sol",
-          "dimensions": "11.5x9.4 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Sous-sol",
-          "dimensions": "17.9x9.4 P",
-          "flooring": "Plancher flottant"
-        },
-        {
           "name": "Salle de bains",
           "level": "Sous-sol",
-          "dimensions": "8.2x8.0 P",
+          "dimensions": "8.2 X 8 ft / 2.49 X 2.44 m",
           "flooring": "Céramique"
         }
       ],
@@ -431,11 +418,11 @@
       "city": "blainville",
       "sector": "centre",
       "street": "127-54e-avenue-e-103",
-      "title": "127, 54e Avenue E., 103 - Blainville (Nord)",
-      "shareTitle": "Appartement - 127, 54e Avenue E., 103, Blainville (Nord)",
+      "title": "127, 54e Avenue E., 103 - Blainville",
+      "shareTitle": "Appartement - 127, 54e Avenue E., 103, Blainville",
       "price": "",
       "address": "127, 54e Avenue E., 103",
-      "cityLabel": "Blainville (Nord)",
+      "cityLabel": "Blainville",
       "propertyType": "Appartement",
       "size": "110.8 mc",
       "beds": "2",
@@ -476,55 +463,55 @@
         {
           "name": "Hall d'entrée/Vestibule",
           "level": "1er niveau/RDC",
-          "dimensions": "3.5x6.1 P",
+          "dimensions": "3.5 X 6.1 ft irr / 1.04 X 1.85 m irr",
           "flooring": "Céramique"
         },
         {
           "name": "Salon",
           "level": "1er niveau/RDC",
-          "dimensions": "15x16.1 P",
+          "dimensions": "15 X 16.1 ft irr / 4.57 X 4.90 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Salle à manger",
           "level": "1er niveau/RDC",
-          "dimensions": "10.2x18 P",
+          "dimensions": "10.2 X 18 ft irr / 3.10 X 5.49 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Cuisine",
           "level": "1er niveau/RDC",
-          "dimensions": "8.3x8.8 P",
+          "dimensions": "8.3 X 8.8 ft irr / 2.51 X 2.64 m irr",
           "flooring": "Céramique"
         },
         {
           "name": "Chambre à coucher principale",
           "level": "1er niveau/RDC",
-          "dimensions": "12.2x14.7 P",
+          "dimensions": "12.2 X 14.7 ft irr / 3.71 X 4.45 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Chambre à coucher",
           "level": "1er niveau/RDC",
-          "dimensions": "10.1x13 P",
+          "dimensions": "10.1 X 13 ft irr / 3.07 X 3.96 m irr",
           "flooring": "Bois"
         },
         {
           "name": "Salle de bains",
           "level": "1er niveau/RDC",
-          "dimensions": "11x11.6 P",
+          "dimensions": "11 X 11.6 ft irr / 3.35 X 3.51 m irr",
           "flooring": "Céramique"
         },
         {
           "name": "Rangement",
           "level": "1er niveau/RDC",
-          "dimensions": "8.4x8.8 P",
+          "dimensions": "8.4 X 8.8 ft irr / 2.54 X 2.64 m irr",
           "flooring": "Béton"
         },
         {
           "name": "Salle de lavage",
           "level": "1er niveau/RDC",
-          "dimensions": "7.4x7.1 P",
+          "dimensions": "7.4 X 7.1 ft irr / 2.24 X 2.16 m irr",
           "flooring": "Céramique"
         }
       ],
@@ -573,7 +560,7 @@
         "Garage": "Attaché, Chauffé"
       },
       "details": {
-        "Équipement disponible": "Installation aspirateur central, Adoucisseur d'eau, Échangeur d'air, Porte de garage électrique, Système d'alarme, Thermopompe murale",
+        "Équipement disponible": "Adoucisseur d'eau, Installation aspirateur central, Échangeur d'air, Porte de garage électrique, Système d'alarme, Thermopompe murale",
         "Toiture": "Bardeaux d'asphalte",
         "Zonage": "Résidentiel",
         "Mode de chauffage": "Plinthes électriques",
@@ -592,73 +579,37 @@
         {
           "name": "Salon",
           "level": "Rez-de-jardin",
-          "dimensions": "13.0x14.3 P",
+          "dimensions": "13 X 14.3 ft / 3.96 X 4.34 m",
           "flooring": "Bois"
         },
         {
           "name": "Salle à manger",
           "level": "Rez-de-jardin",
-          "dimensions": "10.10x13.7 P",
+          "dimensions": "10.10 X 13.7 ft / 3.30 X 4.14 m",
           "flooring": "Céramique"
         },
         {
           "name": "Cuisine",
           "level": "Rez-de-jardin",
-          "dimensions": "15.1x13.5 P",
+          "dimensions": "15.1 X 13.5 ft / 4.60 X 4.09 m",
           "flooring": "Céramique"
         },
         {
           "name": "Salle d'eau",
           "level": "Rez-de-jardin",
-          "dimensions": "7.8x8.10 P",
+          "dimensions": "7.8 X 8.10 ft / 2.34 X 2.69 m",
           "flooring": "Céramique"
         },
         {
           "name": "Salle de bains",
           "level": "2ième étage",
-          "dimensions": "13.0x8.11 P",
+          "dimensions": "13 X 8.11 ft / 3.96 X 2.72 m",
           "flooring": "Céramique"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "2ième étage",
-          "dimensions": "13.0x11.6 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Penderie (Walk-in)",
-          "level": "2ième étage",
-          "dimensions": "9.0x5.3 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "2ième étage",
-          "dimensions": "11.0x10.11 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "2ième étage",
-          "dimensions": "12.9x10.11 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de jeux",
-          "level": "Sous-sol",
-          "dimensions": "25.5x15.2 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Bureau à domicile",
-          "level": "Sous-sol",
-          "dimensions": "10.10x11.11 P",
-          "flooring": "Plancher flottant"
         },
         {
           "name": "Salle de bains",
           "level": "Sous-sol",
-          "dimensions": "6.7x9.4 P",
+          "dimensions": "6.7 X 9.4 ft irr / 2.01 X 2.84 m irr",
           "flooring": "Céramique"
         }
       ],
@@ -679,11 +630,11 @@
       "city": "terrebonne-terrebonne",
       "sector": "centre",
       "street": "3769-rue-des-flandres",
-      "title": "3769, Rue des Flandres - Terrebonne (Saint-Louis/Hauteville)",
-      "shareTitle": "Maison de plain-pied - 3769, Rue des Flandres, Terrebonne (Saint-Louis/Hauteville)",
+      "title": "3769, Rue des Flandres - Terrebonne (Terrebonne)",
+      "shareTitle": "Maison de plain-pied - 3769, Rue des Flandres, Terrebonne (Terrebonne)",
       "price": "",
       "address": "3769, Rue des Flandres",
-      "cityLabel": "Terrebonne (Saint-Louis/Hauteville)",
+      "cityLabel": "Terrebonne (Terrebonne)",
       "propertyType": "Maison de plain-pied",
       "size": "",
       "beds": "4",
@@ -722,61 +673,25 @@
         {
           "name": "Hall d'entrée/Vestibule",
           "level": "1er niveau/RDC",
-          "dimensions": "6.4x4.2 P",
+          "dimensions": "6.4 X 4.2 ft / 1.93 X 1.27 m",
           "flooring": "Céramique"
-        },
-        {
-          "name": "Salle à manger",
-          "level": "1er niveau/RDC",
-          "dimensions": "20x8.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Cuisine",
-          "level": "1er niveau/RDC",
-          "dimensions": "16.4x9.6 P",
-          "flooring": "Plancher flottant"
         },
         {
           "name": "Chambre à coucher principale",
           "level": "1er niveau/RDC",
-          "dimensions": "11.11x12.9 P",
+          "dimensions": "11.11 X 12.9 ft / 3.63 X 3.89 m",
           "flooring": "Bois"
         },
         {
-          "name": "Chambre à coucher",
-          "level": "1er niveau/RDC",
-          "dimensions": "12x9.3 P",
-          "flooring": "Plancher flottant"
-        },
-        {
           "name": "Salle de bains",
           "level": "1er niveau/RDC",
-          "dimensions": "8.6x7.7 P",
+          "dimensions": "8.6 X 7.7 ft irr / 2.59 X 2.31 m irr",
           "flooring": "Céramique"
         },
         {
-          "name": "Salle familiale",
-          "level": "Sous-sol",
-          "dimensions": "15.11x21.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Sous-sol",
-          "dimensions": "11.4x10.9 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Sous-sol",
-          "dimensions": "11.4x9.8 P",
-          "flooring": "Plancher flottant"
-        },
-        {
           "name": "Salle de bains",
           "level": "Sous-sol",
-          "dimensions": "7.11x8.11 P",
+          "dimensions": "7.11 X 8.11 ft / 2.41 X 2.72 m",
           "flooring": "Céramique"
         }
       ],
@@ -826,8 +741,8 @@
       "details": {
         "Toiture": "Bardeaux d'asphalte",
         "Stationnement (total)": "Extérieur",
-        "Particularités": "Accès à l'eau, Embarquation moteur permise",
         "Mode de chauffage": "Plinthes électriques",
+        "Particularités": "Accès à l'eau, Embarquation moteur permise",
         "Vue": "Sur l'eau, Sur la montagne",
         "Approvisionnement en eau": "Puits artésien",
         "Système d'égouts": "Champ d'épuration, Fosse septique"
@@ -836,46 +751,10 @@
       "exclusions": "",
       "rooms": [
         {
-          "name": "Salle à manger",
-          "level": "1er niveau/RDC",
-          "dimensions": "10.11x16.7 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salon",
-          "level": "1er niveau/RDC",
-          "dimensions": "23.3x7.5 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "1er niveau/RDC",
-          "dimensions": "10.11x9.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "1er niveau/RDC",
-          "dimensions": "10.11x8.8 P",
-          "flooring": "Plancher flottant"
-        },
-        {
           "name": "Cuisine",
           "level": "1er niveau/RDC",
-          "dimensions": "10.10x14.6 P",
+          "dimensions": "10.10 X 14.6 ft / 3.30 X 4.42 m",
           "flooring": "Céramique"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "1er niveau/RDC",
-          "dimensions": "7.6x4.5 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de lavage",
-          "level": "1er niveau/RDC",
-          "dimensions": "7.8x11.0 P",
-          "flooring": "Plancher flottant"
         }
       ],
       "taxes": {
@@ -935,50 +814,7 @@
       },
       "inclusions": "Hotte de cuisinière, miroir de la salle de bain, fixtures/luminaires, luminaires encastrées, thermopompe murale, stores, supports à télévision (2), serrure électronique, poêle au bois, +/- 3 cordes de bois, cabane à bois, remise, pôles de rideaux et rideaux. Exclu Possibilité de rajouter les électroménagers, la tondeuse, sofas dans le salon et bases de lit (2) dans les inclusions.",
       "exclusions": "",
-      "rooms": [
-        {
-          "name": "Hall d'entrée/Vestibule",
-          "level": "Rez-de-jardin",
-          "dimensions": "4.10x5.7 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salon",
-          "level": "Rez-de-jardin",
-          "dimensions": "14.0x12.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Cuisine",
-          "level": "Rez-de-jardin",
-          "dimensions": "13.0x12.8 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Salle de bains",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.4x9.9 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Rangement",
-          "level": "Rez-de-jardin",
-          "dimensions": "7.5x9.9 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher principale",
-          "level": "Rez-de-jardin",
-          "dimensions": "9.9x9.10 P",
-          "flooring": "Plancher flottant"
-        },
-        {
-          "name": "Chambre à coucher",
-          "level": "Rez-de-jardin",
-          "dimensions": "9.2x9.6 P",
-          "flooring": "Plancher flottant"
-        }
-      ],
+      "rooms": [],
       "taxes": {
         "Total taxes": "1,572 $",
         "Taxes municipales": "1,503 $",
